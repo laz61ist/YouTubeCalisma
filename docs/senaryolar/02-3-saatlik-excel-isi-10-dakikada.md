@@ -4,6 +4,8 @@ Kategori: G (görev çözümleri) · Hedef süre: 10,5–12 dk · Seslendirme: y
 
 > **Başlıktaki rakamlar ölçülmeden yayınlanmaz.** "3 saat" ve "10 dakika" çalışma başlığıdır. Elle süre ve yapay zekâlı süre çekimde gerçekten ölçülür (bkz. bölüm 2.3); başlık, kapak ve seslendirme ölçülen değere göre düzeltilir. Ölçüm "1 sa 40 dk → 22 dk" çıkarsa başlık da budur.
 
+Paket kartı: `01-icerik-uretim-sistemi.md`, Bölüm 9, Yayın 2 — kapak A1 · hook H1 (iki süre başta söylenir) · açılış S1 · kurgu KG1 (Kronometre Yarışı, adımlara bölünmüş). Kart ile bu senaryo arasında fark doğarsa senaryo geçerlidir ve kart aynı gün buna göre güncellenir.
+
 ---
 
 ## 1. Paket
@@ -12,8 +14,8 @@ Kategori: G (görev çözümleri) · Hedef süre: 10,5–12 dk · Seslendirme: y
 
 | # | Başlık | Ne zaman kullanılır |
 |---|---|---|
-| A | [ELLE SÜRE]'lik Excel İşini [YZ SÜRE]'de Bitirmek (çalışma hâli: "3 Saatlik Excel İşini 10 Dakikada Bitirmek") | Yalnızca süresiz kapakla ("DAĞINIK → ÖZET") birlikte; başlık/kapak testinin ikinci paketi. Rakamlar ölçümle birebir aynı olmalı; yuvarlama gerçeğe doğru yapılır (17 dk "10 dk" olmaz, "17 dk" ya da "20 dk'dan kısa" olur). Elle süre yapay zekâlı sürenin 3 katından azsa bu başlık hiç kullanılmaz (aşağıdaki eşik kuralı). |
-| B | Dağınık Satış Dökümünden Yönetici Özetine: Kronometreyle Denedim | Varsayılan. Aşağıdaki kapak süre çiftini taşıdığı için başlık görevi söyler; süre iki yerde tekrar edilmez (`docs/01-icerik-uretim-sistemi.md`, 2.1 adım 6). |
+| A | [ELLE SÜRE]'lik Excel İşini [YZ SÜRE]'de Bitirmek (çalışma hâli: "3 Saatlik Excel İşini 10 Dakikada Bitirmek") | Yalnızca süresiz kapakla ("DAĞINIK → ÖZET") birlikte; başlık/kapak testinin ikinci paketi. Rakamlar ölçümle aynı olmalı; yuvarlama gerekiyorsa kendi aleyhine yapılır (yapay zekâ süresi yukarı, elle süre aşağı; kural `03-yapim-is-akisi.md` Aşama 7): 17 dk "10 dk" olmaz, "17 dk" kalır. Elle süre yapay zekâlı sürenin 3 katından azsa bu başlık hiç kullanılmaz (aşağıdaki eşik kuralı). |
+| B | Dağınık Satış Dökümünden Yönetici Özetine: Kronometreyle Denedim | Varsayılan. Aşağıdaki kapak süre çiftini taşıdığı için başlık görevi söyler; süre iki yerde tekrar edilmez (`01-icerik-uretim-sistemi.md`, 2.1 adım 6). |
 | C | Excel'de Veri Temizleme ve Tablo Birleştirme: Dosyayı Yapay Zekâya Yüklemeden | Arama trafiği için ("excel veri temizleme", "düşeyara çalışmıyor", "iki tabloyu birleştirme"). Yayından birkaç hafta sonra trafik kaynağı aramaya kayıyorsa denenir. |
 
 ### Eşik kuralı: süre farkı küçük çıkarsa
@@ -165,7 +167,7 @@ Ara toplam satırları (dökümü veren sistemin kendi hesabı gibi düşünül�
 | `ARA TOPLAM 26.10-31.10` | Ekim, 5. dönem |
 | `ARA TOPLAM 01.11-03.11` | Kasım satırları |
 
-Her ara toplam, **temiz verideki** o döneme ait bütün satırların tutarıdır: WEB siparişleri ve listede olmayan kodlu 7 satır dahil, sonradan eklenen 12 yinelenen satır hariç. Yedisinin toplamı 620 satırın toplamına, ortadaki beşinin toplamı ekim toplamına eşittir. Videoda bu satırlar silinmeden önce kenara alınır ve tarihten bağımsız kontrol kaynağı olarak kullanılır.
+Her ara toplam, **temiz verideki** o döneme ait bütün satırların tutarıdır: WEB siparişleri ve listede olmayan kodlu 7 satır dâhil, sonradan eklenen 12 yinelenen satır hariç. Yedisinin toplamı 620 satırın toplamına, ortadaki beşinin toplamı ekim toplamına eşittir. Videoda bu satırlar silinmeden önce kenara alınır ve tarihten bağımsız kontrol kaynağı olarak kullanılır.
 
 Şehir yazımları (17 ham yazım):
 
@@ -188,9 +190,9 @@ Senaryo 01'in sonunda verilen söz ("boş satırlar, metin olarak girilmiş tuta
 ### 2.3 Ölçümler
 
 1. **Elle yöntem ölçümden önce yazılı olarak sabitlenir.** Tanım: "Yapay zekâ kullanmaya başlamadan önce bu işi gerçekten nasıl yapıyorsam öyle." Filtre biliyorsan filtre, PivotTable biliyorsan PivotTable kullanılır; süre uzasın diye yavaş yöntem seçilmez. Kayıttan önce yöntemi dört satırda yaz (silme · temizlik · birleştirme · özet ve yorum) `[ÇEKİMDEN ÖNCE YAZ]`; kayıtta bu listeden sapma olursa not edilir. Liste açıklamaya konur.
-2. **Elle süre = `[ELLE SÜRE]`.** Aynı kirli dosya, baştan sona (yorum maddelerini yazmak dahil). Telefon kronometresiyle ölç, ekranı kaydet (hızlandırılmış B-roll). Elle yolda da aynı kontroller yapılır (silmeden önce sayma, tarih aralığı, toplamların karşılaştırılması) ve süreye dahildir; kontrolsüz elle süre ile kontrollü yapay zekâlı süre karşılaştırılmaz. Çıkan süre ne ise o kullanılır.
-3. **Adım süreleri iki yolda da aynı dört adımla ölçülür** `[ÇEKİMDE ÖLÇ]`: Temizle (silme + yardımcı sütunlar + tarih kontrolü ve düzeltmesi) · Birleştir · Özetle (toplam kontrolleri dahil) · Yorumla. Yapay zekâlı yolda ilk prompt'u yazma ve cevabı bekleme süresi "Temizle" adımına yazılır. Bu süreler ekranda kronometrenin yanında adım bazında karşılaştırılır.
-4. **Yapay zekâlı süre = `[YZ SÜRE]`.** Tek, kesintisiz kayıt. Başlık bloğunu silme, prompt yazma, cevabı bekleme, formülleri uygulama, kontroller ve hata düzeltme süreye dahil. Kayıttan önce akışın provası yapılmaz: prova yapılırsa süre gerçekte olduğundan kısa çıkar. Prova gerekiyorsa farklı bir kirli kopya üzerinde yapılır ve açıklamada belirtilir.
+2. **Elle süre = `[ELLE SÜRE]`.** Aynı kirli dosya, baştan sona (yorum maddelerini yazmak dâhil). Telefon kronometresiyle ölç, ekranı kaydet (hızlandırılmış B-roll). Elle yolda da aynı kontroller yapılır (silmeden önce sayma, tarih aralığı, toplamların karşılaştırılması) ve süreye dâhildir; kontrolsüz elle süre ile kontrollü yapay zekâlı süre karşılaştırılmaz. Çıkan süre ne ise o kullanılır.
+3. **Adım süreleri iki yolda da aynı dört adımla ölçülür** `[ÇEKİMDE ÖLÇ]`: Temizle (silme + yardımcı sütunlar + tarih kontrolü ve düzeltmesi) · Birleştir · Özetle (toplam kontrolleri dâhil) · Yorumla. Yapay zekâlı yolda ilk prompt'u yazma ve cevabı bekleme süresi "Temizle" adımına yazılır. Bu süreler ekranda kronometrenin yanında adım bazında karşılaştırılır.
+4. **Yapay zekâlı süre = `[YZ SÜRE]`.** Tek, kesintisiz kayıt. Başlık bloğunu silme, prompt yazma, cevabı bekleme, formülleri uygulama, kontroller ve hata düzeltme süreye dâhil. Kayıttan önce akışın provası yapılmaz: prova yapılırsa süre gerçekte olduğundan kısa çıkar. Prova gerekiyorsa farklı bir kirli kopya üzerinde yapılır ve açıklamada belirtilir.
 5. **Sıra.** Önce elle yolu çekiyorum; ikinci yolda dosyayı tanıyor olmam yapay zekâlı süreyi kısaltır. Ayrıca veriyi ve bütün sorunları ben hazırladım; sorunların yerini iki yolda da biliyordum. İkisi de açıklamada ve sonuç bölümünde söylenir.
 6. **Tahmin.** Kayıttan önce bir yere yaz: "Yapay zekâlı sürenin yüzde kaçı kontrol ve düzeltmeye gidecek?" `[ÇEKİMDEN ÖNCE YAZ]`. Gerçekleşen oran tahminden en az 10 puan farklıysa hook'taki ve sonuç bölümündeki "tahminimden farklı çıktı" cümlesi kullanılır; değilse kullanılmaz.
 
@@ -291,7 +293,7 @@ Notlar (hepsi kayıttan önce, ayrı bir kopyada denenir `[ÇEKİMDE DOĞRULA]`)
 - **Tuzağın dayandığı davranış:** `TARİHSAYISI`, Türkçe bölge ayarında ay/gün/yıl yazılmış metni gün/ay/yıl diye okur. Gün 12 ya da küçükse hata vermeden yanlış tarihe çevirir (`10/03/2026` → 10 Mart 2026); gün 13 ya da büyükse `#DEĞER!` verir (`10/17/2026` → 17. ay yok). Beklenen: 20 hata + 20 yanlış tarih. Kendi makinende sayılar farklıysa kontrol ve düzeltme bölümleri gerçek davranışa göre yeniden yazılır.
 - Sütunda hata değeri varken `MİN` ve `MAK` da hata döndürür; bu, senaryoda ilk işaret olarak kullanılır. `EĞERSAY` ve `ETOPLA` ölçüt aralığındaki hata hücrelerini saymadan geçer (hata döndürmez).
 - **Filtre ve boş satırlar:** veride araya girmiş boş satırlar varken tek hücre seçiliyken filtre açılırsa Excel yalnızca ilk boş satıra kadar olan bölgeyi filtreler. Önce A–I sütunlarının tamamı seçilir, filtre öyle açılır. "(Boş Olanlar)" seçeneğinin listede göründüğünü dene.
-- **Yinelenenleri Kaldır:** geçici anahtar sütunları silinmeden çalıştırılırsa onlar da karşılaştırmaya girer (K sütunu ilk kopyada `YANLIŞ`, ikincide `DOĞRU`) ve hiçbir satır yinelenen sayılmaz. Kaldırılan satır sayısının 12 olduğunu dene; farklıysa kopyalar asıllarıyla hücre hücre aynı değildir (biçim farkı dahil), kirli dosya düzeltilir.
+- **Yinelenenleri Kaldır:** geçici anahtar sütunları silinmeden çalıştırılırsa onlar da karşılaştırmaya girer (K sütunu ilk kopyada `YANLIŞ`, ikincide `DOĞRU`) ve hiçbir satır yinelenen sayılmaz. Kaldırılan satır sayısının 12 olduğunu dene; farklıysa kopyalar asıllarıyla hücre hücre aynı değildir (biçim farkı dâhil), kirli dosya düzeltilir.
 - **Metin hücreler gerçekten metin mi:** kirli dosyada `=TOPLA.ÇARPIM(--EMETİNSE(G4:G652))` yaklaşık 200, `=TOPLA.ÇARPIM(--EMETİNSE(B4:B652))` yaklaşık 190 (150 + 40) vermeli. Excel `1.014,00 TL` ya da `10/03/2026` değerini yazarken sayıya/tarihe çevirdiyse hücre "Metin" biçimine alınıp değer yeniden yapıştırılır.
 - **Tarih biçimi:** J sütununa formül yazıldığında sonuç varsayılan biçimde seri numarası (46 binli bir sayı) olarak görünür. J sütunu ve MİN/MAK hücreleri "Kısa Tarih" biçimine alınır; bu adım senaryoda vardır.
 - **Şehir listesi neden değere çevrilir:** `BENZERSİZ` sonucu canlıdır; kaynak aralık değişince (yeni ay verisi, düzeltilen bir satır) listenin sırası ve uzunluğu değişir, B sütununa elle yazılan doğru adlar başka yazımın karşısına kayar ve `ÇAPRAZARA` hata vermeden yanlış şehir döndürür.
@@ -315,7 +317,7 @@ Tarih tuzağı, yapay zekânın değil, eksik bilgi veren kullanıcının hatas�
 |---|---|---|
 | Fonksiyon adları ve ayırıcı | Formül yapıştırılınca Excel kabul ediyor mu; İngilizce ad, virgül ya da Türkçe Excel'de olmayan bir ad var mı | İlgili adımda, kesilmeden |
 | Metin tutarı sayıya çeviren formül | `Çevirme doğru mu` farkı 0 mı | Özet adımında |
-| Tarih düzeltmesi yarım mı | Düzeltmeden sonra `Dönem dışı tarih` 0 mı (2.4'teki "yarım düzeltme" gelirse 20 kalır) | Düzeltme bölümünde; ikinci tur düzeltme süreye dahil |
+| Tarih düzeltmesi yarım mı | Düzeltmeden sonra `Dönem dışı tarih` 0 mı (2.4'teki "yarım düzeltme" gelirse 20 kalır) | Düzeltme bölümünde; ikinci tur düzeltme süreye dâhil |
 | Şehir eşlemesi | Yapay zekâ "İST." ya da "Ank." için kendi başına karar verdi mi; `Eşleşmeyen şehir` 0 mı | Yardımcı sütunlar adımında |
 | Menü yolları | Tarif ettiği menü adı (PivotTable, Yinelenenleri Kaldır, Filtre) kullandığın Excel'de o adla var mı | İlgili adımda tek cümle |
 | Yorum maddeleri | Her sayı özet tabloda var mı; yüzdeler Excel'de yeniden hesaplanınca tutuyor mu; "neden" ya da başka ayla karşılaştırma yazmış mı; `EŞLEŞMEDİ` satırını bir kategoriye katmış mı | Yorum adımında; bu videoda yapay zekânın kendi hatasının çıkabileceği başlıca yer burasıdır |
@@ -336,13 +338,13 @@ Zaman damgaları seslendirme sayımına göre tahminidir; kurgu sonrası gerçek
 
 **SES (A — tuzak beklendiği gibi çalıştıysa)** `[UYARLA]`
 
-> Bu, bir toptancının satış dökümü. Altı yüz küsur satır. Tarihler üç ayrı biçimde yazılmış, tutarların bir kısmı sayı değil metin, aynı şehir üç dört farklı şekilde girilmiş. Bundan ekim özetini elle çıkarmam [ELLE SÜRE] sürdü. Aynı işi yapay zekâyla, kontroller dahil [YZ SÜRE] sürede bitirdim; dosyanın kendisini yüklemeden, yalnızca yapısını ve beş örnek satır vererek. Yolda bir formül yirmi hücrede açıkça hata verdi. Asıl sorun, hata vermeyen yirmi satırdı. Onu nasıl yakaladığımı ve bu sürenin ne kadarının kontrole gittiğini göstereceğim.
+> Bu, bir toptancının satış dökümü. Altı yüz küsur satır. Tarihler üç ayrı biçimde yazılmış, tutarların bir kısmı sayı değil metin, aynı şehir üç dört farklı şekilde girilmiş. Bundan ekim özetini elle çıkarmam [ELLE SÜRE] sürdü. Aynı işi yapay zekâyla, kontroller dâhil [YZ SÜRE] sürede bitirdim; dosyanın kendisini yüklemeden, yalnızca yapısını ve beş örnek satır vererek. Yolda bir formül yirmi hücrede açıkça hata verdi. Asıl sorun, hata vermeyen yirmi satırdı. Onu nasıl yakaladığımı ve bu sürenin ne kadarının kontrole gittiğini göstereceğim.
 
 **SES (B — yapay zekâ tuzağa düşmediyse)**: son üç cümlenin yerine
 
 > Veriye bilerek bir tuzak koydum; yapay zekânın onu görüp görmediğini kontrol etmeden bilemezdim. O kontrolü ve bu sürenin ne kadarının kontrole gittiğini göstereceğim.
 
-Her iki metinde: "yirmi" sayıları ekranda görülen gerçek sayıyla değiştirilir `[ÇEKİMDE DOĞRULA]`. 2.3 madde 6'daki koşul sağlanıyorsa son cümleye "tahminimden farklı çıktı" eklenir; sağlanmıyorsa eklenmez. Oran 2 katın altındaysa (eşik kuralı) iki süre aynı cümlede düz söylenir, "aynı işi… bitirdim" vurgusu yapılmaz.
+Her iki metinde: "yirmi" sayıları ekranda görülen gerçek sayıyla değiştirilir `[ÇEKİMDE DOĞRULA]`. 2.3 madde 6'daki koşul sağlanıyorsa son cümleye "tahminimden farklı çıktı" eklenir; sağlanmıyorsa eklenmez. Oran 2 katın altındaysa (eşik kuralı) iki süre aynı cümlede düz söylenir, "aynı işi… bitirdim" vurgusu yapılmaz. A metni yer tutucular dolu hâliyle tahmini 80 kelimedir; sesli okumada 35 saniyeyi geçiyorsa (01 belgesi 4.3) ilk çıkarılacak parça "aynı şehir üç dört farklı şekilde girilmiş"tir.
 
 **EKRAN**
 
@@ -353,7 +355,7 @@ Her iki metinde: "yirmi" sayıları ekranda görülen gerçek sayıyla değişti
 - 0:26 (A) Tarih sütunundan iki hücre yan yana: biri `#DEĞER!`, diğeri "10.03.2026". Kırmızı çerçeve hata veren hücrede değil, **düzgün görünen** hücrede bir saniyeden kısa yanıp söner. (B) Yapay zekâya giden 5 satır sarı, tablonun kalanı gri; üstünde soru işareti.
 - 0:31 Kronometre 00:00; altında boş bir çubuk: "Kontrol + düzeltme: ?".
 
-**Tutma notu:** İlk altı saniyede izleyicinin kendi dosyası ekranda (tanıma anı). İki süre başta verildiği için "kim kazandı" sorusu gerilim taşımaz; açık döngüler bunlardır: (1) hata vermeyen yirmi satır nasıl yakalandı, (2) sürenin ne kadarı kontrole gitti (boş çubuk sonuç bölümünde dolar), (3) "dosyayı yüklemeden nasıl?". Kırmızı çerçevenin neden düzgün görünen hücrede olduğu söylenmez. Selamlama ve jenerik yok.
+**Tutma notu:** İlk altı saniyede izleyicinin kendi dosyası ekranda (tanıma anı). İki süre başta verildiği için "kim kazandı" sorusu gerilim taşımaz; açık döngüler bunlardır: (1) hata vermeyen yirmi satır nasıl yakalandı, (2) sürenin ne kadarı kontrole gitti (boş çubuk sonuç bölümünde dolar), (3) "dosyayı yüklemeden nasıl?". Üçüncüsü 1:50'de, ilk adımın başında kapanır; ondan sonra aynı anda açık sözlü döngü sayısı ikidir (01 belgesi 7.1 sınırı). Kırmızı çerçevenin neden düzgün görünen hücrede olduğu söylenmez. Selamlama ve jenerik yok.
 
 ---
 
@@ -361,14 +363,14 @@ Her iki metinde: "yirmi" sayıları ekranda görülen gerçek sayıyla değişti
 
 **SES**
 
-> Önce işi netleştirelim. İki sayfa var. Birincisi satış dökümü: sipariş numarası, tarih, ürün kodu, adet, fiyat, tutar, şehir. İkincisi ürün listesi: hangi kod hangi kategoride. Döküm eylülün son günlerinden kasımın ilk günlerine uzanıyor; müdürümün istediği ise yalnızca ekim: hangi kategori hangi şehirde ne kadar sattı, altında da üç maddelik yorum. Dört iş var: temizle, birleştir, özetle, yorumla. Bir not: bu dosya gerçek bir şirkete ait değil. Verinin tamamını ben ürettim, kirli kısımlarını da bilerek koydum; gerçek satış verisi videoda gösterilmez. Kendi dosyanda neyi paylaşıp neyi paylaşmayacağına iki yerde değineceğim. Kronometrenin kuralı: prompt yazmam, formülleri uygulamam, kontrol etmem ve hatayı düzeltmem süreye dahil.
+> Önce işi netleştirelim. İki sayfa var. Birincisi satış dökümü: sipariş numarası, tarih, ürün kodu, adet, fiyat, tutar, şehir. İkincisi ürün listesi: hangi kod hangi kategoride. Döküm eylülün son günlerinden kasımın ilk günlerine uzanıyor; müdürümün istediği ise yalnızca ekim: hangi kategori hangi şehirde ne kadar sattı, altında da üç maddelik yorum. Dört iş var: temizle, birleştir, özetle, yorumla. Bir not: bu dosya gerçek bir şirkete ait değil. Verinin tamamını ben ürettim, kirli kısımlarını da bilerek koydum; gerçek satış verisi videoda gösterilmez. Kendi dosyanda neyi paylaşıp neyi paylaşmayacağına iki yerde değineceğim. Kronometrenin kuralı: prompt yazmam, formülleri uygulamam, kontrol etmem ve hatayı düzeltmem süreye dâhil.
 
 **EKRAN**
 
 - "Satis" sayfası; üstte birleştirilmiş başlık bloğu ("Dönem: 28.09.2026 – 03.11.2026" sarı alt çizgi), sütun başlıkları sırayla sarı çerçeve. Sonra "Urunler" sayfası.
 - Lacivert zeminde dört kutu: "1 Temizle · 2 Birleştir · 3 Özetle · 4 Yorumla" (video boyunca üstte ince ilerleme çubuğu olarak kalır).
 - Alt köşede kalıcı küçük not: "Örnek veri — gerçek şirket değil".
-- Kronometre gri, yanında: "Süreye dahil: prompt · uygulama · kontrol · düzeltme".
+- Kronometre gri, yanında: "Süreye dâhil: prompt · uygulama · kontrol · düzeltme".
 
 **Tutma notu:** Dört kutu videonun haritası; izleyici nerede olduğunu her an görür. Gizlilik burada tek cümleyle açılır ve iki yerde somut olarak cevaplanır (örnek satırlar, özet tablo); hedef izleyicinin ilk itirazı "şirket dosyamı oraya yükleyemem" olduğu için söz erken verilir.
 
@@ -469,6 +471,7 @@ Sayılar (on, yedi, on iki, altı yüz yirmi) ekranda görülenle aynı olmalı 
 - A sütunu filtresi: yalnızca "ARA TOPLAM…" satırları → A ve G sütunları kopyalanır → yeni "Kontrol" sayfası. Altına iki toplam: "Dökümün tamamı" ve "Yalnızca ekim (ortadaki beş)". Sayfa sekmesi sarı yanar, kapanır.
 - Filtre: (Boş Olanlar) + "ARA TOPLAM…" → satırlar silinir → filtre temizlenir. Hızlandırılmış.
 - Geçici anahtar sütunu ve sayımı hızlandırılmış (formüller 2.4'te); sonuç hücresi büyütülür: 12. Geçici sütunlar silinir.
+- Bölümün son 5–7 saniyesinde alt bantta görsel abone grafiği: "Her hafta bir iş, kronometreyle." Sözlü çağrı yok; akış durmaz (01 belgesi 8.1: ilk somut sonuçtan sonra).
 - Veri > Yinelenenleri Kaldır penceresi; "Tümünü Seç" işaretli hâli büyütülür. Excel'in sonuç mesajı (kaldırılan / kalan) büyütülür; önceki "12" ile yan yana, sarı onay.
 - Yan not kutusu (2 sn): "Yalnızca Sipariş No'ya göre kaldırma — aynı siparişin diğer satırları da gider".
 
@@ -557,7 +560,7 @@ J2:  =EĞER(ESAYIYSA(B2);B2;TARİHSAYISI(KIRP(B2)))
 
 > Düzeltme için ne gördüğümü yazıyorum: hata verenleri de, vermeyenleri de. Yalnızca hata veren hücreleri sorsaydım, kalan yirmi satır yanlış tarihle kalabilirdi. [UYARLA] Yeni formül geldi: web siparişlerinde ayı ve günü ayrı ayrı alıp doğru sıraya koyuyor. Yazıp aşağı çekiyorum. Hata veren hücre: sıfır. Dönem dışı tarih: sıfır. En küçük yirmi sekiz Eylül, en büyük üç Kasım. Şimdi açık söyleyeyim: bu satırları veriye bilerek koydum, prompt'a da bilerek yazmadım. Çünkü gerçek dosyada ilk bakışta gözden kaçan bir şey kalabilir. Yapay zekâ yalnızca ona gösterdiğim beş satırı gördü; o beş satırda web siparişi yoktu. Formül yanlış değildi, eksik bilgiyle yazılmıştı. Geriye bir soru kaldı: özet tablonun toplamı, baştan ayırdığım ara toplamlarla tutacak mı?
 
-Düzeltmeden sonra dönem dışı tarih sayısı sıfır çıkmazsa (ör. 2.4'teki yarım düzeltme geldiyse) ikinci tur düzeltme kesilmeden gösterilir, süreye dahildir ve "Yeni formül geldi…" cümlesi gerçekte olana göre yazılır `[UYARLA]`.
+Düzeltmeden sonra dönem dışı tarih sayısı sıfır çıkmazsa (ör. 2.4'teki yarım düzeltme geldiyse) ikinci tur düzeltme kesilmeden gösterilir, süreye dâhildir ve "Yeni formül geldi…" cümlesi gerçekte olana göre yazılır `[UYARLA]`.
 
 **EKRAN**
 
@@ -629,7 +632,7 @@ N2:  =EĞERHATA(DÜŞEYARA(K2;Urunler!A:C;3;YANLIŞ);"EŞLEŞMEDİ")
 
 > Üçüncü iş: özet. Tarihin yanına ay numarasını veren bir sütun ekledim. Verinin içine tıklıyorum, Ekle, PivotTable. Satırlara kategori, sütunlara temiz şehir, değerlere temiz tutar, filtreye ay: on. Tablo hazır. Göndermeden önce toplamı iki ayrı yoldan sınıyorum. Bir: temiz tutar sütununun toplamı ile adet çarpı birim fiyatın toplamı; yani tutar sütununa hiç bakmadan. [UYARLA] Fark sıfır; metinden sayıya çevirme doğru çalışmış. İki: baştan ayırdığım ara toplamlar. Ekime ait beş ara toplamın toplamı ile özet tablonun genel toplamı. [UYARLA] Fark sıfır: [ÇEKİMDE DOLDUR: ekim toplamı]. Yani silerken fazla satır gitmemiş, yinelenen kalmamış, ekim satışlarının hepsi ekimde. Tarihleri düzeltmeseydim bu fark sıfır çıkmazdı.
 
-Farklardan biri sıfır çıkmazsa neden aranır, bulunur ve gösterilir; süreye dahildir. Sıfır çıkmayan farkın üstü örtülmez.
+Farklardan biri sıfır çıkmazsa neden aranır, bulunur ve gösterilir; süreye dâhildir. Sıfır çıkmayan farkın üstü örtülmez.
 
 **EKRAN**
 
@@ -733,7 +736,7 @@ Yorum adımında ya da başka bir yerde yapay zekânın kendi hatası çıktıys
 
 > Bugün kullandığım üç prompt'un boş şablonu açıklamada; ilki şu an ekranda. Köşeli parantezleri kendi dosyana göre doldur: sütunların, beş örnek satır, gördüğün sorunlar. "Fonksiyon adları Türkçe, ayırıcı noktalı virgül" satırını ve "her adıma kontrol ekle" satırını silme. Bugün tek bir yapay zekâ aracı kullandım ve hangisi olduğunu söylemedim; açıklamada yazıyor. Gelecek hafta sıra onda: aynı Türkçe işleri üç ayrı araca veriyorum ve cevapları yan yana koyuyorum.
 
-Son cümle `[YAYINDAN ÖNCE DOĞRULA: bir sonraki yayınlanacak video hâlâ Yayın 3 mü — (3) ChatGPT / Gemini / Claude: Türkçede Hangisi Daha İyi; sıra `docs/01-icerik-uretim-sistemi.md` Bölüm 9'da]`. Sıra değiştiyse cümle ve bitiş ekranı kartı yeni videoya göre yazılır; Senaryo 03 stok videodur ve bu videonun ertesi haftasına konmaz.
+Son cümle `[YAYINDAN ÖNCE DOĞRULA: bir sonraki yayınlanacak video hâlâ Yayın 3 mü — (3) ChatGPT / Gemini / Claude: Türkçede Hangisi Daha İyi; sıra `01-icerik-uretim-sistemi.md` Bölüm 9'da]`. Sıra değiştiyse cümle ve bitiş ekranı kartı yeni videoya göre yazılır; Senaryo 03 stok videodur ve bu videonun ertesi haftasına konmaz.
 
 **EKRAN**
 
@@ -747,7 +750,7 @@ Son cümle `[YAYINDAN ÖNCE DOĞRULA: bir sonraki yayınlanacak video hâlâ Yay
 
 ---
 
-## 4. Kopyalanabilir prompt'lar ve kontroller (açıklamaya konacak; Prompt 1 ayrıca sabit yoruma)
+## 4. Kopyalanabilir prompt'lar ve kontroller (açıklamaya konacak; Prompt 1 ayrıca sabitlenmiş yoruma)
 
 **Prompt 1 — Dosyayı yüklemeden adım ve formül istemek**
 
@@ -840,14 +843,14 @@ Kurallar:
 | 2 | 1:50–3:15 (prompt'taki tek satır) | 25–35 sn | "Yapay zekânın yazdığı Excel formülü sende hata veriyorsa, prompt'a bu satırı ekle." | "Excel Türkçe, fonksiyon adları Türkçe, ayırıcı noktalı virgül" satırı. Satır olmadan ve satırla alınan formül yan yana — ayrı çekilir, gerçek çıktı kullanılır `[ÇEKİMDE DOĞRULA: satır olmadan gerçekten İngilizce/virgüllü geliyor mu; gelmiyorsa bu Shorts yapılmaz, yerine "filtreyi açmadan önce sütunları seç" ya da "yalnızca sipariş numarasına göre yinelenen kaldırma" anı (3:15–4:10) kesilir]`. | "Bu satırın içinde olduğu prompt'un tamamı uzun videonun açıklamasında." |
 | 3 | 7:35–8:25 (toplamın sınanması) | 25–35 sn | "Excel tablonu göndermeden önce toplamı iki ayrı yoldan hesapla." | TOPLA ile TOPLA.ÇARPIM farkı; neden iki yol. Ara toplam kısmı alınmaz (bağlam ister). Yapay zekâ kelimesi hiç geçmeyebilir: salt Excel ipucu olarak daha geniş kitleye ulaşabilir (varsayım; Shorts verisiyle bakılır). | "Bu kontrolü neden yaptığımı uzun videoda görürsün." |
 
-Dikey kadraj için: formül çubuğu ve ilgili hücreler yakınlaştırılır; tablo tam genişlikte gösterilmez. Her Shorts'ta kanalın lacivert-sarı çerçevesi ve ilgili video bağlantısı. Yayın sırası önerisi: 1 → 3 → 2.
+Dikey kadraj için: formül çubuğu ve ilgili hücreler yakınlaştırılır; tablo tam genişlikte gösterilmez. Her Shorts'ta kanalın lacivert-sarı çerçevesi ve ilgili video bağlantısı. Yayın sırası önerisi: 1 → 3 → 2. Takvim `02-buyume-stratejisi.md` B2'deki gibidir: ilki salı (uzun videodan önce), ikincisi cuma, üçüncüsü isteğe bağlı olarak ertesi pazartesi. Türler (01 belgesi 4.4): 1 hata · 2 tek ipucu · 3 tek ipucu.
 
 ---
 
 ## 6. Açıklama metni taslağı
 
 ```
-Dağınık bir satış dökümünü temizleyip ürün tablosuyla birleştirmek, ekim özetini ve 3 maddelik yorumu çıkarmak: elle [ELLE SÜRE], yapay zekâyla kontroller dahil [YZ SÜRE]. Dosyanın kendisini yüklemeden; yalnızca yapısını ve 5 örnek satırı vererek.
+Dağınık bir satış dökümünü temizleyip ürün tablosuyla birleştirmek, ekim özetini ve 3 maddelik yorumu çıkarmak: elle [ELLE SÜRE], yapay zekâyla kontroller dâhil [YZ SÜRE]. Dosyanın kendisini yüklemeden; yalnızca yapısını ve 5 örnek satırı vererek.
 
 KOPYALANABİLİR PROMPT'LAR
 1) Dosyayı yüklemeden adım ve formül istemek
@@ -882,8 +885,8 @@ BÖLÜMLER
 [bölüm 7'deki liste]
 
 NASIL ÖLÇTÜM
-- Elle süre: aynı dosyayı yapay zekâ kullanmadan, bu işi daha önce nasıl yapıyorsam öyle bitirdim; kontroller dahil. Yöntem: [ÇEKİMDE DOLDUR: 2.3 madde 1'deki liste]. Süre: [ELLE SÜRE].
-- Yapay zekâlı süre: tek kesintisiz kayıt; prompt yazma, uygulama, kontrol ve hata düzeltme dahil. Süre: [YZ SÜRE].
+- Elle süre: aynı dosyayı yapay zekâ kullanmadan, bu işi daha önce nasıl yapıyorsam öyle bitirdim; kontroller dâhil. Yöntem: [ÇEKİMDE DOLDUR: 2.3 madde 1'deki liste]. Süre: [ELLE SÜRE].
+- Yapay zekâlı süre: tek kesintisiz kayıt; prompt yazma, uygulama, kontrol ve hata düzeltme dâhil. Süre: [YZ SÜRE].
 - Önce elle yolu yaptım; ikinci yolda dosyayı tanıyor olmam yapay zekâlı süreyi kısaltır.
 - Veriyi ben hazırladım; sorunların yerini iki yolda da biliyordum.
 - [ÇEKİMDE DOLDUR: prova yapıldıysa hangi kopyada yapıldığı; yapılmadıysa "akışın provası yapılmadı, yalnızca formüller ayrı kopyada denendi"]
@@ -901,7 +904,7 @@ ChatGPT'yi Yanlış Kullanıyorsun: Sonucu Değiştiren 7 Alışkanlık → [ba�
 Kısa Mesai: aynı işi yarı sürede bitir. Haftada bir video.
 ```
 
-Sabit yorum: Prompt 1 + "Excel'de en çok vaktini alan iş hangisi?" sorusu.
+Sabitlenmiş yorum (üç bloklu kalıp: `02-buyume-stratejisi.md` B3): Prompt 1 + sıradaki adım (Yayın 3; yayınlanınca eklenir) + "Excel'de en çok vaktini alan iş hangisi?" sorusu.
 
 ---
 
@@ -978,3 +981,33 @@ Süreler kurgu bitince gerçek zaman damgalarıyla değiştirilir. Bölüm adlar
 - [ ] Son cümle ve bitiş ekranı kartı bir sonraki yayınlanacak videoyla eşleşiyor.
 - [ ] Senaryoda `[` ile başlayan doldurulmamış yer tutucu kalmadı (metinde ara).
 - [ ] Seslendirme, yer tutucular dolduktan sonra yeniden sayıldı; kurgu 10,5–12 dk aralığında, aşıyorsa kesme sırası uygulandı.
+
+---
+
+## 9. Şablon eşlemesi ve iddia–kaynak tablosu
+
+Bu senaryo `sablonlar/senaryo-sablonu.md` içindeki blok biçimiyle (SES / EKRAN / Tutma notu) yazıldı. Durum: **Taslak** (çekim öncesi; yer tutucular boş).
+
+| Şablondaki alan | Bu dosyada |
+|---|---|
+| Yer tutucu listesi | 2.5'in son paragrafı; değerler `olcum.md` ve "Anahtar" sayfasından girilir |
+| Bölüm 1 — Hook | 0:00–0:35 (A/B metni) |
+| Bölüm 2 — Görev ve veri | 0:35–1:50 (görev, kurallar, elle yol) |
+| Bölüm 3 — Yapay zekâyla koşu | 1:50–9:15 (beş adım + kontrol ve düzeltme); görsel abone bandı 3:15–4:10 bölümünün sonunda |
+| Bölüm 4 — Süre ve kalite karşılaştırması | 9:15–10:00; ölçütler 2.3 |
+| Bölüm 5 — Yapamadığı şey + yorum sorusu (sözlü CTA 1/3) | 10:00–11:05 |
+| Bölüm 6–7 — Prompt (2/3) ve sonraki video (3/3, son sesli cümle) | 11:05–11:35; metinler 4. bölümde |
+| Çekim listesi | 8. bölümdeki "Ölçüm ve kayıt" listesi: elle yol kaydı, tek parça süreli kayıt, formül denemeleri kopyası, Shorts 2 için ayrı çekim |
+| Kısa video işaretleri | 5. bölüm |
+
+İddia–kaynak tablosu (çekimden sonra zaman koduyla tamamlanır):
+
+| Yer | İddia | Kaynak / durum |
+|---|---|---|
+| Hook, sonuç, kapak, açıklama | `[ELLE SÜRE]`, `[YZ SÜRE]`, adım süreleri, kontrol payı | `olcum.md`; eşik kuralı ölçümden sonra uygulanır |
+| Hook, kontrol bölümü | "Yirmi hücre hata verdi, yirmi satır sessizce yanlış." | Çekim öncesi deneme (2.4, tuzağın dayandığı davranış) + süreli kayıt; sayılar makinede farklıysa metin değişir |
+| Adım 1 | "Yazmazsan formül İngilizce adla ve virgülle gelebilir." | Çekim: Shorts 2 için yapılan satırsız deneme `[ÇEKİMDE DOĞRULA]`; öyle gelmiyorsa cümle "gelebilir" olarak bile kalmaz, silinir |
+| Adım 2 | "Filtre ilk boş satırda durur." | Çekim öncesi deneme (2.4 notları) |
+| 2.4 notları, açıklama | "`BENZERSİZ` ve `ÇAPRAZARA` eski Excel sürümlerinde yoktur." | Birincil kaynak: Microsoft Destek'teki işlev sayfaları `[YAYINDAN ÖNCE DOĞRULA]`; çekimde kullanılan sürüm açıklamaya yazılır |
+| Yapamadığı şey 2 | "Dosyanın tamamını yükleyebildiğin bir araç kullansan bile…" | `görüş`; bu videoda dosya yüklenmiyor, sınanmıyor |
+| Kalite tablosu | Beş ölçütün iki yoldaki sonucu | Çekim + `cevap-anahtari.xlsx` |

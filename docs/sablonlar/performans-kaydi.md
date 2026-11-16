@@ -8,7 +8,7 @@
 
 1. **Karşılaştırma ölçütü kendi kanalındır.** Başka kanalların ya da "sektör ortalaması" diye dolaşan sayıların karşılığı yoktur; buraya eşik yazılmadı. İlk 5 videoda yalnızca kaydet; 6. videodan sonra **kanal medyanı** ile karşılaştır. Kategori medyanı karar için ancak kategoride 5+ video olunca kullanılır.
 2. **Aynı yaşta karşılaştır.** Bir videonun 7. gün değeri, başka bir videonun 7. gün değeriyle kıyaslanır; güncel toplamlarla değil.
-3. **Az gösterimde oranlar oynaktır.** Gösterim düşükken tıklanma oranındaki fark birkaç tıklamadan ibarettir. Gösterim sütununu görmeden oran yorumlama. Asgari veri eşikleri (tahmini çalışma kuralı): 02 belgesi B5, V1–V4.
+3. **Az gösterimde oranlar oynaktır.** Gösterim düşükken CTR'deki fark birkaç tıklamadan ibarettir. Gösterim sütununu görmeden oran yorumlama. Asgari veri eşikleri (tahmini çalışma kuralı): 02 belgesi B5, V1–V4.
 4. **Tek video ipucu, üç video bulgu.** Bir örüntü üç videoda tekrar etmeden Bölüm 5'teki "Bulgular" listesine yazılmaz.
 5. **Her kontrolde tek çıkarım.** "Bir sonraki videoda değiştireceğim tek şey" cümlesi yazılmadan kontrol bitmiş sayılmaz.
 6. Metrik adları Studio'da görünen adlardır; arayüz değişirse sütun adını güncelle, eski adı parantez içinde bırak.
@@ -21,7 +21,7 @@ Bu kayıttaki bazı sütunlar YouTube Studio'dan **gelmez.** Hangisinin nereden 
 
 | Sütun | Nereden okunur | Durum |
 |-------|----------------|-------|
-| **Prompt tıklaması** | Studio açıklamadaki bağlantının tıklanma sayısını vermez; herkese açık belge de anonim ziyaretçi saymaz. Her videonun açıklamasına ve sabit yorumuna, tıklama istatistiği veren **videoya özel kısa bağlantı** konur; sayı o aracın panelinden okunur. Sayılan şey tıklamadır, tekil kişi değildir. Prompt'un tam metni açıklamada durduğu için bu sayı kullananların alt sınırıdır. | Araç: [ ] · Kuruldu: [TARİH] / kurulmadı |
+| **Prompt tıklaması** | Studio açıklamadaki bağlantının tıklanma sayısını vermez; herkese açık belge de anonim ziyaretçi saymaz. Her videonun açıklamasına ve sabitlenmiş yorumuna, tıklama istatistiği veren **videoya özel kısa bağlantı** konur; sayı o aracın panelinden okunur. Sayılan şey tıklamadır, tekil kişi değildir. Prompt'un tam metni açıklamada durduğu için bu sayı kullananların alt sınırıdır. | Araç: [ ] · Kuruldu: [TARİH] / kurulmadı |
 | **Kısa videodan uzun videoya geçiş** | Shorts "ilgili video" tıklamaları için Studio'da veri olup olmadığı doğrulanamadı. Studio'da görüyorsan nerede gördüğünü buraya yaz; görmüyorsan sütun `[ölçüm yok]` kalır ve yerine uzun videonun trafik kaynaklarındaki Shorts kaynaklı görüntülemeye bakılır. | Görünüyor: [nerede] / görünmüyor |
 | **LinkedIn ve diğer platformlar** | Her platformun kendi gönderi istatistikleri; tanımları YouTube'unkiyle aynı değildir, platformlar arası kıyas yapılmaz. | — |
 | **Bülten** (KM-011'den itibaren) | Gönderim aracının paneli: gönderilen, açılan, tıklanan, çıkan. Açılma oranı e-posta istemcilerinin gizlilik ayarları yüzünden güvenilmezdir; tıklama ve yanıt sayısına bak. | Araç: [ ] |
@@ -31,8 +31,8 @@ Kanal özellikleri (gizli test videosunda denendi; `03-yapim-is-akisi.md` Bölü
 | Özellik | Açık mı | Denendiği tarih | Açık değilse yedek plan |
 |---------|---------|-----------------|--------------------------|
 | Özel kapak | | | Yayın ertelenir |
-| Açıklamada tıklanabilir bağlantı (kısa bağlantı dahil) | | | Prompt'un tam metni açıklamada |
-| Sabit yorum | | | Soru açıklamanın 3. satırında ve kapanış cümlesinde |
+| Açıklamada tıklanabilir bağlantı (kısa bağlantı dâhil) | | | Prompt'un tam metni açıklamada |
+| Sabitlenmiş yorum | | | Soru açıklamanın 3. satırında; videoda "yapamadığı şey"in sonunda sözlü (kapanış cümlesi sonraki video olarak kalır) |
 | Shorts "ilgili video" | | | Yalnızca sözlü yönlendirme |
 | Senaryodan altyazı senkronizasyonu (Türkçe) | | | Buzz ile döküm + elle düzeltme |
 | Yerleşik başlık/kapak testi | | | Tek değişkenli önce/sonra değişikliği |
@@ -105,7 +105,7 @@ Bülteni başlatma eşiği için sayım (03 belgesi Bölüm 5.6): son 5 videodan
 | **Planlanan birincil kaynak · hedef sorgu** | |
 | **Gerçekleşen birincil kaynak** (28. gün) | |
 | **Oynatma listesi · bitiş ekranı öğesi ve hedefi** | Liste: [ ] · Öğe: belirli video / oynatma listesi → [ ] |
-| **Yerleşik başlık/kapak testi** | Sürüyor mu: E / H · Bitiş tarihi: [ ] · Test sonrası 7 günlük tıklanma oranı (birincil kaynak): [ ] |
+| **Yerleşik başlık/kapak testi** | Sürüyor mu: E / H · Bitiş tarihi: [ ] · Test sonrası 7 günlük CTR (birincil kaynak): [ ] |
 
 **Üretim süresi (tahmin → gerçek)**
 
@@ -122,7 +122,7 @@ Bütçe sütunu başlangıç profilidir (Kronometre Yarışı, 8–10 dakikalık
 | Seslendirme | 55 dk | | | |
 | Kurgu | 150 dk | | | |
 | Kapak | 25 dk | | | |
-| Yayınlama (prompt dosyası dahil) | 30 dk | | | |
+| Yayınlama (prompt dosyası dâhil) | 30 dk | | | |
 | Kısa video kesimi | 50 dk (2 video) | | | |
 | Dağıtım | 20 dk | | | |
 | LinkedIn metin gönderisi | 15 dk | | | |
@@ -136,8 +136,8 @@ Bütçe sütunu başlangıç profilidir (Kronometre Yarışı, 8–10 dakikalık
 | Metrik | 48 saat | 7 gün | 28 gün | Kanal medyanı (7 gün) |
 |--------|---------|-------|--------|------------------------|
 | Gösterim | | | | |
-| Gösterim tıklanma oranı (test sürüyorsa "test" yaz; medyana katma) | | | | |
-| Planlanan birincil kaynakta gösterim / tıklanma oranı | | | | |
+| Gösterim tıklama oranı (CTR) (test sürüyorsa "test" yaz; medyana katma) | | | | |
+| Planlanan birincil kaynakta gösterim / CTR | | | | |
 | Görüntüleme (Studio'daki rakam; izleme sayfasındaki sayaç değil) | | | | |
 | İzlenme süresi (saat) | | | | |
 | Ortalama görüntüleme süresi | | | | |
@@ -198,7 +198,7 @@ Prompt kartının göründüğü an: [D:SS] → grafikte orada ne oluyor?
 
 **Değişiklik günlüğü** (yayın sonrası başlık, kapak, açıklama değişiklikleri)
 
-| Tarih | Ne değişti (tek değişken) | Değişiklik öncesi (gösterim / tıklanma oranı, kaç günlük) | Değişiklik sonrası (aynı uzunlukta dönem) | Karar |
+| Tarih | Ne değişti (tek değişken) | Değişiklik öncesi (gösterim / CTR, kaç günlük) | Değişiklik sonrası (aynı uzunlukta dönem) | Karar |
 |-------|---------------------------|------------------------------------------------------------|-------------------------------------------|-------|
 | | | | | |
 

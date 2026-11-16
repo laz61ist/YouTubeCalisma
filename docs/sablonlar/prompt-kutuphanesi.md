@@ -155,7 +155,7 @@ VİDEONUN SONUNDA GÖSTERİLECEK ŞEY: [SON ÖDEME — ör. "iki raporun yan yan
 İLK 5 SANİYEDE EKRANDA OLACAK GÖRÜNTÜ: [AÇILIŞ GÖRÜNTÜSÜ]
 
 KURALLAR:
-- İlk cümle görevi ve süreyi söyler. Selamlama, kanal adı, "bu videoda", "merhaba arkadaşlar" yok.
+- İlk cümle en fazla 12 kelimedir; görevi ve ölçülecek şeyi söyler (süre kalıbında süre; çıktı kalıbında önce/sonra ya da hakem). Selamlama, kanal adı, "bu videoda", "merhaba arkadaşlar" yok.
 - İlk cümle başlığın verdiği sözü kendi kelimeleriyle tekrar eder.
 - Her varyasyonda en az bir açık döngü olsun (sonda kapanacak bir soru).
 - Hook, "yapamadığı şey" bölümünün geleceğini haber verir.
@@ -268,7 +268,7 @@ KAPAKTA GÖRÜNECEK EKRAN PARÇASI: [GÖRSEL KANIT — ör. "karışık tablo k�
 
 KURALLAR:
 - Görev etiketi 1–2 kelime, büyük harfle yazılacak, telefonda küçük boyutta okunacak. Türkçe karakterler doğru (İ, Ş, Ğ, Ü, Ö, Ç).
-- Kapakta ana metin dışında toplam en fazla 4 kelime.
+- Kapakta dönüşüm çifti dışında en fazla 2 kelimelik tek etiket (toplam en fazla 2 metin bloğu; 01 belgesi 3.2).
 - Başlıktaki kelimeleri tekrar etme.
 - Abartı sıfatı, ünlem, soru işareti yok.
 - Sayı uydurma; ana metindeki yer tutuculara dokunma.
@@ -309,7 +309,7 @@ TRANSKRİPT (bölüm adları için):
 2. KISA ÖZET (3–4 cümle): ne yapıldı, ne ölçüldü, nerede takıldı. Verdiğim ölçümlerin dışında sayı yazma.
 3. PROMPT BLOĞU: "Videodaki prompt (kopyala, köşeli parantezli yerleri doldur):" satırı + verdiğim prompt metni, tek harfini değiştirmeden + "Düzenli hâli ve bütün prompt'lar:" satırı + bağlantı.
 4. BÖLÜMLER: Verdiğim zaman damgalarını aynen kullan, yeni zaman damgası uydurma. İlk satır 0:00 olmalı. Her bölüm adı 2–5 kelime; izleyicinin atlamak isteyeceği yeri anlatsın ("Yapamadığı şey", "Kopyalanabilir prompt" gibi).
-5. NASIL ÖLÇTÜM BLOĞU: çekim tarihi, araçlar, elle süreyi kimin ölçtüğü, "Prompt'u önceden [N] denemede hazırladım; bu süre hazır prompt'la. İlk kez yapan için hazırlık dahil [KURULUM SÜRE] daha ekle." cümlesi, "Araçlar güncellendikçe sonuçlar değişebilir." Verdiğim değerlerin dışında sayı yazma.
+5. NASIL ÖLÇTÜM BLOĞU: çekim tarihi, araçlar, elle süreyi kimin ölçtüğü, "Prompt'u önceden [N] denemede hazırladım; bu süre hazır prompt'la. İlk kez yapan için hazırlık dâhil [KURULUM SÜRE] daha ekle." cümlesi, "Araçlar güncellendikçe sonuçlar değişebilir." Verdiğim değerlerin dışında sayı yazma.
 6. SABİT YORUM için 3 seçenek: izleyiciye kendi işiyle ilgili, cevabı bir sonraki videoya fikir verecek tek soru. "Beğenmeyi unutma" türü çağrı yazma.
 7. 5–8 arama ifadesi önerisi (etiket alanı için), yalnızca transkriptte geçen kavramlardan.
 
@@ -340,10 +340,10 @@ SEÇİM ÖLÇÜTLERİ:
 İSTEDİĞİM ÇIKTI:
 6 aday. Her biri için:
 1. Başlangıç–bitiş zaman kodu (yalnızca transkriptteki zaman kodlarını kullan; uydurma).
-2. Tür: sonuç / yapamadığı şey / tek prompt / alışkanlık.
+2. Tür: önce/sonra (sonuç) / hata ya da "yapamadığı şey" / tek ipucu (bir prompt satırı, bir alışkanlık, bir kontrol).
 3. Transkriptten birebir alıntı (ilk ve son cümle).
 4. Eksik bağlam: uzun videoyu görmeyen biri neyi anlamaz?
-5. Yeni açılış cümlesi önerisi (yeniden seslendireceğim): en fazla 12 kelime, görev + sayı. Yalnızca yukarıdaki ölçümleri kullan.
+5. Yeni açılış cümlesi önerisi (yeniden seslendireceğim): en fazla 10 kelime (01 belgesi 4.4), görev ya da sonuç; sayı yalnızca uzun videonun paketi süre taşıyorsa. Yalnızca yukarıdaki ölçümleri kullan.
 6. Ekrandaki üst başlık yazısı (en fazla 6 kelime).
 7. Dikey çerçevede büyütülmesi gereken ekran bölgesi.
 8. Son cümle: uzun videoya sözlü yönlendirme (en fazla 10 kelime; "tam hâli kanaldaki uzun videoda" anlamında).
@@ -395,7 +395,7 @@ BU VİDEODA SINADIĞIM HİPOTEZ: [HİPOTEZ]
 
 BU VİDEONUN VERİLERİ (YouTube Studio'dan):
 - Gösterim: [ ]
-- Gösterim tıklanma oranı: [ ]
+- Gösterim tıklama oranı (CTR): [ ]
 - Görüntüleme: [ ]
 - Ortalama görüntüleme süresi: [ ]
 - Ortalama görüntüleme yüzdesi: [ ]
@@ -411,12 +411,12 @@ TUTMA GRAFİĞİ GÖZLEMLERİM (zaman damgası → o anda ekranda/seste ne vard�
 [TUTMA GÖZLEMLERİ — ör. "0:22 dik düşüş → veri tanıtımı başlıyor"; "4:10 yükseliş → hata anı"]
 
 KANALIN ÖNCEKİ VİDEOLARI (aynı zaman noktasındaki değerler; karşılaştırma için):
-[ÖNCEKİ VİDEOLAR TABLOSU — başlık | gösterim | tıklanma oranı | ort. görüntüleme yüzdesi | 30. sn | abone]
+[ÖNCEKİ VİDEOLAR TABLOSU — başlık | gösterim | gösterim tıklama oranı (CTR) | ort. görüntüleme yüzdesi | 30. sn | abone]
 
 BAŞLIK/KAPAK DEĞİŞİKLİĞİ YAPILDI MI: [HAYIR / EVET: tarih ve ne değişti]
 
 İSTEDİĞİM ÇIKTI:
-1. VERİ YETERLİLİĞİ: Bu sayılarla hangi sorulara cevap verilebilir, hangilerine verilemez? Gösterim çok düşükse tıklanma oranı yorumunun güvenilmez olduğunu açıkça söyle.
+1. VERİ YETERLİLİĞİ: Bu sayılarla hangi sorulara cevap verilebilir, hangilerine verilemez? Gösterim çok düşükse CTR yorumunun güvenilmez olduğunu açıkça söyle.
 2. ÖNCEKİ VİDEOLARLA FARK: Hangi metrik kanalın önceki videolarından belirgin biçimde ayrışıyor? Yalnızca verdiğim tabloya dayan. Tablo boşsa ya da 5'ten az video varsa karşılaştırmanın zayıf olduğunu belirt.
 3. PAKET mi İÇERİK mi: Sorun (varsa) gösterimde mi, tıklamada mı, ilk 30 saniyede mi, gövdede mi? Her biri için hangi veri bunu gösteriyor?
 4. TUTMA: Verdiğim düşüş/yükseliş noktaları için olası nedenler (en fazla 2'şer) ve bir sonraki videoda sınanacak değişiklik.
@@ -425,7 +425,7 @@ BAŞLIK/KAPAK DEĞİŞİKLİĞİ YAPILDI MI: [HAYIR / EVET: tarih ve ne değişt
 7. BU VİDEO İÇİN EYLEM: Başlık ya da kapak değiştirilmeli mi? Öneriyorsan tek değişken öner ve ne kadar bekleyip neye bakacağımı söyle.
 
 KURALLAR:
-- Sektör ortalaması, "iyi tıklanma oranı şudur" türü eşik ya da kıyas uydurma. Yalnızca benim verilerime dayan.
+- Sektör ortalaması, "iyi CTR şudur" türü eşik ya da kıyas uydurma. Yalnızca benim verilerime dayan.
 - YouTube'un öneri sisteminin iç işleyişi hakkında kesin iddiada bulunma; bir şeyi YouTube'un resmî açıklaması olarak sunacaksan öyle olduğundan emin değilsen "yaygın gözlem" de.
 - Tek videodan çıkan sonuca "ipucu" de; "bulgu" deme.
 ```
@@ -521,4 +521,5 @@ Bir prompt'u değiştirdiğinde buraya yaz; hangi videoda neden değiştiği ü�
 
 | Tarih | Prompt | Ne değişti | Neden (hangi videoda ne oldu) |
 |-------|--------|-----------|-------------------------------|
+| 2026-11-16 | P3, P6, P8, P10 | P3: ilk cümle 12 kelime ve "ölçülecek şey"; P6: kapakta çift dışında en fazla 2 kelimelik tek etiket; P8: tür adları ve 10 kelimelik açılış; P10: "gösterim tıklama oranı (CTR)" | Yayın öncesi belge tutarlılığı: sınırlar 01 belgesi 3.2, 4.3 ve 4.4 ile eşitlendi (video yok) |
 | | | | |

@@ -2,7 +2,7 @@
 
 Kategori: B (başlangıç / doğru kullanım) · Hedef süre: tahmini 12 dk 15 sn (kurgu sonrası 12–14 dk aralığında kalmalı) · Seslendirme: 1.233 kelime (yer tutucular doldurulunca tahmini 60–90 kelime daha) · Format: ekran kaydı + seslendirme, tek kısa masa üstü çekim (yüz yok)
 
-Paket kartı: `docs/01-icerik-uretim-sistemi.md`, Bölüm 9, Yayın 1 — kapak B1 · hook H3 · açılış S3 · kurgu KG3 (Hata Listesi). Bu senaryo o kartın tam hâlidir; ikisi arasında fark doğarsa senaryo geçerlidir ve kart aynı gün buna göre güncellenir.
+Paket kartı: `01-icerik-uretim-sistemi.md`, Bölüm 9, Yayın 1 — kapak B1 · hook H3 · açılış S3 · kurgu KG3 (Hata Listesi). Bu senaryo o kartın tam hâlidir; ikisi arasında fark doğarsa senaryo geçerlidir ve kart aynı gün buna göre güncellenir.
 
 ---
 
@@ -103,7 +103,7 @@ MS-042 | Yapışkan Not Kâğıdı 12'li | paket | 132,00
 
 ```
 - İskonto: ilk siparişe özel %5 (ara toplam üzerinden).
-- KDV: %20, fiyatlara dahil değil.
+- KDV: %20, fiyatlara dâhil değil.
 - Teslimat: sipariş onayından sonra 3 iş günü; İstanbul içi ücretsiz.
 - Ödeme: fatura tarihinden itibaren 30 gün.
 - Teklif geçerliliği: 15 gün.
@@ -184,7 +184,7 @@ Yarın öğlene kadar onay verirseniz ilk teslimatı perşembe günü yapıyoruz
 
 ### 2.4 Elle ölçüm = `[ELLE SÜRE]`
 
-1. Aynı malzemeyle (2.2 a–c ve e'deki bilgiler) teklif e-postasını yapay zekâ kullanmadan yaz. Tabloyu, toplamları ve son okumayı dahil et. Telefon kronometresiyle ölç, ekranı kaydet (hook'ta 20× hızlandırılmış B-roll).
+1. Aynı malzemeyle (2.2 a–c ve e'deki bilgiler) teklif e-postasını yapay zekâ kullanmadan yaz. Tabloyu, toplamları ve son okumayı dâhil et. Telefon kronometresiyle ölç, ekranı kaydet (hook'ta 20× hızlandırılmış B-roll).
 2. Yazarken kendine sorduğun soruları bir kâğıda not et ("toner yeter mi?", "indirimi baştan mı söylesem?" gibi; ne geldiyse). İlk üçü desen kırıcıda okunacak = `[ÇEKİMDE KAYDET]`.
 3. Ölçmeden hook okunmaz. Süre kısa çıkarsa kısa yazılır; bu videonun başlığı ve kapağı süreye dayanmıyor.
 4. **Sıra etkisi:** elle yazım önce yapıldığı için yapay zekâ turunda malzemeyi tanıyorsun; sorulara cevap ve kontrol bu yüzden hızlanır. Bu, karşılaştırma bölümünde bir cümleyle söylenir ve açıklamaya yazılır.
@@ -215,7 +215,7 @@ Kurallar:
 - Kayıt A'da kötü prompt gönderilmez. Kötü denemeler aynı sohbete yazılırsa hem süreyi şişirir hem sonraki cevapları etkiler.
 - Kayıt B'de her prompt yeni sohbette olduğu için yapay zekâ önceki cevabını görmez; "bu adımda değiştirdiğim şey şu cümleler" cümlesi ancak böyle söylenebilir. Yine de tek çekimdir: açıklamaya "sonuçlar her denemede biraz değişir" notu yazılır.
 - **Şablona çevirme (7. alışkanlık) `[YZ SÜRE]` içinde değildir.** Bu işin parçası değil, bir sonraki teklif için bir kez yapılan yatırım. Kronometre durduktan sonra Kayıt A'nın sohbetinde yapılır, ayrı ölçülür = `[ŞABLON SÜRE]` ve ekranda ayrı satır olarak verilir.
-- Elle sürede olduğu gibi, malzemeyi bulup kopyalama süresi Kayıt A'da da süreye dahildir.
+- Elle sürede olduğu gibi, malzemeyi bulup kopyalama süresi Kayıt A'da da süreye dâhildir.
 
 ### 2.7 Kayıt A'da gönderilecek birleşik prompt (doldurulmuş hâli)
 
@@ -320,7 +320,7 @@ Konuşma süresi dakikada 130 kelime üzerinden tahmindir; çekimden önce bir b
 | 11:20 | Kopyalanabilir prompt ve sonraki video | 82 | 38 | 18 | 55 |
 | | **Toplam** | **1233** | **569** | **175** | **735 (12:15)** |
 
-Kelime sayısına köşeli parantezli yer tutucular dahil değildir. Kurgu 14 dakikayı geçerse ilk kısaltılacak yerler sırasıyla: 3. alışkanlıktaki "eski teklifin yoksa" cümleleri, 5. alışkanlıktaki "istisna" cümleleri, 7. alışkanlıktaki "kalıcı talimat" cümleleri.
+Kelime sayısına köşeli parantezli yer tutucular dâhil değildir. Kurgu 14 dakikayı geçerse ilk kısaltılacak yerler sırasıyla: 3. alışkanlıktaki "eski teklifin yoksa" cümleleri, 5. alışkanlıktaki "istisna" cümleleri, 7. alışkanlıktaki "kalıcı talimat" cümleleri.
 
 ---
 
@@ -328,7 +328,7 @@ Kelime sayısına köşeli parantezli yer tutucular dahil değildir. Kurgu 14 da
 
 **SES**
 
-> Çoğumuz ChatGPT'ye şunu yazıyoruz: "Müşteriye teklif maili yaz." [UYARLA] Aldığımız cevap da bu: uzun, kibar ve içinde tek bir gerçek fiyat yok. Kimseye gönderilemez. Sorun araçta değil, bu tek satırda. Bu teklifi önce elle yazdım: [ELLE SÜRE] sürdü. Şimdi aynı isteği ChatGPT'ye yedi küçük değişiklikle yeniden yazacağım. Her değişiklikten sonra cevabın nasıl değiştiğini ekranda göreceksin. Sonda üç şey var: ölçtüğüm süre, yapay zekânın bu işte yapamadığı şey ve kopyalayabileceğin prompt. Yani yazdığım isteğin tamamı.
+> Çoğumuz ChatGPT'ye şunu yazıyoruz: "Müşteriye teklif maili yaz." [UYARLA] Aldığımız cevap da bu: uzun, kibar ve içinde tek bir gerçek fiyat yok. Kimseye gönderilemez. Sorunun büyük kısmı bu tek satırda. Bu teklifi önce elle yazdım: [ELLE SÜRE] sürdü. Şimdi aynı isteği ChatGPT'ye yedi küçük değişiklikle yeniden yazacağım. Her değişiklikten sonra cevabın nasıl değiştiğini ekranda göreceksin. Sonda üç şey var: ölçtüğüm süre, yapay zekânın bu işte yapamadığı şey ve kopyalayabileceğin prompt. Yani yazdığım isteğin tamamı.
 
 **EKRAN**
 
@@ -340,7 +340,7 @@ Kelime sayısına köşeli parantezli yer tutucular dahil değildir. Kurgu 14 da
 - 0:28 Sarı yazı: "Sonda: süre · yapamadığı şey · kopyalanabilir prompt".
 - Sessiz ekran: 3 sn (cevabın gelişi).
 
-**Tutma notu:** İlk cümlede başlıktaki ad (ChatGPT) ve izleyicinin kendi yazdığı satır duyuluyor; tıklayan kişi doğru yere geldiğini üç saniyede anlıyor. Kanıt (gerçek kötü cevap) vaatten önce geliyor. Dört açık döngü açılır: yedi kutu, bulanık duran son e-posta, kronometrenin son değeri, "yapamadığı şey". Elle süre söyleniyor, yapay zekâ süresi sona saklanıyor; süre küçük de çıksa büyük de çıksa hook aynı kalır. Giriş jeneriği, kanal tanıtımı, selamlama yok.
+**Tutma notu:** İlk cümlede başlıktaki ad (ChatGPT) ve izleyicinin kendi yazdığı satır duyuluyor; tıklayan kişi doğru yere geldiğini üç saniyede anlıyor. Kanıt (gerçek kötü cevap) vaatten önce geliyor. Dört açık döngü açılır: yedi kutu, bulanık duran son e-posta, kronometrenin son değeri, "yapamadığı şey". İlk üçü yapısaldır (ekranda durur); sözlü döngü tektir ("sonda üç şey var"), yani 01 belgesi 7.1'deki "aynı anda en fazla 2 sözlü döngü" sınırının içindedir. Elle süre söyleniyor, yapay zekâ süresi sona saklanıyor; süre küçük de çıksa büyük de çıksa hook aynı kalır. Giriş jeneriği, kanal tanıtımı, selamlama yok.
 
 ---
 
@@ -653,7 +653,7 @@ Bu sohbette sana verdiğim bütün kuralları ve yaptığım düzeltmeleri, baş
 
 **SES**
 
-> Süre: kontrol dahil [YZ SÜRE]. Elle [ELLE SÜRE] sürmüştü. [UYARLA: 2.8'deki kural 3'e göre üç cümleden biri.] Bir şeyi de söyleyeyim. Elle yazarken malzemeyi ilk kez okuyordum. İkinci turda tanıyordum. Farkın bir kısmı oradan geliyor. Kaliteye gelince: solda elle yazdığım, sağda bu. [UYARLA] [ÇEKİMDE DOLDUR: yapay zekâ versiyonunun daha iyi olduğu bir nokta.] Ama [ÇEKİMDE DOLDUR: elle yazılanın daha iyi olduğu bir nokta]. Baştaki cevapla bu son hâl arasında araç aynı, müşteri aynı. Değiştirdiğim şey yazdıklarım.
+> Süre: kontrol dâhil [YZ SÜRE]. Elle [ELLE SÜRE] sürmüştü. [UYARLA: 2.8'deki kural 3'e göre üç cümleden biri.] Bir şeyi de söyleyeyim. Elle yazarken malzemeyi ilk kez okuyordum. İkinci turda tanıyordum. Farkın bir kısmı oradan geliyor. Kaliteye gelince: solda elle yazdığım, sağda bu. [UYARLA] [ÇEKİMDE DOLDUR: yapay zekâ versiyonunun daha iyi olduğu bir nokta.] Ama [ÇEKİMDE DOLDUR: elle yazılanın daha iyi olduğu bir nokta]. Baştaki cevapla bu son hâl arasında araç aynı, müşteri aynı. Değiştirdiğim şey yazdıklarım.
 
 **EKRAN**
 
@@ -697,7 +697,7 @@ Bu sohbette sana verdiğim bütün kuralları ve yaptığım düzeltmeleri, baş
 - Özet prompt tam ekran, yavaş kaydırma (4. bölümdeki metin). Yedi alışkanlığın numarası ilgili satırların yanında küçük sarı rozet olarak görünür. Üstte: "Açıklamada kopyalanabilir hâli var".
 - "Gerçek hayatta" cümlesinde: dağınık bir Excel dosyasının 3 saniyelik görüntüsü (Senaryo 02'nin veri setinden: karışık tarihler, "1.014,00 TL" yazan metin hücreleri) + kronometre 00:00.
 - Bitiş ekranı (son 15–20 sn; **[Resmî]** YouTube bitiş ekranını videonun son 5–20 saniyesine yerleştirmeye izin verir): solda bir sonraki video kartı, sağda abone düğmesi. Sesli "abone ol" çağrısı ve vedalaşma cümlesi yok; son sesli cümle sonraki videodur.
-- Sabitlenmiş yorum: "İşinde en çok vaktini alan yazı işi hangisi? Sıradaki videoları buradaki cevaplara bakarak seçeceğim." Süre için ikinci ölçüm sözü verildiyse (2.8, kural 3) aynı yoruma eklenir.
+- Sabitlenmiş yorum, `02-buyume-stratejisi.md` B3'teki üç bloklu kalıpla yazılır: (1) özet prompt (4. bölüm), (2) sıradaki adım: Yayın 2 (yayınlanınca eklenir), (3) soru: "İşinde en çok vaktini alan yazı işi hangisi? Sıradaki videoları buradaki cevaplara bakarak seçeceğim." Süre için ikinci ölçüm sözü verildiyse (2.8, kural 3) aynı yoruma eklenir.
 - Sessiz ekran: 18 sn (prompt'un kaydırılması ve bitiş ekranı).
 
 **Tutma notu:** Kapanış özet okumasıyla değil, somut bir teslimatla yapılıyor; prompt ilk cümleyle aynı saniyede ekrana geliyor. Sonraki video bugünkü videonun bıraktığı açık bir soruya ("malzeme büyük ve dağınıksa?") bağlanıyor. Vedalaşma cümlesi olmadığı için izleyiciye çıkış işareti verilmiyor; son cümleden bitiş ekranına doğrudan geçiliyor.
@@ -763,7 +763,7 @@ Uzun videodan yalnızca görüntü alınır; her Short'un kendi seslendirmesi ay
 
 ### Short 1 — "ChatGPT'ye Yazmadan Önce Bu Cümleyi Ekle"
 
-Görüntü kaynağı: 4:30–5:40 (Alışkanlık 4). Seslendirme 69 kelime; tahmini süre 35 sn (5 sn sessiz ekran dahil).
+Görüntü kaynağı: 4:30–5:40 (Alışkanlık 4). Seslendirme 69 kelime; tahmini süre 35 sn (5 sn sessiz ekran dâhil).
 
 > İsteğinin sonuna bu tek cümleyi ekle: "Yazmadan önce eksik gördüğün ne varsa bana sor. En fazla beş soru." Çünkü yapay zekâ çoğu zaman sormaz. Boşluğu tahminle doldurur ve o tahmini kesin bilgi gibi yazar. [UYARLA] Bir müşteriye teklif yazdırdım. Sormasını istemediğimde, stokta olmayan ürünü üç günde teslim edeceğimi yazdı. Cümleyi ekleyince stoğu sordu. Sınırı da koy. Soruları cevaplamak işi yapmaktan uzun sürmesin. Bu, yedi alışkanlıktan biri. Diğer altısı uzun videoda.
 
@@ -771,7 +771,7 @@ Görüntü sırası: soru cümlesinin yazılışı → P3 çıktısındaki işar
 
 ### Short 2 — "ChatGPT'ye 'Emin misin?' Diye Sorma"
 
-Görüntü kaynağı: 7:15–8:35 (Alışkanlık 6). Seslendirme 68 kelime; tahmini süre 40 sn (8 sn sessiz ekran dahil).
+Görüntü kaynağı: 7:15–8:35 (Alışkanlık 6). Seslendirme 68 kelime; tahmini süre 40 sn (8 sn sessiz ekran dâhil).
 
 > Yapay zekâya "emin misin?" diye sorma. [UYARLA] Ben sordum: [ÇEKİMDE: ne yaptıysa]. Ne derse desin, elinde kontrol edebileceğin bir şey olmaz. Onun yerine şunu yaz: "Metindeki her sayıyı listele. Her birinin yanına nereden aldığını yaz. Dayanağı olmayan bilgiyi ayrıca işaretle." Bu liste de kanıt değil. Ama neye bakacağını gösterir. Sonra en önemli iki üç sayıyı kaynağından kendin kontrol et. Müşteriye giden yanlış fiyatın bedelini sen ödersin. Kontrol isteğinin tamamı şu an ekranda.
 
@@ -779,7 +779,7 @@ Görüntü sırası: "Emin misin?" denemesinin gerçek cevabı → kontrol promp
 
 ### Short 3 — "'Teklif Maili Yaz' Neden İşe Yaramıyor?"
 
-Görüntü kaynağı: masa çekiminin dikey kaydı (5:40–6:10 ile aynı çekim) + P0 çıktısı. Seslendirme 73 kelime; tahmini süre 40 sn (5 sn sessiz ekran dahil).
+Görüntü kaynağı: masa çekiminin dikey kaydı (5:40–6:10 ile aynı çekim) + P0 çıktısı. Seslendirme 73 kelime; tahmini süre 40 sn (5 sn sessiz ekran dâhil).
 
 > "Müşteriye teklif maili yaz." Bunu yapay zekâya değil, işe dün başlamış birine yazdığını düşün. Zeki biri. Ama müşteriyi tanımıyor, fiyat listeni görmedi, senin nasıl yazdığını bilmiyor. Ne yapar? Ya sana soru sorar ya da kimseye gönderilemeyecek genel bir şey yazar. Yapay zekâ çoğu zaman ikincisini yapıyor. Ona da aynı dört şeyi ver: kime yazdığını, elindeki malzemeyi, eski bir örneğini ve soru sorma iznini. Mesele özel bir teknik değil. Bir işi birine düzgün devretmek.
 
@@ -787,7 +787,7 @@ Görüntü sırası: yapışkan not → el, notun yanına sırayla dört şey b�
 
 Yedek: Alışkanlık 2'deki "profesyonel olsun işe yaramıyor" anı (ayrı seslendirme yazılırsa tahmini 20–25 sn).
 
-Yayın sırası: uzun videodan sonraki günlerde 1 → 2 → 3. Her Short'a uzun video "ilgili video" olarak bağlanır `[DOĞRULA: yükleme ekranında bu alan hâlâ var mı ve Studio hangi ölçümü veriyor]`. Hangi Short'un uzun videoya izleyici taşıdığına şuradan bakılır: uzun videonun YouTube Studio'daki trafik kaynakları raporunda Shorts kaynaklı izlenme `[DOĞRULA: raporda bu ayrım Short bazında görünüyor mu; görünmüyorsa üç Short ayrı günlerde yayınlanır ve uzun videonun o günkü Shorts kaynaklı izlenmesi karşılaştırılır]`. Sonuç bir sonraki videonun Shorts seçimine not edilir.
+Yayın sırası: 1 → 2 → 3. Takvim `02-buyume-stratejisi.md` B2'deki gibidir: ilki salı (uzun videodan önce), ikincisi cuma, üçüncüsü isteğe bağlı olarak ertesi pazartesi. Uzun videodan önce yayınlanan Short'ta "ilgili video" bağlantısı uzun video yayına girince eklenir (`03-yapim-is-akisi.md` 5.2). Türler (01 belgesi 4.4): Short 1 tek ipucu · Short 2 tek ipucu (kontrol) · Short 3 hata (yanlış kullanım); Kayıt B/C'de gösterilebilir bir hata çıkarsa Short 2 hata türüne çevrilebilir. Her Short'a uzun video "ilgili video" olarak bağlanır `[DOĞRULA: yükleme ekranında bu alan hâlâ var mı ve Studio hangi ölçümü veriyor]`. Hangi Short'un uzun videoya izleyici taşıdığına şuradan bakılır: uzun videonun YouTube Studio'daki trafik kaynakları raporunda Shorts kaynaklı izlenme `[DOĞRULA: raporda bu ayrım Short bazında görünüyor mu; görünmüyorsa üç Short ayrı günlerde yayınlanır ve uzun videonun o günkü Shorts kaynaklı izlenmesi karşılaştırılır]`. Sonuç bir sonraki videonun Shorts seçimine not edilir.
 
 ---
 
@@ -797,7 +797,7 @@ Yayın sırası: uzun videodan sonraki günlerde 1 → 2 → 3. Her Short'a uzun
 "Müşteriye teklif maili yaz." yazıp vasat bir cevap aldıysan sorun büyük ihtimalle araçta değil, o tek satırda. Bu videoda aynı müşteri talebini ChatGPT'ye yedi küçük değişiklikle yeniden yazıyorum; her adımda cevabın nasıl değiştiği ekranda.
 
 Elle: [ELLE SÜRE] · ChatGPT + kontrol: [YZ SÜRE] · Şablona çevirme (bir kez): [ŞABLON SÜRE]
-Süreye isteği yazma, cevabı bekleme, soruları cevaplama, düzeltme ve sayı kontrolü dahildir.
+Süreye isteği yazma, cevabı bekleme, soruları cevaplama, düzeltme ve sayı kontrolü dâhildir.
 
 BÖLÜMLER
 0:00 "Teklif maili yaz" ve gelen cevap
@@ -826,7 +826,7 @@ Metindeki her sayıyı listele ve her birinin yanına nereden aldığını yaz. 
 ÇEKİM NOTLARI
 Araç: ChatGPT ([ÇEKİMDE DOLDUR: plan]) · Çekim tarihi: [ÇEKİMDE DOLDUR]
 Bellek ve özel talimatlar kapalıydı; fiyatlar metin olarak yapıştırıldı, dosya yüklenmedi.
-Süre tek seferlik bir kayıttan alındı. Ara cevaplar ve kötü örnekler ayrı sohbetlerde kaydedildi, süreye dahil değildir.
+Süre tek seferlik bir kayıttan alındı. Ara cevaplar ve kötü örnekler ayrı sohbetlerde kaydedildi, süreye dâhil değildir.
 Her istek birkaç kez denendi; ekranda tipik olan gösterildi. Sonuçlar her denemede biraz değişir, sende de farklı çıkabilir.
 Elle yazım önce yapıldı; ikinci turda malzemeyi tanıyor olmam süre farkının bir kısmını açıklar.
 Müşteri, firma ve fiyatlar örnek veridir; gerçek kişi ya da şirkete ait değildir.
@@ -887,4 +887,37 @@ Bölüm adları maddelerin hata adlarıdır (1. bölümdeki tablo), çözüm adl
 - [ ] Bölüm zaman damgaları son kurguya göre güncellendi; her maddenin adı 1. bölümdeki tabloyla aynı.
 - [ ] Özet prompt açıklamaya düz metin olarak yapıştırıldı ve oradan kopyalanıp boş bir sohbette denendi.
 - [ ] `[DOĞRULA]` işaretli dört nokta (ayar adları, bölüm koşulları, Shorts "ilgili video" alanı, Shorts kaynaklı trafik raporu) kontrol edildi.
-- [ ] `docs/01-icerik-uretim-sistemi.md` Yayın 1 kartı bu senaryoyla aynı görevi, kapağı ve hook'u gösteriyor.
+- [ ] `01-icerik-uretim-sistemi.md` Yayın 1 kartı bu senaryoyla aynı görevi, kapağı ve hook'u gösteriyor.
+
+---
+
+## 9. Şablon eşlemesi ve iddia–kaynak tablosu
+
+Bu senaryo `sablonlar/senaryo-sablonu.md` içindeki blok biçimiyle (SES / EKRAN / Tutma notu) yazıldı. Durum: **Taslak** (çekim öncesi; yer tutucular boş).
+
+| Şablondaki alan | Bu dosyada |
+|---|---|
+| Yer tutucu listesi | 2.9; değerler çekimden sonra `olcum.md` dosyasından girilir |
+| Bölüm 1 — Hook | 0:00–0:35 (H3, açılış S3) |
+| Bölüm 2 — Görev ve veri | 0:35–1:05; malzeme 2.2–2.3 |
+| Bölüm 3 — Gövde (KG3: madde başına aynı kalıp) | 1:05–9:35 (yedi alışkanlık + 5:40'taki desen kırıcı); görsel abone bandı 2. alışkanlığın sonunda |
+| Bölüm 4 — Süre ve kalite karşılaştırması | 9:35–10:05 |
+| Bölüm 5 — Yapamadığı şey + yorum sorusu (sözlü CTA 1/3) | 10:05–11:20 |
+| Bölüm 6 — Kopyalanabilir prompt (sözlü CTA 2/3) | 11:20'den itibaren; metin 4. bölümde |
+| Bölüm 7 — Sonraki video (sözlü CTA 3/3, son sesli cümle) | 11:20–12:15'in son cümleleri |
+| Çekim listesi | 2.6 (Kayıt A, B, C) + 2.4'teki elle yazım kaydı + masa çekimi (yatay ve dikey) |
+| Kısa video işaretleri | 5. bölüm |
+
+İddia–kaynak tablosu (çekimden gelmeyen ya da çekimde sınanması gereken iddialar; çekimden sonra zaman koduyla tamamlanır):
+
+| Yer | İddia | Kaynak / durum |
+|---|---|---|
+| Hook, karşılaştırma, açıklama | `[ELLE SÜRE]`, `[YZ SÜRE]`, `[ARA SÜRE]`, `[ŞABLON SÜRE]` | `olcum.md`; ölçülmeden okunmaz |
+| Alışkanlık 1 | "Ekran görüntüsünde sayıları yanlış okuyabiliyor." | Çekim: 2.5'teki ekran görüntüsü denemesi; hata çıkmazsa cümle silinir |
+| Alışkanlık 2 | "Nedeni yazınca, saymadığım durumlarda da ona göre davranma ihtimali artıyor." | `görüş` (prompt yazım pratiği); bu çekimde ölçülmüyor. Kesin dille söylenmez, "ihtimali artıyor" olarak kalır |
+| Alışkanlık 3 | "Birbirinden farklı iki üç örnek verebilirsen daha iyi." | `görüş`; bu çekimde tek örnek kullanılıyor, ölçülmüyor |
+| Alışkanlık 4 | "Yapay zekâ çoğu zaman kendiliğinden sormaz; boşluğu tahminle doldurur." | Çekim: Kayıt B, P3 çıktısı ve ön test (2.8 kural 1); sonuç farklıysa cümle kurala göre değişir |
+| Alışkanlık 6 | "Yanlış bir sayıyı da doğru bir sayıyla aynı güvenle yazabiliyor." | `görüş` + çekim (elle kontrolün sonucu) |
+| Yapamadığı şey 2 | "Dosyayı yükleyince bazı araçlar hesabı kod çalıştırarak yapıyor." | Birincil kaynak gerekli: çekimde kullanılan aracın kendi yardım sayfası `[DOĞRULA]`; doğrulanamazsa cümle silinir |
+| Bitiş ekranı | "Son 5–20 saniyeye eklenir." | YouTube Yardım, "Add end screens" (bağlantı: 02 belgesi B3); orada **[Resmî — sayfada teyit et]** düzeyinde |
+| Bölüm listesi | "İlk damga 0:00, en az üç damga, bölüm başına en az 10 saniye." | YouTube Yardım, video bölümleri sayfası; `[DOĞRULA]` (03 belgesi Aşama 8'de de "yayın öncesi doğrula") |

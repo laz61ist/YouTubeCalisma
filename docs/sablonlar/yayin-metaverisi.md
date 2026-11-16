@@ -65,7 +65,7 @@ Bu seriden:
 [OYNATMA LİSTESİ ADI] — [BAĞLANTI]
 
 Nasıl ölçtüm:
-Çekim tarihi: [AY YIL]. Kullanılan araçlar: [ARAÇLAR]. Elle süre: [nasıl ölçüldü — "kendim yaptım" / "işi yapan biri ölçtü"]; ham ölçüm [ ], yuvarlanmış [ELLE SÜRE]. Yapay zekâyla süre, ilk adımdan kullanılabilir çıktıya kadar, kontrol ve düzeltme turları dahil tek kayıtta ölçüldü; ham ölçüm [ ], yuvarlanmış [YZ SÜRE]. Prompt'u önceden [N] denemede hazırladım; bu süre hazır prompt'la. İlk kez yapan için hazırlık dahil [KURULUM SÜRE] daha ekle. Elle yolu önce yaptığım için yapay zekâlı turda dosyayı zaten tanıyordum. Örnek veri kurgusaldır. Araçlar güncellendikçe sonuçlar değişebilir.
+Çekim tarihi: [AY YIL]. Kullanılan araçlar: [ARAÇLAR]. Elle süre: [nasıl ölçüldü — "kendim yaptım" / "işi yapan biri ölçtü"]; ham ölçüm [ ], yuvarlanmış [ELLE SÜRE]. Yapay zekâyla süre, ilk adımdan kullanılabilir çıktıya kadar, kontrol ve düzeltme turları dâhil tek kayıtta ölçüldü; ham ölçüm [ ], yuvarlanmış [YZ SÜRE]. Prompt'u önceden [N] denemede hazırladım; bu süre hazır prompt'la. İlk kez yapan için hazırlık dâhil [KURULUM SÜRE] daha ekle. Elle yolu önce yaptığım için yapay zekâlı turda dosyayı zaten tanıyordum. Örnek veri kurgusaldır. Araçlar güncellendikçe sonuçlar değişebilir.
 
 [YALNIZCA GEREKİYORSA — düzeltme notu:]
 Düzeltme ([TARİH]): [ne yanlıştı, doğrusu ne]
@@ -100,14 +100,20 @@ Zaman damgaları kurgudan alınır; tahminle yazılmaz.
 - [ ] İlk damga 0:00 · [ ] En az 3 bölüm · [ ] Her bölüm en az 10 saniye · [ ] Artan sırada
 - [ ] "Yapamadığı şey" ve "Kopyalanabilir prompt" bölümleri her videoda aynı adla (izleyici arar, bulur)
 
-## 5. Sabit yorum
+## 5. Sabitlenmiş yorum
 
 Amaç: izleyicinin kendi işini yazması; cevaplar bir sonraki videonun malzemesi. Beğeni/abone çağrısı değil.
 
-Yorum sabitleme yeni kanalda açık olmayabilir (03 belgesi Bölüm 0.1). Açık değilse yorum yine yazılır; aynı soru açıklamanın üçüncü satırına ve videonun kapanış cümlesine konur.
+Yorum sabitleme yeni kanalda açık olmayabilir (03 belgesi Bölüm 0.1). Açık değilse yorum yine yazılır; aynı soru açıklamanın üçüncü satırına da konur. Videoda soru zaten "yapamadığı şey" bölümünün sonunda sözlü sorulur (01 belgesi 8.3); kapanış cümlesi değişmez, son sesli cümle sonraki videodur.
+
+Kalıp üç blokludur ve tek tanımı `02-buyume-stratejisi.md` B3'tedir: prompt · sıradaki adım · soru. Soru, videoda "yapamadığı şey"in sonunda sorulan soruyla aynı kelimelerle yazılır.
 
 ```text
-Videodaki prompt açıklamada tam metniyle duruyor. Düzenli hâli ve bütün prompt'lar: [PROMPT KISA BAĞLANTISI]
+Videodaki prompt (kopyala-yapıştır): ↓
+[PROMPT METNİ]
+Düzenli hâli ve bütün prompt'lar: [PROMPT KISA BAĞLANTISI]
+
+Sıradaki adım: [SONRAKİ VİDEO BAŞLIĞI] → [BAĞLANTI; sonraki video yayınlanınca eklenir]
 
 [SORU — izleyicinin kendi işiyle ilgili, tek ve somut. Örn. "Senin işinde her ay tekrar eden ve en çok vakit alan tablo hangisi? Yaz, uygun olanı kronometreyle deneyeyim."]
 ```
@@ -118,7 +124,7 @@ Alternatif sorular (sıradaki videolarda dönüşümlü):
 - "[GÖREV]i elle yapmak sende ne kadar sürüyor?"
 - "Sırada [A] mı olsun [B] mi?"
 
-Düzeltme gerekirse sabit yorumun **başına** eklenir:
+Düzeltme gerekirse sabitlenmiş yorumun **başına** eklenir:
 
 ```text
 Düzeltme ([TARİH]): [ne yanlıştı, doğrusu ne]. Fark eden [isim vermeden: "bir izleyiciye"] teşekkürler.
@@ -188,7 +194,7 @@ Varsayılan iki kısa videodur; K3 bütçe tutuyorsa kesilir. İlk 4 hafta dağ�
 | | K1 | K2 | K3 (isteğe bağlı) |
 |---|----|----|----|
 | Dosya | `KM-[NO]_K1_..._dikey.mp4` | | |
-| Tür | sonuç / yapamadığı şey / tek prompt | | |
+| Tür | önce/sonra / hata–yapamadığı şey / tek ipucu | | |
 | İçindeki süre/sayı (`olcum.md` ile aynı) | | | |
 | Yayın (uzun videoya göre) | önce / sonra, tarih | | |
 | Shorts başlığı | | | |

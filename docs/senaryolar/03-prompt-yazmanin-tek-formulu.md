@@ -2,7 +2,9 @@
 
 Kategori: B (başlangıç / doğru kullanım) · Hedef süre: 10,5–11 dk · Seslendirme: yaklaşık 1.130 kelime (sayıldı, yer tutucular hariç; yer tutucular dolunca tahmini 1.250) · Format: ekran kaydı + seslendirme, tek kısa masa üstü çekim (yüz yok)
 
-**Yayın sırası:** yedek (stok) video; karar `docs/01-icerik-uretim-sistemi.md` Bölüm 9'da yazılı. Bu başlık ilk 10 yayın listesinde yok; dosya numarası (03) senaryo sırasıdır, yayın sırası değil. Çekilip stokta bekler: Yayın 3'ten sonraki bir hafta üretim aksarsa o hafta yayınlanır; aksama olmazsa "(13) Bir Hafta Bütün E-postalarımı Yapay Zekâya Yazdırdım" ile "(10) Her Gün Kullandığım 10 Prompt" arasına girer ve ilk tur 11 videoya çıkar ((13) kaydırılmaz). Üçüncü yayın haftasına konmaz: Senaryo 02'nin kapanışı izleyiciye "gelecek hafta araç karşılaştırması" sözü veriyor. Bu video yayınlandığında Senaryo 01 yayında olmalı; seslendirmedeki köprü cümlesi ve yedek bitiş ekranı ona dayanıyor.
+**Yayın sırası:** yedek (stok) video; karar `01-icerik-uretim-sistemi.md` Bölüm 9'da yazılı. Bu başlık ilk 10 yayın listesinde yok; dosya numarası (03) senaryo sırasıdır, yayın sırası değil. Çekilip stokta bekler: Yayın 3'ten sonraki bir hafta üretim aksarsa o hafta yayınlanır; aksama olmazsa "(13) Bir Hafta Bütün E-postalarımı Yapay Zekâya Yazdırdım" ile "(10) Her Gün Kullandığım 10 Prompt" arasına girer ve ilk tur 11 videoya çıkar ((13) kaydırılmaz). Üçüncü yayın haftasına konmaz: Senaryo 02'nin kapanışı izleyiciye "gelecek hafta araç karşılaştırması" sözü veriyor. Bu video yayınlandığında Senaryo 01 yayında olmalı; seslendirmedeki köprü cümlesi ve yedek bitiş ekranı ona dayanıyor.
+
+Paket kartı yok (ilk 10 listesinin dışında); bu dosyanın 1. bölümü kartın yerini tutar. Kurallar `01-icerik-uretim-sistemi.md` ile aynıdır: kapak Yerleşim A (eşik tutmazsa B) · hook A metni H2 türü (sonucu önce göster), B metni H3 türü (yanlış kullanım aynası) · açılış S2 / S3 · kurgu KG3'ün üç işli sürümü.
 
 ---
 
@@ -23,12 +25,13 @@ Zemin koyu lacivert, vurgu sarı, yüz yok. Dört parçanın adı kapakta yazmaz
 
 | Başlık | Kapak |
 |---|---|
-| A (varsayılan) | Büyük punto sabit kalıp: `[ELLE SÜRE] → [YZ SÜRE]` (üç işin toplamı). Altında dört **boş** sarı kare. Sağ altta küçük etiket: "4 parça". |
-| B | Üstte beyaz "GENEL CEVAP?". Altında dört sarı kare; üçü dolu sarı, biri kesik çizgili boş. Süre kalıbı sağ altta küçük. |
-| C | Üç küçük simge yan yana (zarf, liste, ilan panosu); altlarında tek sarı bant: "AYNI 4 SATIR". Süre kalıbı sağ altta küçük. |
+| A (varsayılan) | Yerleşim A. Süre çifti büyük: `[ELLE SÜRE] → [YZ SÜRE]` (üç işin toplamı). Öbür yarıda görsel kanıt olarak dört **boş** sarı kare. Etiket çiftin altında: "4 PARÇA". Sağ alt köşe boş. |
+| B | Yerleşim B. Çıktı çifti: "GENEL → GÖNDERİLİR"; solda kısa isteğin çıktısından soluk bir kırpma, sağda dört sarı kare (üçü dolu, biri kesik çizgili boş). Etiket: "4 PARÇA". Süre kapakta yok. |
+| C | Yerleşim C. Üç kutu (zarf, liste, ilan panosu simgeleri); çıktı çifti: "KISA İSTEK → 4 SATIR". Etiket yok. Süre kapakta yok. |
 | D | A ile aynı. |
 
 - **Yuvarlama:** kendi aleyhine yapılır. YZ süresi yukarı (11 dk 40 sn → 12 dk), elle süre aşağı (1 sa 08 dk → 1 sa) yuvarlanır. Kapak, başlık, ses ve açıklamadaki rakamlar aynıdır.
+- Kapak kuralları `01-icerik-uretim-sistemi.md` 3.1–3.2'deki gibidir: tam bir dönüşüm çifti, en fazla 2 metin bloğu, sağ alt köşe boş, süre en fazla bir yerde. Köşeye küçük puntoyla ikinci bir süre kalıbı konmaz; "GÖNDERİLİR" iddiası çekimde tutmazsa (çıktı düzeltmeden gönderilemiyorsa) sağ parça "4 PARÇA" olur.
 - Telefon boyutuna küçültüp süre kalıbının ve "4 parça" etiketinin okunduğunu kontrol et.
 
 ### Eşik kuralı: süre farkı küçük çıkarsa
@@ -38,7 +41,7 @@ Zemin koyu lacivert, vurgu sarı, yüz yok. Dört parçanın adı kapakta yazmaz
 | Ölçüm | Kapak | Hook | Başlık |
 |---|---|---|---|
 | `[YZ SÜRE]` elle sürenin yarısı ya da daha azı | Süre kalıbı büyük (A satırı) | A metni: süre farkıyla açılır | A |
-| `[YZ SÜRE]` elle sürenin yarısından fazla | Süre kalıbı yok. Sol yarıda kısa isteğin çıktısından soluk bir kırpma, sağ yarıda dört boş sarı kare + "4 parça" | B metni: kötü/iyi çıktı karşıtlığıyla açılır; iki süre yine söylenir | B |
+| `[YZ SÜRE]` elle sürenin yarısından fazla | Süre çifti yok; kapak tablosundaki B satırı (çıktı çifti "GENEL → GÖNDERİLİR") | B metni: kötü/iyi çıktı karşıtlığıyla açılır; iki süre yine söylenir | B |
 | `[YZ SÜRE]` elle süreye eşit ya da daha uzun | Aynı | B metni; sonuç bölümünde "bu üç işte süre kazanmadım" açıkça söylenir | B |
 
 Rakamlar her durumda videoda ve açıklamada yazar; küçük fark gizlenmez.
@@ -54,7 +57,7 @@ Rakamlar her durumda videoda ve açıklamada yazar; küçük fark gizlenmez.
 | **K** | Kim | Yazan kim, okuyacak kim, aralarındaki ilişki, okuyanın durumu | Metin kimseye özel olmuyor; hitap ve mesafe tesadüfe kalıyor. |
 | **İ** | İş | Tek fiil + metnin okuyana ne yaptıracağı | Biçimi düzgün ama okuyanın bir sonraki adımını söylemeyen bir metin geliyor. |
 | **M** | Malzeme | Tarihler, rakamlar, notlar, eski örnek + koruma satırı | Vermediğim bilgi ya boş kalıyor ya da uyduruluyor. |
-| **E** | Ebat | Bitmiş işin ölçüsü: uzunluk · biçim · ton (istenmeyen kalıplar dahil), mümkünse gerekçesiyle | Uzunluk, sıra ve kalıp ifadeler benim seçimim olmuyor. |
+| **E** | Ebat | Bitmiş işin ölçüsü: uzunluk · biçim · ton (istenmeyen kalıplar dâhil), mümkünse gerekçesiyle | Uzunluk, sıra ve kalıp ifadeler benim seçimim olmuyor. |
 
 - "Ebat" kelimesi yalnızca uzunluğu çağrıştırır; bu yüzden sabit grafikte E'nin altında her zaman "uzunluk · biçim · ton" yazar ve seslendirme bunu ilk tanımda açıkça söyler.
 - "KİME?" sorusu yalnızca okuyanı çağrıştırır; K'nin yazanı da kapsadığı İş 3'te ("yalnızca kendini yazdıysan yarısı eksik") ayrıca söylenir.
@@ -114,7 +117,7 @@ Kurgusal ofis malzemeleri toptancısı (Senaryo 01'deki şirketle aynı; sürekl
 
 ### 2.5 Çıktı kuralları
 
-- **Çıktı uydurma yok.** `[UYARLA]` ile başlayan cümleler çıktı hakkında tahmindir; çekimden sonra gerçek çıktıya göre yeniden yazılır. Çıktı tahmini doğrulamıyorsa cümle değişir; çıktı seçilerek senaryoya uydurulmaz. Aynı prompt'u istenen sonuç çıkana kadar tekrar çalıştırmak da buna dahildir.
+- **Çıktı uydurma yok.** `[UYARLA]` ile başlayan cümleler çıktı hakkında tahmindir; çekimden sonra gerçek çıktıya göre yeniden yazılır. Çıktı tahmini doğrulamıyorsa cümle değişir; çıktı seçilerek senaryoya uydurulmaz. Aynı prompt'u istenen sonuç çıkana kadar tekrar çalıştırmak da buna dâhildir.
 - **A/B metinleri.** Sonucu en az öngörülebilir üç yer için (hook, M silinmiş test, K silinmiş test) iki metin yazılı; hangisi gerçek çıktıya uyuyorsa o okunur. İkisi de uymuyorsa üçüncü bir metin yazılır.
 - **Ebat sınırı tutmazsa** (ör. model 100 kelimeye sığdırmak için yapılacakları tablodan çıkarırsa) çıktı olduğu gibi gösterilir, düzeltme sayılır ve "yapamadığı şey" bölümündeki gerçek hata cümlesinde "ölçüyü dar seçmişim" diye söylenir. `[ÇEKİMDE DOĞRULA: İş 2'de tablo hariç 100 kelime yetti mi]`
 
@@ -177,11 +180,15 @@ Toplam yaklaşık 1.130 kelime, 11 dakika: ortalama dakikada 100–105 kelime. D
 
 ---
 
+**CTA ve sıra notu (01 belgesi Bölüm 8):** Görsel abone alt bandı (5–7 sn, "Her hafta bir iş, kronometreyle.") İş 1'in sonunda, ilk dört parçalı çıktı gösterildikten hemen sonra girer; sözlü abone çağrısı yoktur. Sözlü CTA üç tanedir: yorum sorusu ("yapamadığı şey"in sonunda), "metni açıklamada" (boş şablon ekrandayken), sonraki video (son sesli cümle). KG3'ten bilinçli tek sapma: "yapamadığı şey" bölümü süre ve kalite karşılaştırmasından **önce** gelir, çünkü kopyalanabilir şablon karşılaştırmayla aynı bölümde ve en sonda verilir. Sabitlenmiş yorum 02 belgesi B3'teki üç bloklu kalıpla yazılır: boş şablon + sıradaki adım + "Hangi harf zorluyor?" sorusu.
+
+---
+
 ### 0:00–0:30 — Hook (hedef: 65 kelime)
 
 **SES — A metni (süre farkı eşiği geçtiyse)**
 
-> Yapay zekâya bir e-posta yazdırdın; düzgün ama gönderilemez bir şey geldi. Üç iş seçtim: müşteriye gecikme e-postası, toplantı özeti, iş ilanı. Üçünü elle yazdım: [ELLE SÜRE]. Sonra alıştığım kısa isteklerle yazdırdım. [UYARLA: üç kısa isteğin çıktısındaki ortak kusur, tek cümle]. Sonra aynı üç işi dört parçalı bir istekle yazdırdım; isteği yazmak ve kontrol dahil [YZ SÜRE] sürdü. Bu videoda o dört parçayı üç işte, tam metinleriyle göstereceğim; sonda yetmediği üç durumu ve boş şablonu da.
+> Yapay zekâya bir e-posta yazdırdın; düzgün ama gönderilemez bir şey geldi. Üç iş seçtim: müşteriye gecikme e-postası, toplantı özeti, iş ilanı. Üçünü elle yazdım: [ELLE SÜRE]. Sonra alıştığım kısa isteklerle yazdırdım. [UYARLA: üç kısa isteğin çıktısındaki ortak kusur, tek cümle]. Sonra aynı üç işi dört parçalı bir istekle yazdırdım; isteği yazmak ve kontrol dâhil [YZ SÜRE] sürdü. Bu videoda o dört parçayı üç işte, tam metinleriyle göstereceğim; sonda yetmediği üç durumu ve boş şablonu da.
 
 **SES — B metni (süre farkı eşiğin altındaysa)**
 
@@ -467,7 +474,7 @@ EBAT: Yalnızca formül ve altında tek cümlelik açıklama. Başka yöntem ön
 
 **SES**
 
-> Sonuç. Elle: [ELLE SÜRE]. Dört parçayla, isteği yazmak ve kontrol dahil: [YZ SÜRE] sürdü. Hatırlatma: elle yazarken işi ilk kez düşünüyordum; ikinci turda ne diyeceğimi biliyordum. Kalite tabloda: [ÇEKİMDE DOLDUR: tek cümle; elle yazılanın daha iyi olduğu yer varsa onu söyle]. Aynı tür iş ikinci kez geldiğinde Kim ve Ebat hazır olur; yalnızca Malzeme değişir. Şimdi boş şablon. Dört satır: Kim, İş, Malzeme, Ebat. Malzeme'nin altındaki satırı silme: "Burada yazmayan bilgi ekleme; eksik kalan yeri işaretle." Metni açıklamada. Kopyala, bir yere kaydet, bir sonraki e-postanda dene.
+> Sonuç. Elle: [ELLE SÜRE]. Dört parçayla, isteği yazmak ve kontrol dâhil: [YZ SÜRE] sürdü. Hatırlatma: elle yazarken işi ilk kez düşünüyordum; ikinci turda ne diyeceğimi biliyordum. Kalite tabloda: [ÇEKİMDE DOLDUR: tek cümle; elle yazılanın daha iyi olduğu yer varsa onu söyle]. Aynı tür iş ikinci kez geldiğinde Kim ve Ebat hazır olur; yalnızca Malzeme değişir. Şimdi boş şablon. Dört satır: Kim, İş, Malzeme, Ebat. Malzeme'nin altındaki satırı silme: "Burada yazmayan bilgi ekleme; eksik kalan yeri işaretle." Metni açıklamada. Kopyala, bir yere kaydet, bir sonraki e-postanda dene.
 
 **EKRAN**
 
@@ -510,7 +517,7 @@ EBAT: [Uzunluk: kelime ya da satır; çünkü …]. [Biçim: paragraf / madde / 
 **EKRAN**
 
 - Sol yarıda sonraki videonun kapağı (bitiş ekranı öğesi), sağda abone ol öğesi. Soldaki KİME şeridi son kareye kadar durur.
-- Veda cümlesi, özet tekrarı, "beğenmeyi unutmayın" yok; son cümleden sonra en fazla 5 saniye bitiş ekranı.
+- Veda cümlesi, özet tekrarı, "beğenmeyi unutmayın" yok. Bitiş ekranı öğeleri bu bölüm boyunca ekrandadır (videonun son 15–20 saniyesi; izin verilen aralık 5–20 sn, 02 belgesi B3); son cümleden sonra en fazla 5 saniye sürer.
 
 **Tutma notu:** Son sesli cümle sonraki videodur. Yeni bir soru açıp ("her seferinde baştan mı yazacağım?") cevabını sonraki videoya bağlıyor. Yorum sorusu bir önceki bölümde, "yapamadığı şey"in sonunda sorulmuştur; tek harfle cevaplanabilecek kadar kolaydır ve cevaplar hangi parçanın ayrı video hak ettiğini gösterir.
 
@@ -540,7 +547,7 @@ EBAT: [Uzunluk: kelime ya da satır; çünkü …]. [Biçim: paragraf / madde / 
 ```
 Yapay zekâdan genel bir cevap aldıysan araca değil, önce isteğe bak. Bu videoda dört parçalı prompt formülünü (KİME) üç yazı işinde gösteriyorum: müşteriye gecikme e-postası, toplantı özeti ve iş ilanı. Her işte önce alıştığım kısa isteği, sonra dört parçalı halini görüyorsun; prompt'ların tamamı ekranda. Sonda yazı olmayan bir işte (Excel formülü) kısa bir deneme var.
 
-Elle: [ELLE SÜRE] · Dört parçayla, isteği yazmak ve kontrol dahil: [YZ SÜRE]
+Elle: [ELLE SÜRE] · Dört parçayla, isteği yazmak ve kontrol dâhil: [YZ SÜRE]
 
 KİME formülü
 K — Kim: Yazan kim, okuyacak kim?
@@ -579,9 +586,9 @@ Sonraki video: [BAĞLANTI — Her Gün Kullandığım 10 Prompt]
 
 Nasıl ölçtüm
 - Üç işi önce elle yazdım, sonra yapay zekâya yazdırdım. İkinci turda ne yazacağımı bildiğim için süre farkının bir kısmı bu sıradan geliyor.
-- Yapay zekâ süresine isteği yazmak ve çıktıyı kontrol etmek dahil. Yazım görüntüsü hızlandırıldı; kronometre gerçek süreyi gösteriyor.
+- Yapay zekâ süresine isteği yazmak ve çıktıyı kontrol etmek dâhil. Yazım görüntüsü hızlandırıldı; kronometre gerçek süreyi gösteriyor.
 - Süreler tek denemede ölçüldü; senin süren işe ve yazma hızına göre farklı olur.
-- Kısa istekler, eksik parça denemeleri ve Excel formülü denemesi süreye dahil değil.
+- Kısa istekler, eksik parça denemeleri ve Excel formülü denemesi süreye dâhil değil.
 
 Notlar
 - Videodaki şirket, kişiler ve veriler örnektir.
@@ -607,7 +614,7 @@ Zaman damgaları senaryo hedefidir; kurgu bittikten sonra gerçek değerlerle g�
 | 8:00 | Yazı dışı deneme: Excel formülü | Tek formül, tek kontrol; süre dışı |
 | 8:35 | Formülün yetmediği üç durum | "Yapamadığı şey" |
 | 9:35 | Süre, kalite ve boş şablon | Yan yana görüntü, kalite tablosu, kopyalanabilir şablon |
-| 10:35 | Sonraki video | Tek sesli çağrı |
+| 10:35 | Sonraki video | Son sesli cümle (ana CTA) |
 
 ---
 
@@ -646,3 +653,32 @@ Zaman damgaları senaryo hedefidir; kurgu bittikten sonra gerçek değerlerle g�
 - [ ] "hepsi bu dört parçayla yazılmış" cümlesi (10) numaralı videonun içeriğiyle karşılaştırıldı.
 - [ ] `[YAYIN ÖNCESİ DOĞRULA]` notu (uzun malzemede talimatın yeri) kapatıldı.
 - [ ] Yayından sonra: tutma grafiğinde 5:00–6:30 ve 8:00–8:35 aralıkları performans kaydına not edildi.
+
+---
+
+## 8. Şablon eşlemesi ve iddia–kaynak tablosu
+
+Bu senaryo `sablonlar/senaryo-sablonu.md` içindeki blok biçimiyle (SES / EKRAN / Tutma notu) yazıldı. Durum: **Taslak** (çekim öncesi; yer tutucular boş).
+
+| Şablondaki alan | Bu dosyada |
+|---|---|
+| Yer tutucu listesi | 2.9'un son paragrafı; değerler `olcum.md` dosyasından girilir |
+| Bölüm 1 — Hook | 0:00–0:30 (A/B metni) |
+| Bölüm 2 — Görev ve veri | 0:30–1:40 (formülün tanımı); örnek dünya 2.2 |
+| Bölüm 3 — Gövde (KG3, üç işli sürüm) | 1:40–8:35 (üç iş, eksik harf testi, Excel denemesi) |
+| Bölüm 5 — Yapamadığı şey + yorum sorusu (sözlü CTA 1/3) | 8:35–9:35 (bu videoda karşılaştırmadan önce) |
+| Bölüm 4 ve 6 — Karşılaştırma ve kopyalanabilir şablon (2/3) | 9:35–10:35 |
+| Bölüm 7 — Sonraki video (3/3, son sesli cümle) | 10:35–11:00 |
+| Çekim listesi | 2.4 (iki ayrı kayıt) + 2.1'deki elle yazım kaydı + masa çekimi |
+| Kısa video işaretleri | 4. bölüm (türler: 1 tek ipucu · 2 hata · 3 hata ya da tek ipucu, sonuca göre) |
+
+İddia–kaynak tablosu (çekimden sonra zaman koduyla tamamlanır):
+
+| Yer | İddia | Kaynak / durum |
+|---|---|---|
+| Hook, sonuç, kapak, açıklama | `[ELLE SÜRE]`, `[YZ SÜRE]`, `[SÜRE 1–3]` | `olcum.md`; eşik kuralı ölçümden sonra uygulanır |
+| Hook ve üç iş | Kısa isteklerin çıktısındaki kusurlar, dört parçalı isteğin farkı (`[UYARLA]` cümleleri) | Çekim; A/B metinlerinden yalnızca gerçek çıktıya uyan okunur |
+| Eksik harf testi | Bir parça silinince çıktının nasıl değiştiği | Çekim (süre dışı kayıt); sonuç senaryoda yazılı değildir |
+| 2.9 | Yayın öncesi doğrulanacak olgular | 2.9'daki liste; her biri birincil kaynağından kontrol edilir |
+| Kapanış | "Hepsi bu dört parçayla yazılmış." | (10) numaralı videonun senaryosu; yazılmadan okunmaz |
+| Kapak B | "GÖNDERİLİR" | Çekim: kalite tablosundaki "düzeltmeden gönderilir miydi?" sütunu |

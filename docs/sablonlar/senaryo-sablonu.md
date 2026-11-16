@@ -1,6 +1,6 @@
 # Senaryo — KM-[NO] · [BAŞLIK]
 
-> Kullanım: `02_senaryo/senaryo_v1.md` olarak kopyala. Kilitlenince `senaryo_KILIT.md` adıyla kaydet. Dolu örnekler: `docs/senaryolar/`.
+> Kullanım: `02_senaryo/senaryo_v1.md` olarak kopyala. Kilitlenince `senaryo_KILIT.md` adıyla kaydet. Dolu örnekler: `senaryolar/`.
 
 | | |
 |---|---|
@@ -24,6 +24,10 @@ Kurallar:
 - Ekranda **en geç tahmini 20–30 saniyede bir** görsel değişiklik (büyütme, kesme, grafik). Ekran sütununda art arda üç satır "aynı görüntü" yazıyorsa bölümü kısalt.
 - Ölçüm, sonuç ve aracın verdiği cevap çekimden önce **yer tutucudur.** Tahminle doldurma.
 - Yapay zekâ taslağından gelen görüş, deneyim ve sonuç cümleleri silinir; yerlerine yer tutucu konur.
+
+## Blok biçimi (uzun senaryolarda)
+
+SES metni uzun olan senaryolarda üç sütunlu tablo yerine aynı üç alan, bölüm başlığının altında üç blok olarak yazılabilir: `**SES**` (alıntı bloğu), `**EKRAN**` (madde listesi), `**Tutma notu**` (tek paragraf). `senaryolar/` klasöründeki üç senaryo bu biçimdedir. Blok biçiminde de şunlar zorunludur: yer tutucu listesi, bölüm başına hedef süre, çekim (kayıt) listesi, iddia–kaynak tablosu, kısa video işaretleri. Bölümlerin bu şablondaki karşılığı her senaryonun sonundaki "Şablon eşlemesi" tablosunda yazar.
 
 ## Yer tutucu listesi
 
@@ -58,9 +62,9 @@ Bu yapılarda kapaktaki `[ELLE SÜRE] → [YZ SÜRE]` çifti yalnızca iki süre
 
 ---
 
-## Bölüm 1 — Hook ve görev tanımı (0:00–0:30)
+## Bölüm 1 — Hook ve görev tanımı (0:00–0:30; en çok 35 sn)
 
-Amaç: İlk cümlede görev ve süre. Kanal adı, selamlama, "bu videoda" yok.
+Amaç: İlk cümlede görev ve ölçülecek şey (süre kalıbında süre; çıktı kalıbında önce/sonra ya da hakem). Kanal adı, selamlama, "bu videoda" yok. Kalıp seçimi ve kontrol listesi: 01 belgesi 4.2–4.3; ilk cümle en fazla 12 kelime, en fazla 2 sözlü açık döngü, ilk 60 saniyede hiçbir istek (CTA) yok.
 
 | # | SES | EKRAN | Tutma notu |
 |---|-----|-------|------------|
@@ -91,14 +95,14 @@ Amaç: Videonun gövdesi. Her adımda izleyici bir şey öğrenir; yalnızca "ba
 | 3.5 | [Çıktıyı kontrol et: `[ÇEKİMDE ÖLÇ: doğruluk kontrolünün sonucu]`] | [Çıktı ile kaynak veri yan yana; kontrol edilen 2–3 değer işaretli] | Güven: izleyici kontrolün yapıldığını görür. |
 | 3.6 | ["Kronometreyi durduruyorum."] | [Kronometre durur: `[YZ SÜRE]`; kısa ses efekti] | Birinci açık döngünün ödemesi. |
 
-*(Gerektiği kadar satır ekle. Uzun bölümü ara başlıkla böl; her ara başlıkta alt bant.)*
+*(Gerektiği kadar satır ekle. Uzun bölümü ara başlıkla böl; her ara başlıkta alt bant. İlk somut sonuçtan hemen sonraki satırın EKRAN sütununa 5–7 saniyelik görsel abone alt bandını yaz: "Her hafta bir iş, kronometreyle." SES bu çağrıya değinmez; 01 belgesi 8.1.)*
 
 ## Bölüm 4 — Süre ve kalite karşılaştırması (hedef: [ ] sn)
 
 | # | SES | EKRAN | Tutma notu |
 |---|-----|-------|------------|
-| 4.1 | [Süre: "Elle `[ELLE SÜRE]`, yapay zekâyla `[YZ SÜRE]`; `[TUR SAYISI]` düzeltme turu dahil."] | [Karşılaştırma tablosu: Süre satırı doluyor] | Başlığın sözü tutuluyor (vaat testi burada). |
-| 4.1b | [Ölçüm koşulu, sabit cümle: "Prompt'u önceden `[N]` denemede hazırladım; bu süre hazır prompt'la. İlk kez yapan için hazırlık dahil `[KURULUM SÜRE]` daha ekle. Elle yolu önce yaptığım için dosyayı da tanıyordum."] | [Tablonun altında ayrı satır: "İlk kurulum (bir kez): `[KURULUM SÜRE]`"] | Yanlılığı izleyiciden önce sen söylersin; güven. |
+| 4.1 | [Süre: "Elle `[ELLE SÜRE]`, yapay zekâyla `[YZ SÜRE]`; `[TUR SAYISI]` düzeltme turu dâhil."] | [Karşılaştırma tablosu: Süre satırı doluyor] | Başlığın sözü tutuluyor (vaat testi burada). |
+| 4.1b | [Ölçüm koşulu, sabit cümle: "Prompt'u önceden `[N]` denemede hazırladım; bu süre hazır prompt'la. İlk kez yapan için hazırlık dâhil `[KURULUM SÜRE]` daha ekle. Elle yolu önce yaptığım için dosyayı da tanıyordum."] | [Tablonun altında ayrı satır: "İlk kurulum (bir kez): `[KURULUM SÜRE]`"] | Yanlılığı izleyiciden önce sen söylersin; güven. |
 | 4.2 | [Kalite: elle yapılanla farkı dürüstçe söyle; `[ÇEKİMDE ÖLÇ]`] | [İki çıktı yan yana; farklar kutuyla] | Abartısız değerlendirme güveni artırır. |
 | 4.3 | [Geçiş: "Ama bir yerde takıldı."] | ["Yapamadığı şey" kartı] | İkinci açık döngüye köprü. |
 
@@ -111,22 +115,23 @@ Amaç: Çekimde gerçekten yaşanan bir sınır. Genel uyarı ("her zaman kontro
 | 5.1 | [Ne oldu: `[HATA: ...]`] | [Hatanın yaşandığı anın ham kaydı, büyütülmüş] | İkinci açık döngünün ödemesi. |
 | 5.2 | [Neden önemli: iş bağlamında sonucu ne olurdu] | [Hatalı değerin gittiği yer: rapor/e-posta] | İzleyicinin kendi riskine bağlar. |
 | 5.3 | [Nasıl yakalanır / ne yapmalı] | [Kontrol adımı ekranda] | Uygulanabilir çıkarım. |
+| 5.4 | [Yorum sorusu: cevabı tek satır olan, belirli bir soru + cevapların ne için kullanılacağı. Kör testte bu satır isimler açılmadan önceye taşınır.] | [Soru alt bantta yazılı; aynı soru sabitlenmiş yorumda] | Sözlü CTA 1/3 (01 belgesi 8.3). İzleyicinin söyleyecek bir şeyi olduğu an. |
 
 ## Bölüm 6 — Kopyalanabilir prompt (hedef: [ ] sn)
 
 | # | SES | EKRAN | Tutma notu |
 |---|-----|-------|------------|
 | 6.1 | [Prompt'un son hâlini tanıt; hangi alanların değişeceğini söyle] | [Prompt kartı; değişecek alanlar sarı] | Elle tutulur çıktı; kaydetme nedeni. |
-| 6.2 | ["Kopyalanabilir hâli açıklamada."] | [Kart altında: "Açıklamada kopyalanabilir hâli var"] | Tek ve net yönlendirme. |
+| 6.2 | ["Kopyalanabilir hâli açıklamada."] | [Kart altında: "Açıklamada kopyalanabilir hâli var"] | Sözlü CTA 2/3 (01 belgesi 8.4). Tek ve net yönlendirme. |
 
 ## Bölüm 7 — Kapanış ve sonraki video (hedef: 20–30 sn)
 
-Amaç: Özet tekrarı yok. Bir sonraki mantıklı adımı göster.
+Amaç: Özet tekrarı ve vedalaşma yok. Son sesli cümle sonraki videodur (ana CTA; 01 belgesi 8.2). Sesli abone çağrısı yok; abone düğmesi bitiş ekranında görsel olarak durur.
 
 | # | SES | EKRAN | Tutma notu |
 |---|-----|-------|------------|
-| 7.1 | [Tek cümlelik sonuç] | [Karşılaştırma tablosunun dolu hâli] | Kapanış hissi vermeden son bilgi. |
-| 7.2 | [Sonraki video: bu işin devamı olan görev ve neden izlemeli] | [Bitiş ekranı düzeni; önerilen video solda] | Oturumu uzatır; abonelik gerekçesi ("her hafta bir iş"). |
+| 7.1 | [Bu videonun açık bıraktığı soru, tek cümle; özet değil] | [Sonraki videonun malzemesinden 2–3 saniyelik görüntü] | Kapanış hissi vermeden sonraki videoya gerekçe. |
+| 7.2 | [Sonraki video: bu işin devamı olan görev ve neden izlemeli. Videonun son sesli cümlesi.] | [Bitiş ekranı (son 15–20 sn): önerilen tek video solda, abone düğmesi sağda] | Sözlü CTA 3/3. Oturumu uzatır. |
 
 ---
 
@@ -153,7 +158,7 @@ Amaç: Özet tekrarı yok. Bir sonraki mantıklı adımı göster.
 
 Senaryoyu yazarken kısa videoya dönebilecek satır aralıklarını işaretle.
 
-| Aday | Satırlar | Tür (sonuç / yapamadığı şey / tek prompt) | Kendi başına anlaşılır mı? |
+| Aday | Satırlar | Tür (önce/sonra / hata–yapamadığı şey / tek ipucu; 01 belgesi 4.4) | Kendi başına anlaşılır mı? |
 |------|----------|--------------------------------------------|----------------------------|
 | K1 | | | |
 | K2 | | | |

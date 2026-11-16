@@ -16,7 +16,7 @@
 Ayrıntı: 03 belgesi Bölüm 0. Kalın maddeler durdurucudur; sonuçlar `performans-kaydi.md` Bölüm 0'a yazılır.
 
 - [ ] **Telefon doğrulaması yapıldı; Studio → Ayarlar → Kanal → Özellik uygunluğu ekranı kontrol edildi**
-- [ ] **Gizli test videosunda denendi: özel kapak yüklenebiliyor · açıklamadaki bağlantı (kısa bağlantı dahil) tıklanabiliyor · yorum sabitlenebiliyor.** Açık olmayan için yedek plan (03 belgesi Bölüm 0.3) not edildi: [ ]
+- [ ] **Gizli test videosunda denendi: özel kapak yüklenebiliyor · açıklamadaki bağlantı (kısa bağlantı dâhil) tıklanabiliyor · yorum sabitlenebiliyor.** Açık olmayan için yedek plan (03 belgesi Bölüm 0.3) not edildi: [ ]
 - [ ] **YouTube Yardım'da "değiştirilmiş veya sentetik içerik" ve "özgün olmayan içerik" sayfaları okundu; İş Ortağı Programı politikalarının güncel hâli ve duyurulmuş değişiklikler okundu.** Tarih: [ ]
 - [ ] **Kronometre deneme kaydında kayıt karesinde görünüyor ve gerçek süreyle aynı**
 - [ ] **Stokta 2 bitmiş video var**
@@ -143,7 +143,7 @@ Ayrıntı: 03 belgesi Bölüm 0. Kalın maddeler durdurucudur; sonuçlar `perfor
 
 **Denetim (ilk 4 videoda, sonra ayda bir)**
 
-- [ ] Sabit kalıp korunmuş: koyu lacivert zemin, sarı dönüşüm çifti, ok; ana metin dışında en fazla 4 kelime
+- [ ] Sabit kalıp korunmuş: koyu lacivert zemin, sarı dönüşüm çifti, ok; dönüşüm çifti dışında en fazla 2 kelimelik tek etiket (toplam en fazla 2 metin bloğu; 01 belgesi 3.2)
 - [ ] Açık ve koyu arayüzde, telefonda bakıldı; sağ alt köşede (süre damgasının geldiği yer) önemli öğe yok
 - [ ] Önceki 3 kapakla yan yana: aynı kanal, ama kopya değil; yerleşim bir öncekinden farklı
 - [ ] 16:9, en az 1280×720; dosya boyutu yükleme ekranındaki sınırın altında; 2–3 varyasyon hazır
@@ -158,7 +158,7 @@ Ayrıntı: 03 belgesi Bölüm 0. Kalın maddeler durdurucudur; sonuçlar `perfor
 
 **Kapı (her videoda)**
 
-- [ ] **Sayı tutarlılığı: başlık, kapak, video içi, açıklama, sabit yorum taslağı, kısa videolar ve LinkedIn taslağındaki her süre ve adet `olcum.md` ile aynı**
+- [ ] **Sayı tutarlılığı: başlık, kapak, video içi, açıklama, sabitlenmiş yorum taslağı, kısa videolar ve LinkedIn taslağındaki her süre ve adet `olcum.md` ile aynı**
 - [ ] **Kopyalanabilir prompt yeni bir sohbette yeniden denendi ve çalıştı; tam metni açıklamada**
 - [ ] **Prompt sayfası ve kısa bağlantı gizli sekmede, giriş istemeden açılıyor**
 - [ ] **"Değiştirilmiş içerik" sorusu 03 belgesi Bölüm 4.4'teki kanal kuralına göre yanıtlandı**
@@ -183,9 +183,9 @@ Ayrıntı: 03 belgesi Bölüm 0. Kalın maddeler durdurucudur; sonuçlar `perfor
 
 **Kapı (her videoda)**
 
-- [ ] **Yayın günü: video yayında, kapak ve başlık doğru; sabit yorum yazıldı ve sabitlendi** (sabitleme açık değilse yedek plan uygulandı)
-- [ ] **Hata bildirimi varsa kontrol edildi; doğruysa sabit yoruma ve açıklamanın başına tarihli düzeltme yazıldı**
-- [ ] **48. saat: gösterim, tıklanma oranı, ortalama görüntüleme süresi, 30. saniyede kalan oran, trafik kaynakları kayda yazıldı**
+- [ ] **Yayın günü: video yayında, kapak ve başlık doğru; sabitlenmiş yorum yazıldı ve sabitlendi** (sabitleme açık değilse yedek plan uygulandı)
+- [ ] **Hata bildirimi varsa kontrol edildi; doğruysa sabitlenmiş yoruma ve açıklamanın başına tarihli düzeltme yazıldı**
+- [ ] **48. saat: gösterim, CTR, ortalama görüntüleme süresi, 30. saniyede kalan oran, trafik kaynakları kayda yazıldı**
 - [ ] **Tutma grafiğinde en dik iki düşüşün zaman damgası ve o anda ekranda ne olduğu yazıldı**
 - [ ] **"Bir sonraki videoda değiştireceğim tek şey" cümlesi yazıldı**
 
@@ -201,7 +201,7 @@ Ayrıntı: 03 belgesi Bölüm 0. Kalın maddeler durdurucudur; sonuçlar `perfor
 
 **Bu 48 saatte yapılmayacaklar** (işaretlenmez; kuraldır)
 
-- Gösterim azken tıklanma oranına bakıp başlık ve kapağı aynı anda değiştirmek.
+- Gösterim azken CTR'ye bakıp başlık ve kapağı aynı anda değiştirmek.
 - Olumsuz yorumu silmek (hakaret ve spam hariç).
 - Studio'ya yorumlar dışında bakmak: yayın günü bir kez, sonra 48. saat.
 
@@ -213,7 +213,7 @@ Ayrıntı: 03 belgesi Bölüm 0. Kalın maddeler durdurucudur; sonuçlar `perfor
 
 | # | Madde | K1 | K2 | K3 |
 |---|-------|----|----|----|
-| 1 | **Uzun videoyu görmemiş biri için kendi başına anlaşılır; tek fikir (bir sonuç, bir hata ya da tek prompt)** | [ ] | [ ] | [ ] |
+| 1 | **Uzun videoyu görmemiş biri için kendi başına anlaşılır; tek fikir (bir önce/sonra, bir hata / "yapamadığı şey" ya da tek ipucu; türler 01 belgesi 4.4)** | [ ] | [ ] | [ ] |
 | 2 | **İçindeki süre/sayı `olcum.md` ile aynı** | [ ] | [ ] | [ ] |
 | 3 | **İlk cümle yeniden kaydedildi (görev + sayı); ilk karede görev ve sayı yazılı, ses kapalıyken de anlaşılıyor** | [ ] | [ ] | [ ] |
 | 4 | **Ekran kaydı yeniden çerçevelendi; metin telefonda okunuyor ve bulanık değil** | [ ] | [ ] | [ ] |

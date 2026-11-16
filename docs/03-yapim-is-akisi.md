@@ -22,7 +22,7 @@ Bu belge, bir fikrin yayınlanmış uzun videoya ve ondan kesilen kısa videolar
 ### Bu belgedeki işaretler ve sınırlar
 
 - **Süreler tahminidir.** Tek kişilik, ekran kaydı + seslendirme ağırlıklı bir üretim için başlangıç varsayımıdır. İlk 4 videoda her aşamanın gerçek süresini `performans-kaydi.md` içindeki üretim tablosuna yaz, bütçeyi ona göre düzelt.
-- **[Resmî]** = YouTube'un kendi yardım sayfalarında / Studio arayüzünde açıkladığı şey. **[Gözlem]** = sektörde yaygın kabul gören, YouTube'un taahhüt etmediği pratik.
+- **[Resmî]** = YouTube'un kendi yardım sayfalarında / Studio arayüzünde açıkladığı şey. **[Yaygın gözlem]** = sektörde yaygın kabul gören, YouTube'un taahhüt etmediği pratik.
 - **Doğrulama sınırı:** Bu belge yazılırken YouTube Yardım sayfaları (support.google.com) ve araçların kendi yardım siteleri doğrudan açılamadı; yalnızca web araması yapılabildi. "Arama sonucu üzerinden" yazan maddeler, ilgili sayfanın arama sonucunda görünen özetine dayanır; sayfanın tamamı okunmamıştır. Politika ve özellik maddelerinde "yayın öncesi kontrol et" notu vardır; araçların durumu Bölüm 3.2'deki tabloda tek tek yazılıdır.
 - `[ÇEKİMDE ÖLÇ]`, `[ELLE SÜRE]`, `[YZ SÜRE]` yer tutucuları 01 numaralı belgedeki anlamlarıyla kullanılır. Bu belge bir yer tutucu daha ekler: `[KURULUM SÜRE]` = prompt'u ilk kez hazırlamak için harcanan, `olcum.md` içinde ayrıca tutulan süre.
 - **Sayı tutarlılığı** bu belgede tek bir kontrolün adıdır; tanımı Bölüm 4.2'dedir, başka yerlerde yalnızca adıyla anılır.
@@ -35,10 +35,10 @@ Bu işler haftalık bütçenin dışındadır ve bir kez yapılır. Toplam **tah
 
 ### 0.1 Kanal özellik erişimi (30 dk + bekleme)
 
-Sıfırdan açılan kanalda bu iş akışının üç dayanağı kendiliğinden açık gelmez: **özel kapak**, **sabit yorum** ve **açıklamadaki tıklanabilir bağlantı**.
+Sıfırdan açılan kanalda bu iş akışının üç dayanağı kendiliğinden açık gelmez: **özel kapak**, **sabitlenmiş yorum** ve **açıklamadaki tıklanabilir bağlantı**.
 
-- **[Resmî — arama sonucu üzerinden; sayfa açılamadı]** YouTube Yardım'daki "Orta düzey ve gelişmiş özelliklere erişim" sayfasına göre telefon doğrulaması orta düzey özellikleri açar. Gelişmiş özellikler (sayfanın verdiği örnekler: sabit yorum, daha yüksek günlük yükleme sınırı) için ya yeterli kanal geçmişi ya da kimlik/video doğrulaması gerekir; kimlik ve video doğrulaması her üreticiye sunulmaz.
-- **[Gözlem — ikincil kaynaklar]** Özel kapak orta düzey özellikler arasında sayılıyor. Açıklamadaki tıklanabilir bağlantının hangi düzeyde olduğu konusunda ikincil kaynaklar çelişiyor. Shorts'taki "ilgili video" bağlantısı için koşul doğrulanamadı.
+- **[Resmî — arama sonucu üzerinden; sayfa açılamadı]** YouTube Yardım'daki "Orta düzey ve gelişmiş özelliklere erişim" sayfasına göre telefon doğrulaması orta düzey özellikleri açar. Gelişmiş özellikler (sayfanın verdiği örnekler: sabitlenmiş yorum, daha yüksek günlük yükleme sınırı) için ya yeterli kanal geçmişi ya da kimlik/video doğrulaması gerekir; kimlik ve video doğrulaması her üreticiye sunulmaz.
+- **[Yaygın gözlem — ikincil kaynaklar]** Özel kapak orta düzey özellikler arasında sayılıyor. Açıklamadaki tıklanabilir bağlantının hangi düzeyde olduğu konusunda ikincil kaynaklar çelişiyor. Shorts'taki "ilgili video" bağlantısı için koşul doğrulanamadı.
 
 Yapılacaklar:
 
@@ -61,7 +61,7 @@ Bu belgedeki politika maddeleri ikincil kaynaklara dayanıyor. İlk videodan ön
 |--------------|---------------------------|
 | Özel kapak | Yayın ertelenir. Kapak kanalın paketinin yarısıdır; telefon doğrulaması tamamlanmadan ilk video yayınlanmaz. |
 | Açıklamada tıklanabilir bağlantı | Prompt'un **tam metni** açıklamaya yazılır (bu zaten varsayılandır; Bölüm 5.5) ve videodaki prompt kartı okunacak kadar ekranda tutulur. Dizin bağlantısı açıklamada düz metin olarak kalır; videoda "bağlantıya tıkla" denmez, "prompt açıklamada yazılı" denir. |
-| Sabit yorum | Soru, açıklamanın üçüncü satırına ve videonun kapanış cümlesine taşınır. Yorum yine yazılır, sabitlenemese de. |
+| Sabitlenmiş yorum | Soru açıklamanın üçüncü satırına da yazılır; videoda zaten "yapamadığı şey" bölümünün sonunda sözlü sorulur ve alt bantta görünür (01 belgesi 8.3). Kapanış cümlesi değişmez: son sesli cümle sonraki videodur. Yorum yine yazılır, sabitlenemese de. |
 | Shorts "ilgili video" | Yönlendirme yalnızca sözlüdür: "Tam hâli kanaldaki uzun videoda." |
 
 ### 0.4 Üretim altyapısı (tahmini 7–8 saat)
@@ -111,9 +111,9 @@ Aşağıdaki süreler **başlangıç profili** içindir: Kronometre Yarışı ya
 | 10a | Kısa video kesimi | 50 dk (2 × 25 dk) | 2 dikey ana dosya |
 | 10b | Dağıtım | 20 dk | Shorts ve LinkedIn'e zamanlanmış kısa videolar |
 | 10c | LinkedIn metin gönderisi | 15 dk | Gönderi |
-| — | Yayın günü | 15 dk | Sabit yorum, ilk yorumlara yanıt |
+| — | Yayın günü | 15 dk | Sabitlenmiş yorum, ilk yorumlara yanıt |
 
-**Toplam (tahmini):** elle koşu hariç **10 sa 25 dk**; elle koşu dahil, 60 dakikalık görevle **11 sa 40 dk**. Kontrol listelerini işaretleme süresi aşama sürelerinin içindedir (Bölüm 7.2).
+**Toplam (tahmini):** elle koşu hariç **10 sa 25 dk**; elle koşu dâhil, 60 dakikalık görevle **11 sa 40 dk**. Kontrol listelerini işaretleme süresi aşama sürelerinin içindedir (Bölüm 7.2).
 
 Bu sayıya eklenenler:
 
@@ -196,7 +196,7 @@ Bu sayıya eklenenler:
 **3b. Elle koşu (görev süresi + 15 dk)**
 
 5. `olcum.md` şablonunu video klasörüne kopyala, "Elle koşu" bölümünü aç.
-6. Kronometreyi "ELLE" etiketiyle başlat, görevi yapay zekâsız baştan sona yap, ekranı kaydet. Düşünme, yanlış yapıp düzeltme, kontrol süreye dahildir. Bu kayıt hızlandırılmış B-roll olur.
+6. Kronometreyi "ELLE" etiketiyle başlat, görevi yapay zekâsız baştan sona yap, ekranı kaydet. Düşünme, yanlış yapıp düzeltme, kontrol süreye dâhildir. Bu kayıt hızlandırılmış B-roll olur.
 7. Biter bitmez süreyi ve nerede zaman kaybettiğini `olcum.md` içine yaz (15 dk'nın 5'i). Kalan 10 dk kurulum ve dosya adlandırmadır.
 
 Görev 60 dakikadan uzunsa bu oturum haftaya sığmaz; hangi yolla ölçüleceği Bölüm 7.1'de.
@@ -237,7 +237,7 @@ Senaryoda kronometre koşusunun prompt'ları önceden yazılıdır. Bu, ölçüm
    - 30 kare/sn. Ayarları bir kez yap, profil olarak kaydet.
    - Deneme karesini kurgudaki en büyük yakınlaştırma ön ayarıyla büyüt, telefona at: yazı okunuyor mu?
 3. **Kronometre kayda gömülür.** `kronometre.html` dosyasını küçük bir tarayıcı penceresinde aç, kayıt karesinin sağ üst köşesine yerleştir; çalışma penceresi onu örtmesin (pencereyi "her zaman üstte" tutabiliyorsan tut; işletim sisteminde yerleşik değilse çalışma penceresini bir şerit dar bırak). Kronometre görüntünün parçası olduğu için kurguda kesim, hızlandırma ve bekleme atlama rakamları kendiliğinden doğru bırakır. Kurguda yalnızca çerçeve, "ELLE / YAPAY ZEKÂ" etiketi ve "hızlandırıldı ×N" notu eklenir; **rakam kurguda yazılmaz.**
-4. **Süreli koşu tek, kesintisiz kayıttır.** Neyin sayıldığı 01 belgesi Bölüm 6.1'de tanımlıdır: izleyicinin işi yaparken gerçekten yapacağı ilk adımda (malzemeyi açma, prompt'u yazma ya da yapıştırma) kronometre başlar; cevabı bekleme, uygulama, kontrol ve düzeltme turları dahildir; işe yarar çıktı elindeyken durur. Koşu **yeni, boş bir sohbette** yapılır.
+4. **Süreli koşu tek, kesintisiz kayıttır.** Neyin sayıldığı 01 belgesi Bölüm 6.1'de tanımlıdır: izleyicinin işi yaparken gerçekten yapacağı ilk adımda (malzemeyi açma, prompt'u yazma ya da yapıştırma) kronometre başlar; cevabı bekleme, uygulama, kontrol ve düzeltme turları dâhildir; işe yarar çıktı elindeyken durur. Koşu **yeni, boş bir sohbette** yapılır.
 5. Koşu bittiğinde hemen `olcum.md` içindeki "Yapay zekâ koşusu" bölümünü doldur: tarih, araç ve o gün arayüzde görünen model adı, başlangıç/bitiş, toplam süre, düzeltme turu, karşılaşılan hata, **ön deneme sayısı ve toplam süresi**, **prompt hazır mıydı**.
 6. Aracın cevaplarını metin olarak da kaydet (kopyala-yapıştır → `arac-ciktilari.md`). Kurguda büyütme, açıklamada alıntı ve prompt dosyası için gerekir.
 7. **Süre dışı ek çekimler (ayrı kayıtlar, kronometre durmuş):** önce/sonra karşılaştırma ekranı, "yapamadığı şey" için ek deneme, prompt'un tam ekran görüntüsü. Bunlar süreli sohbete yazılmaz; kurguda "Ayrı sohbet · süre dışı" etiketi alır (01 belgesi 6.1).
@@ -248,7 +248,7 @@ Senaryoda kronometre koşusunun prompt'ları önceden yazılıdır. Bu, ölçüm
 Süreli koşu ilk deneme değildir: en az bir ön deneme yapılmış ve prompt senaryoda önceden yazılmıştır. `[ELLE SÜRE]` düşünme süresini içerir, `[YZ SÜRE]` prompt'u tasarlama süresini içermez. Karşılaştırma bu hâliyle yapay zekâ lehine yanlıdır; yanlılık gizlenmez, ölçülür ve söylenir:
 
 - **`[KURULUM SÜRE]`** = ön denemelerin toplam süresi + prompt'u yazıp düzeltme süresi. `olcum.md` içinde ayrı satırdır.
-- **Videoda sabit cümle** (karşılaştırma bölümünde, bir kez): "Prompt'u önceden [N] denemede hazırladım; bu süre hazır prompt'la. İlk kez yapan için hazırlık dahil [KURULUM SÜRE] daha ekle."
+- **Videoda sabit cümle** (karşılaştırma bölümünde, bir kez): "Prompt'u önceden [N] denemede hazırladım; bu süre hazır prompt'la. İlk kez yapan için hazırlık dâhil [KURULUM SÜRE] daha ekle."
 - **Karşılaştırma tablosunda ayrı satır:** "İlk kurulum (bir kez): [KURULUM SÜRE]". Kapağa ve başlığa giren süre `[YZ SÜRE]` değeridir; kurulum satırı videoda ve açıklamadaki "Nasıl ölçtüm" bloğunda durur.
 - **Sıra etkisi** de aynı yerde tek cümleyle söylenir: elle koşu önce yapıldığı için yapay zekâlı turda malzeme tanıdıktı.
 - Süreli koşuyu bir nedenle tekrar çektiysen (kayıt bozuldu, araç hata verdi) `olcum.md` içine kaçıncı koşu olduğunu ve nedenini yaz; daha iyi çıkan koşuyu seçmek için tekrar çekilmez. Kullanılan koşu ilk koşu değilse videoda söylenir.
@@ -257,7 +257,7 @@ Süreli koşu ilk deneme değildir: en az bir ön deneme yapılmış ve prompt s
 
 **İnsanın mutlaka yaptığı:** Koşunun kendisi, ölçüm, hata notu, `olcum.md`.
 
-**"Bitti" tanımı:** Süreli koşu baştan sona tek dosyada ve kronometre karede; `olcum.md` dolu (ön deneme ve kurulum satırları dahil); senaryoda yer tutucu kalmadı; ham dosyalar adlandırılıp yedeklendi.
+**"Bitti" tanımı:** Süreli koşu baştan sona tek dosyada ve kronometre karede; `olcum.md` dolu (ön deneme ve kurulum satırları dâhil); senaryoda yer tutucu kalmadı; ham dosyalar adlandırılıp yedeklendi.
 
 ---
 
@@ -369,9 +369,9 @@ Süreli koşu ilk deneme değildir: en az bir ön deneme yapılmış ve prompt s
 5. Bitiş ekranı ve kartları ekle; oynatma listesine koy.
 6. Zamanla. Yayın günü ve saati sabit olsun; hangi saat olduğu veri gelene kadar ikincil. Studio'daki "izleyicileriniz ne zaman YouTube'da" raporu dolunca oradan ayarla.
 7. Yayın öncesi kapıyı işaretle; **sayı tutarlılığı** kontrolü buradadır.
-8. Yayına girince (yayın günü, 15 dk) sabit yorumu yaz ve sabitle; sabitleme açık değilse Bölüm 0.3.
+8. Yayına girince (yayın günü, 15 dk) sabitlenmiş yorumu yaz ve sabitle; sabitleme açık değilse Bölüm 0.3.
 
-**Yapay zekânın yaptığı:** Açıklama taslağı, bölüm başlıkları, sabit yorum sorusu için seçenekler (Prompt P7).
+**Yapay zekânın yaptığı:** Açıklama taslağı, bölüm başlıkları, sabitlenmiş yorum sorusu için seçenekler (Prompt P7).
 
 **İnsanın mutlaka yaptığı:** Prompt'un yeniden denenmesi, bağlantı testi, beyan kararı, sayı tutarlılığı.
 
@@ -390,7 +390,7 @@ Süreli koşu ilk deneme değildir: en az bir ön deneme yapılmış ve prompt s
 
 **Adımlar**
 
-1. **48 saat:** Gösterim, tıklanma oranı, ortalama görüntüleme süresi, ilk 30 saniyede kalan izleyici oranı, trafik kaynakları. Tutma grafiğinde en dik iki düşüşün zaman damgasını ve o anda ekranda ne olduğunu yaz.
+1. **48 saat:** Gösterim, gösterim tıklama oranı (CTR), ortalama görüntüleme süresi, ilk 30 saniyede kalan izleyici oranı, trafik kaynakları. Tutma grafiğinde en dik iki düşüşün zaman damgasını ve o anda ekranda ne olduğunu yaz.
 2. Yorumları oku, soruları yanıtla; tekrar eden soru bir sonraki videonun adayıdır.
 3. **7 gün:** Aynı metrikler + kazanılan abone + prompt bağlantısı tıklaması. Tıklama sayısı YouTube Studio'dan **gelmez;** kısa bağlantı aracının panelinden okunur (Bölüm 5.5). Kısa bağlantı kurulmadıysa hücreye `[ölçüm yok]` yaz, 0 yazma. Kanal medyanıyla karşılaştır (ilk 5 videoda medyan anlamlı değil; yalnızca kaydet).
 4. **28 gün:** Arama ve önerilen trafik payı; hangi arama terimleri getirmiş.
@@ -489,7 +489,7 @@ Aşağıda N = bu perşembe yayınlanan video, N+1 = bu hafta üretilen video, N
 | Pazartesi | Çekim (50 dk) + seslendirme (55 dk) | — | 1 sa 45 dk |
 | Salı | Kurgu 1: ses dizimi, kaba görüntü, yönlendirme (1 sa 20 dk) | N: uzun videodan **önce** gidecek kısa video yayında (geçen hafta kesildi ve zamanlandı) | 1 sa 20 dk |
 | Çarşamba | Kurgu 2: grafik, müzik, altyazı, telefonda izleme (1 sa 10 dk) + kapak (25 dk) | — | 1 sa 35 dk |
-| Perşembe | Kısa video kesimi, 2 video (50 dk); kurgu dün bitti, proje aynı hâliyle duruyor | **N yayında:** sabit yorum, ilk yorumlara yanıt (15 dk) | 1 sa 5 dk |
+| Perşembe | Kısa video kesimi, 2 video (50 dk); kurgu dün bitti, proje aynı hâliyle duruyor | **N yayında:** sabitlenmiş yorum, ilk yorumlara yanıt (15 dk) | 1 sa 5 dk |
 | Cuma | Yayın hazırlığı: prompt dosyası, metaveri, yükleme, gelecek perşembeye zamanlama (30 dk) + N+1'in kısa videolarının dağıtımı ve zamanlaması (20 dk) | N: uzun videodan **sonra** gidecek kısa video yayında (geçen hafta zamanlandı) | 50 dk |
 
 Toplam: 11 sa 40 dk (60 dakikalık elle görevle). Elle koşusu olmayan yapılarda (Bölüm 1.11) 10 sa 25 dk.
@@ -569,12 +569,12 @@ Fiyat bilerek yazılmadı. Araçların kendi yardım siteleri bu belge yazılır
 | **YouTube otomatik altyazısı ve senaryodan senkronizasyon** | Bir üniversitenin erişilebilirlik rehberindeki eski liste Türkçeyi otomatik altyazı dilleri arasında sayıyor. YouTube Yardım özeti: senkronizasyon için metin, konuşma tanımanın desteklediği bir dilde ve videoda konuşulanla aynı dilde olmalı; bir saatten uzun ya da sesi kötü videolarda önerilmiyor. | YouTube'un güncel dil listesi açılamadı; Türkçe doğruluk düzeyi bilinmiyor. | Önerilen yol, **gizli test videosunda sınanması koşuluyla** (Bölüm 0.1). |
 | **Whisper / Buzz** | Buzz'ın (chidiwilliams/buzz) depo açıklaması: Whisper tabanlı, çevrimdışı çalışır, TXT/SRT/VTT dışa aktarır; Windows, macOS ve Linux sürümleri var. | Lisansı depodan kontrol et. Türkçe doğruluk ses kalitesine bağlı; kendi sesinle 1 dakikalık deneme yap. | Alternatif altyazı yolu. |
 | **DaVinci Resolve** | Ücretsiz sürüm var; otomatik yazıya dökme ücretli (Studio) sürümde, ücretsiz sürümde elle altyazı ve .srt içe aktarma var (ikincil kaynaklar). | Yerleşik yazıya dökmenin dil listesinde Türkçe bulunamadı. | Kurgu için önerilen; Türkçe altyazı için yerleşik özelliğe güvenme. |
-| **AutoSubs (Resolve eklentisi)** | Güncel Resolve sürümlerini, ücretsiz sürüm dahil, desteklediği bir sürüm geçmişi kaydında görülüyor. | Türkçe doğruluk düzeyi. | Alternatif; 1 dakikalık denemeyle sına. |
+| **AutoSubs (Resolve eklentisi)** | Güncel Resolve sürümlerini, ücretsiz sürüm dâhil, desteklediği bir sürüm geçmişi kaydında görülüyor. | Türkçe doğruluk düzeyi. | Alternatif; 1 dakikalık denemeyle sına. |
 | **OBS Studio** | Açık kaynak ve ücretsiz olduğu uzun süredir sabit bilgidir. Yerleşik imleç vurgusu yok; forumda açık özellik isteği var, çözüm üçüncü taraf betik/eklenti. | — | Önerilen kayıt aracı; imleç için işletim sistemi ayarı. |
 | **Canva** | İkincil rehberlere göre ücretsiz planda YouTube kapağı için 1280×720 hazır boyut var ve PNG indirilebiliyor; ücretli öğe kullanılırsa temiz indirme için ödeme gerekiyor. | Canva'nın kendi sayfası açılamadı. Ticari kullanım koşulu okunmadı. | Önerilen, **şablonda yalnızca ücretsiz öğe ve kendi ekran görüntün varsa**. |
 | **Opus Clip** | Yardım sayfasının arama özetinde ve sürüm notlarında Türkçe, desteklenen video dilleri arasında sayılıyor; sağdan sola diller desteklenmiyor. | Ücretsiz planda filigran ve ticari kullanım koşulu doğrulanamadı. Ekran kaydında doğru bölgeyi çerçeveleyip çerçevelemediği bilinmiyor. | Yalnızca kısa video kesimi 2 × 25 dakikayı ölçümde aşarsa denenecek alternatif. |
 | **Descript** | Kendi tanıtım sayfaları Türkçe sesi yazıya döktüğünü söylüyor. | Yardım merkezindeki dil listesi açılamadı; kendi geri bildirim forumunda Türkçe dökümün zayıf olduğunu söyleyen kullanıcı yazıları var: **çelişkili.** | Örnek listesinden çıkarıldı; kategori ("metin üzerinden kurgu") duruyor. |
-| **CapCut** | Kendi yardım sayfasının özeti: ücretsiz dışa aktarım çoğunlukla filigransız; şablonun bitiş klibi, atıf isteyen stok öğe ya da varsayılan bitiş logosu varsa filigran çıkabiliyor. | İkincil kaynaklar ücretsiz planın ticari kullanımı (para kazanan kanal dahil) kısıtladığını ve kullanım koşullarının yüklenen içerik için geniş bir lisans tanıdığını yazıyor; koşulların güncel metni okunamadı. Türkçe altyazı doğruluğu çelişkili. | **Öneri listesinden çıkarıldı.** Kullanmayı düşünürsen önce kullanım koşullarını ve malzeme lisansını kendin oku. |
+| **CapCut** | Kendi yardım sayfasının özeti: ücretsiz dışa aktarım çoğunlukla filigransız; şablonun bitiş klibi, atıf isteyen stok öğe ya da varsayılan bitiş logosu varsa filigran çıkabiliyor. | İkincil kaynaklar ücretsiz planın ticari kullanımı (para kazanan kanal dâhil) kısıtladığını ve kullanım koşullarının yüklenen içerik için geniş bir lisans tanıdığını yazıyor; koşulların güncel metni okunamadı. Türkçe altyazı doğruluğu çelişkili. | **Öneri listesinden çıkarıldı.** Kullanmayı düşünürsen önce kullanım koşullarını ve malzeme lisansını kendin oku. |
 | **Studio "İlham" / "Araştırma" sekmesi** | Google Yardım özeti: İlham sekmesi Ağustos 2026'dan itibaren kademeli olarak kaldırılıyor, fikir üretimi için Studio'daki sohbet yardımcısına yönlendiriliyor. Ağustos 2026 tarihli bir sektör haberine göre farklı içerikli yeni bir "Araştırma" sekmesi az sayıda kullanıcıyla deneniyor. | Türkçe sorgu desteği ve Türkiye'de erişim. | İkincil; hesabında varsa dene, akışı ona bağlama. |
 | **Shorts azami süresi** | Birden çok ikincil kaynak 3 dakika diyor; arama sonuçlarında YouTube Yardım'ın "üç dakikalık Shorts" başlıklı sayfası görünüyor. | Sayfanın tamamı okunamadı. | Kanalın hedefi 25–50 sn; sınır pratikte bağlayıcı değil. |
 | **Audacity, GIMP, Whisper (model)** | Bugün ayrıca sorgulanmadı. | Açık kaynak ve ücretsiz oldukları uzun süredir sabit bilgidir. Whisper'ın desteklediği diller arasında Türkçe vardır. | Kullanılabilir. |
@@ -640,16 +640,16 @@ Kullanılır: yapı, varyasyon, taslak, eleştiri, özet, biçim dönüştürme,
 Senaryo kilitlenmeden ve video yayınlanmadan önce:
 
 1. **İddia listesi:** Senaryodaki her olgusal cümleyi işaretle. Her biri için kaynak sütununa şunlardan birini yaz: `çekim` (ham kayıtta zaman kodu), `olcum.md`, `birincil kaynak` (bağlantı), `görüş` (videoda görüş olduğu belli). Hiçbiri yazılamıyorsa cümle çıkar.
-2. **Sayı tutarlılığı** (tek tanım): `olcum.md` kaynaktır. Başlık, kapak, video içi (seslendirme, kronometre, karşılaştırma tablosu), açıklama, sabit yorum, kısa videolar ve LinkedIn gönderisindeki her süre ve adet onunla aynıdır; yuvarlama Aşama 7'deki kurala göredir. Kontrol bir kez, **yayın öncesi kapıda** yapılır; kısa video ve LinkedIn kapıları yalnızca kendi içindeki sayıyı `olcum.md` ile karşılaştırır.
+2. **Sayı tutarlılığı** (tek tanım): `olcum.md` kaynaktır. Başlık, kapak, video içi (seslendirme, kronometre, karşılaştırma tablosu), açıklama, sabitlenmiş yorum, kısa videolar ve LinkedIn gönderisindeki her süre ve adet onunla aynıdır; yuvarlama Aşama 7'deki kurala göredir. Kontrol bir kez, **yayın öncesi kapıda** yapılır; kısa video ve LinkedIn kapıları yalnızca kendi içindeki sayıyı `olcum.md` ile karşılaştırır.
 3. **Araç davranışı:** Videoda "şu özellik var/yok", "ücretsiz/ücretli" diyorsan çekim günü arayüzde gördüğünü söyle ve tarihi ekranda göster ("Kasım 2026 itibarıyla"). Fiyat söyleme; değişir, video kalır.
 4. **Tekrar denemesi:** Kopyalanabilir prompt'u yayından önce **yeni bir sohbette** bir kez daha çalıştır. İzleyicinin elinde çalışmayan prompt, kanalın en pahalı hatasıdır.
-5. **Yayın sonrası düzeltme:** Hata fark edilirse sabit yoruma ve açıklamanın başına tarihli düzeltme notu yaz; yorumu silme.
+5. **Yayın sonrası düzeltme:** Hata fark edilirse sabitlenmiş yoruma ve açıklamanın başına tarihli düzeltme notu yaz; yorumu silme.
 
 ### 4.3 Yapay zekâ seslendirme mi, kendi sesin mi?
 
 | | Kendi sesin | Yapay zekâ seslendirme |
 |---|-------------|------------------------|
-| **Güven** | "Bunu ben yaptım" cümlesi bir insandan gelir; kanalın iddiasıyla uyumlu | "Gerçek test" iddiasıyla sentetik ses arasında izleyicide soru işareti oluşabilir **[Gözlem]** |
+| **Güven** | "Bunu ben yaptım" cümlesi bir insandan gelir; kanalın iddiasıyla uyumlu | "Gerçek test" iddiasıyla sentetik ses arasında izleyicide soru işareti oluşabilir **[Yaygın gözlem]** |
 | **Tanınırlık** | Yüz göstermeyen kanalda marka sestir | Aynı hazır sesi başka kanallar da kullanabilir |
 | **Türkçe** | Doğal vurgu; "prompt", "ChatGPT", "Excel" gibi karışık dilli cümlelerde sorun yok | Türkçe–İngilizce karışık cümlelerde ve eklerde telaffuzu çekimden önce kendi senaryonla test etmen gerekir; sonuç araçtan araca değişir |
 | **Hız** | Kayıt + dinleme + temizlik tahmini 55 dk | Üretim hızlı; ama telaffuz düzeltme ve yeniden üretme turları öngörülemez |
@@ -661,7 +661,7 @@ Senaryo kilitlenmeden ve video yayınlanmadan önce:
 
 Yapay zekânın seste yeri: temizlik, seviye, sessizlik kesme, yazıya dökme. Sesini beğenmiyorsan çözüm sentetik ses değil; daha yavaş konuşmak, daha kısa cümle yazmak ve hook'u üç kez kaydetmek.
 
-**Ses klonu ve sentetik ses ilk 10 videoda kullanılmaz;** kendi sesinin klonuyla tek cümle düzeltmek de buna dahildir. Yayın sonrası fark edilen hata sesle değil yazıyla düzeltilir: sabit yoruma ve açıklamanın başına tarihli not (Bölüm 4.2, madde 5). 10. videodan sonra bu karar yeniden açılacaksa önce Bölüm 4.4 A'daki kanal kuralı uygulanır.
+**Ses klonu ve sentetik ses ilk 10 videoda kullanılmaz;** kendi sesinin klonuyla tek cümle düzeltmek de buna dâhildir. Yayın sonrası fark edilen hata sesle değil yazıyla düzeltilir: sabitlenmiş yoruma ve açıklamanın başına tarihli not (Bölüm 4.2, madde 5). 10. videodan sonra bu karar yeniden açılacaksa önce Bölüm 4.4 A'daki kanal kuralı uygulanır.
 
 ### 4.4 Politikalar: beyan, etiket, özgün olmayan içerik, İş Ortağı Programı
 
@@ -677,7 +677,7 @@ Yapay zekânın seste yeri: temizlik, seviye, sessizlik kesme, yazıya dökme. S
 
 | Durum | Studio'daki beyan | Açıklamaya yazılır mı |
 |-------|-------------------|------------------------|
-| Videoda sentetik ya da klonlanmış ses var (kendi sesinin klonu dahil) | **Evet** | Evet: "Bu videonun [şu bölümünde] sentetik ses kullanıldı." |
+| Videoda sentetik ya da klonlanmış ses var (kendi sesinin klonu dâhil) | **Evet** | Evet: "Bu videonun [şu bölümünde] sentetik ses kullanıldı." |
 | Gerçek bir kişinin (konuk, hakem) sesi ya da görüntüsü değiştirildi | **Evet**; ayrıca kişinin yazılı izni | Evet |
 | Gerçekçi üretilmiş görüntü ya da video kullanıldı | **Evet** | Evet |
 | Ekranda yapay zekânın ürettiği metin, tablo, sunum var (videonun konusu) | Hayır | Araç adı ve çekim tarihi zaten "Nasıl ölçtüm" bloğunda |
@@ -693,7 +693,7 @@ Politikadan bağımsız kanal kuralları: ekranda yapay zekâ çıktısı göste
   - M (meslek) serisinde aynı senaryoyu meslek adını değiştirerek tekrar etme. "Muhasebeciler için" ile "İK için" videolarının görevleri, verileri ve hataları farklı olmalı.
   - Sentetik ses + hazır görsel + asgari insan katkısı birleşimi. Bölüm 4.3'teki kararın bir gerekçesi de budur.
   - Aynı kısa videonun küçük farklarla defalarca yüklenmesi.
-- **Kısa videolar:** Kendi uzun videondan kesilen kısa videolar kendi özgün içeriğindir. Yine de her kısa video kendi başına anlaşılır olsun, yeni bir açılış cümlesi ve çerçeve taşısın **[Gözlem]**.
+- **Kısa videolar:** Kendi uzun videondan kesilen kısa videolar kendi özgün içeriğindir. Yine de her kısa video kendi başına anlaşılır olsun, yeni bir açılış cümlesi ve çerçeve taşısın **[Yaygın gözlem]**.
 - **Yeniden kullanılan içerik:** Başkasının videosundan, ekran kaydından ya da müziğinden parça kullanacaksan anlamlı yorum/dönüştürme ve telif açısından ayrı değerlendir. Bu kanalın formatı buna ihtiyaç duymaz; duyarsa güncel politikayı oku.
 
 **C. Diğer platformlar: yükleme ekranında yapılacak iş**
@@ -710,7 +710,7 @@ Bölüm 4.3'teki karar gereği bu tablo ilk 10 videoda devreye girmez; durum de�
 
 **D. YouTube İş Ortağı Programı: duyurulmuş değişiklik**
 
-**[Gözlem — ikincil haber kaynakları, resmî duyuru okunmadı]** Ağustos 2026 tarihli haberlere göre YouTube, 1 Şubat 2027'de yürürlüğe girecek İş Ortağı Programı değişiklikleri duyurdu. Haberlerde geçenler: yeni başvurular için izlenme süresi ve Shorts görüntüleme eşiklerinin yükseltilmesi (birden çok kaynakta "yaklaşık iki katı": 365 günde 8.000 saat ya da 90 günde 20 milyon Shorts görüntülemesi; 1.000 abone koşulu sürüyor), Shorts reklam geliri paylaşımı için ayrı bir süreklilik eşiği ve güncellenen koşulların 31 Ocak 2027'ye kadar Studio'dan kabul edilmesi. Mevcut üyelerin etkilenip etkilenmediği konusunda kaynaklar çelişiyor.
+**[Yaygın gözlem — ikincil haber kaynakları, resmî duyuru okunmadı]** Ağustos 2026 tarihli haberlere göre YouTube, 1 Şubat 2027'de yürürlüğe girecek İş Ortağı Programı değişiklikleri duyurdu. Haberlerde geçenler: yeni başvurular için izlenme süresi ve Shorts görüntüleme eşiklerinin yükseltilmesi (birden çok kaynakta "yaklaşık iki katı": 365 günde 8.000 saat ya da 90 günde 20 milyon Shorts görüntülemesi; 1.000 abone koşulu sürüyor), Shorts reklam geliri paylaşımı için ayrı bir süreklilik eşiği ve güncellenen koşulların 31 Ocak 2027'ye kadar Studio'dan kabul edilmesi. Mevcut üyelerin etkilenip etkilenmediği konusunda kaynaklar çelişiyor.
 
 Bu kanal için sonucu: para kazanma başvurusu Şubat 2027'den sonra yapılacağı için **yeni eşikler geçerli olacaktır.** Bir gelir ya da başvuru tarihi hedefi koymadan önce sayıları resmî sayfadan doğrula (Bölüm 0.2); doğrulanmamış eşiği plana yazma.
 
@@ -748,7 +748,7 @@ Süreler Aşama 10a'dadır; burada her adımın kuralı var.
 | 2 | Seç | Adayları **kendin izle**. Ölçüt: ses kapalıyken ve uzun videoyu görmemiş biri için 3 saniyede ne olduğu anlaşılıyor mu? P8 görüntüyü görmez; bu kararı veremez. | İnsan |
 | 3 | Dikey zaman çizelgesi | Ana kurgu projesinde 9:16 (1080×1920) zaman çizelgesi; seçilen anı kopyala. | İnsan |
 | 4 | Yeniden çerçevele | Yatay ekran kaydı dikeyde okunmaz. İlgili bölgeyi (sohbet kutusu, tablo köşesi, formül çubuğu) büyüt; üstte sabit başlık bandı, ortada ekran, altta altyazı. Kayıt 1080p ise büyütme sınırı burada da geçerlidir: yazı bulanıyorsa o anı dar pencere ve %200 tarayıcı yakınlaştırmasıyla **yeniden çek**. Gömülü kronometre çerçeve dışında kalırsa süreyi başlık bandına yazıyla koy (`olcum.md` değeri). | İnsan |
-| 5 | Yeni açılış cümlesi | Uzun videodaki cümle bağlama yaslanır. İlk cümleyi yeniden kaydet: görev + süre. Örnek: "Bu 400 satırlık tabloyu elle temizlemek [ELLE SÜRE] sürdü. Şimdi aynı işe bak." | Yapay zekâ önerir (P8), insan kaydeder |
+| 5 | Yeni açılış cümlesi | Uzun videodaki cümle bağlama yaslanır. İlk cümleyi yeniden kaydet: görev + (yalnızca uzun videonun paketi süre taşıyorsa) süre; çıktı kalıbındaki videoların kısa videosunda süre iddiası olmaz (01 belgesi 4.4). Örnek: "Bu 400 satırlık tabloyu elle temizlemek [ELLE SÜRE] sürdü. Şimdi aynı işe bak." | Yapay zekâ önerir (P8), insan kaydeder |
 | 6 | Gömülü altyazı | Dikey videoda zorunlu say. Sarı vurgu yalnızca sayıda ve anahtar kelimede. Taslağı araç üretir; yazımı sen düzeltirsin. | Yapay zekâ taslak, insan düzeltme |
 | 7 | Kapanış | Son 2 saniye: sözlü yönlendirme ("Tam hâli ve prompt, kanaldaki uzun videoda."). Bitiş kartı, logo animasyonu yok. | İnsan |
 | 8 | Dışa aktar | **Filigransız ana dosya;** her platforma bu dosyadan yüklenir. | İnsan |
@@ -763,18 +763,18 @@ Azami süreler sık değişir ve bu belge yazılırken hiçbir platformun kendi 
 | | YouTube Shorts | LinkedIn | Instagram Reels | TikTok |
 |---|----------------|----------|-----------------|--------|
 | **Ne zaman açılır** | 1. videodan itibaren | 1. videodan itibaren | Shorts + LinkedIn dağıtımı 20 dakikanın altına inince | Reels ile birlikte |
-| **Oran** | 9:16 (1080×1920) | Dikey video akışta destekleniyor; kare (1:1) ya da 4:5 masaüstünde daha iyi oturabilir **[Gözlem]**. İlk ay yalnızca 9:16 ana dosyayı yükle; ayrı kare sürüm ek kurgu işidir, ancak ölçümle gerek görülürse | 9:16; profil ızgarasındaki kırpma için kapak karesini kontrol et | 9:16 |
+| **Oran** | 9:16 (1080×1920) | Dikey video akışta destekleniyor; kare (1:1) ya da 4:5 masaüstünde daha iyi oturabilir **[Yaygın gözlem]**. İlk ay yalnızca 9:16 ana dosyayı yükle; ayrı kare sürüm ek kurgu işidir, ancak ölçümle gerek görülürse | 9:16; profil ızgarasındaki kırpma için kapak karesini kontrol et | 9:16 |
 | **Azami süre (ikincil kaynaklar)** | 3 dakika | Kaynaklar LinkedIn Yardım'a atıfla 15 dakika diyor; bazıları mobil yüklemede 10 dakika | Çelişkili: 3, 15 ve 20 dakika diyen kaynaklar var | Çelişkili: uygulama içi çekimde 10 dakika; dosya yüklemede 30–60 dakika diyen kaynaklar var |
-| **Bu kanal için hedef süre (tahmini)** | 25–50 sn | 30–75 sn; biraz daha uzun bağlama tahammül var **[Gözlem]** | 25–45 sn | 25–50 sn |
+| **Bu kanal için hedef süre (tahmini)** | 25–50 sn | 30–75 sn; biraz daha uzun bağlama tahammül var **[Yaygın gözlem]** | 25–45 sn | 25–50 sn |
 | **İlk saniye** | Görev + sayı ekranda yazılı; ses başlamadan anlaşılsın | İlk satır metindir: gönderi metninin ilk iki satırı "devamını gör"den önce görünür; sorunu orada söyle | Aynı; kapak karesi ızgarada da görünür, sayı kapakta olsun | Aynı; ilk karede hareket (imleç, yazı yazılması) |
-| **Altyazı** | Gömülü; alt kısımdaki arayüz öğelerinin altında kalmasın | Gömülü şart: akışta videolar çoğunlukla sessiz başlar **[Gözlem]** | Gömülü; sağ ve alt kenarlarda güvenli alan | Gömülü; sağ ve alt kenarlarda güvenli alan |
+| **Altyazı** | Gömülü; alt kısımdaki arayüz öğelerinin altında kalmasın | Gömülü şart: akışta videolar çoğunlukla sessiz başlar **[Yaygın gözlem]** | Gömülü; sağ ve alt kenarlarda güvenli alan | Gömülü; sağ ve alt kenarlarda güvenli alan |
 | **Üslup** | Kanal tonu; uzun videoya köprü | Yine "sen"; örnekler iş bağlamında; kişisel gözlem + ölçüm + tek çıkarım | Görsel düzen daha önemli; kapak karesi özenli | Daha konuşur gibi; aynı dürüstlük |
 | **Açıklama metni** | Kısa; görev ve sonuç. Uzun videonun adı | 5–10 satırlık bağımsız metin; video izlenmese de değer taşısın | 1–2 cümle + birkaç etiket | 1–2 cümle + 3–5 ilgili etiket |
-| **Bağlantı** | "İlgili video" özelliği `[hesabında açık mı kontrol et]` | Gönderi içindeki dış bağlantının erişimi düşürdüğü yaygın bir gözlemdir **[Gözlem]**; bağlantıyı ilk yoruma koymayı dene ve karşılaştır | Profil bağlantısı `[hesabında açık mı kontrol et]` | Profil bağlantısı `[hesabında açık mı kontrol et]`; ikincil kaynaklar kişisel hesaplarda takipçi eşiği olup olmadığı konusunda çelişiyor |
+| **Bağlantı** | "İlgili video" özelliği `[hesabında açık mı kontrol et]` | Gönderi içindeki dış bağlantının erişimi düşürdüğü yaygın bir gözlemdir **[Yaygın gözlem]**; bağlantıyı ilk yoruma koymayı dene ve karşılaştır | Profil bağlantısı `[hesabında açık mı kontrol et]` | Profil bağlantısı `[hesabında açık mı kontrol et]`; ikincil kaynaklar kişisel hesaplarda takipçi eşiği olup olmadığı konusunda çelişiyor |
 | **Yönlendirme cümlesi** (bağlantıya bağımlı değil) | "Tam hâli kanaldaki uzun videoda." | Bağlantıyı ilk yoruma kendin koy; "isteyen yoruma yazsın" türü yapay etkileşim isteme | "Tam hâli YouTube'da: Kısa Mesai diye ara." | "Tam hâli YouTube'da: Kısa Mesai diye ara." |
 | **Yapay zekâ etiketi** | Bölüm 4.4 A | Bölüm 4.4 C | Bölüm 4.4 C | Bölüm 4.4 C |
 
-**Filigran sorunu:** Bir platformun uygulamasından indirilen videoda o platformun filigranı olur. Instagram'ın geçmişte, başka uygulamaların filigranını taşıyan Reels'lerin daha az önerileceğini açıkladığı bilinir; diğer platformlar için resmî bir açıklama doğrulanamadı, yaygın gözlem aynı yöndedir **[Gözlem]**. Pratik kural tartışmasızdır: **her zaman kurgu aracından çıkan filigransız ana dosyayı yükle;** hiçbir platformdan indirip diğerine yükleme. Kurgu aracının ücretsiz katmanı dışa aktarımda kendi filigranını ya da bitiş logosunu ekliyorsa ya kapat ya aracı değiştir.
+**Filigran sorunu:** Bir platformun uygulamasından indirilen videoda o platformun filigranı olur. Instagram'ın geçmişte, başka uygulamaların filigranını taşıyan Reels'lerin daha az önerileceğini açıkladığı bilinir; diğer platformlar için resmî bir açıklama doğrulanamadı, yaygın gözlem aynı yöndedir **[Yaygın gözlem]**. Pratik kural tartışmasızdır: **her zaman kurgu aracından çıkan filigransız ana dosyayı yükle;** hiçbir platformdan indirip diğerine yükleme. Kurgu aracının ücretsiz katmanı dışa aktarımda kendi filigranını ya da bitiş logosunu ekliyorsa ya kapat ya aracı değiştir.
 
 **Platform sırası ve açılma koşulu:** Önce Shorts (uzun videoyla aynı kanalı besler) ve LinkedIn (hedef kitle orada ve iş bağlamında). Dört hafta boyunca dağıtım süresini üretim tablosuna yaz. Ortalama 20 dakikanın altındaysa Reels ve TikTok'u aynı ana dosyayla ekle; değilse ekleme. Bütçe sıkışırsa önce TikTok ve Reels, sonra LinkedIn videosu bırakılır; LinkedIn metin gönderisi kalır.
 
@@ -819,7 +819,7 @@ Adımlar (10 dk, Aşama 8'in ilk adımı):
 | 3 | `prompt-dosyasi.md` şablonunu doldur: görev, prompt, doldurulacak alanlar, "şunu değiştirirsen şu olur", bilinen sınır (videodaki "yapamadığı şey"), çekim tarihi ve araç. | 3 dk | İnsan; "doldurulacak alanlar" tablosunun taslağını asistan çıkarabilir |
 | 4 | Sayfayı yayınla, dizine en üste ekle, bu video için **ayrı bir kısa bağlantı** oluştur (`KM-004` gibi tanınır bir adla). Gizli sekmede aç: giriş istemeden açılıyor mu, kopyalama çalışıyor mu? | 2 dk | İnsan |
 
-**Tıklama ölçümü.** YouTube Studio açıklamadaki bağlantıya kaç kez tıklandığını vermez; herkese açık bir belge de anonim ziyaretçi saymaz. Bu yüzden her videonun açıklamasına ve sabit yorumuna tıklama istatistiği veren bir kısa bağlantı konur; "prompt tıklaması" sütunu o panelden okunur. Dikkat edilecekler: (a) kısa bağlantının açıklamada tıklanabilir kaldığını gizli test videosunda dene; (b) panelin saydığı şey tıklamadır, tekil kişi değildir; botlar da sayılabilir, sayıyı yalnızca kendi videoların arasında kıyas için kullan; (c) kısa bağlantı kurulana kadar sütuna `[ölçüm yok]` yazılır. Ölçüm yöntemi `performans-kaydi.md` Bölüm 0'a bir kez yazılır.
+**Tıklama ölçümü.** YouTube Studio açıklamadaki bağlantıya kaç kez tıklandığını vermez; herkese açık bir belge de anonim ziyaretçi saymaz. Bu yüzden her videonun açıklamasına ve sabitlenmiş yorumuna tıklama istatistiği veren bir kısa bağlantı konur; "prompt tıklaması" sütunu o panelden okunur. Dikkat edilecekler: (a) kısa bağlantının açıklamada tıklanabilir kaldığını gizli test videosunda dene; (b) panelin saydığı şey tıklamadır, tekil kişi değildir; botlar da sayılabilir, sayıyı yalnızca kendi videoların arasında kıyas için kullan; (c) kısa bağlantı kurulana kadar sütuna `[ölçüm yok]` yazılır. Ölçüm yöntemi `performans-kaydi.md` Bölüm 0'a bir kez yazılır.
 
 Prompt'un tam metni açıklamada durduğu için bağlantı tıklaması prompt'u kullananların **alt sınırıdır;** çoğu izleyici açıklamadan kopyalar ve hiçbir yerde sayılmaz.
 
@@ -835,7 +835,7 @@ Prompt'un tam metni açıklamada durduğu için bağlantı tıklaması prompt'u 
 | 2 | Hukuki hazırlık | E-posta adresi kişisel veridir: KVKK kapsamında aydınlatma metni ve açık rıza gerekir. Gönderilerin ticari elektronik ileti sayılması hâlinde ayrıca onay alma, onayı kayıt altında tutma ve İleti Yönetim Sistemi (İYS) yükümlülükleri doğabilir. Kendi durumun (şahıs/şirket, gönderinin niteliği) için **formu yayınlamadan önce güncel mevzuata bak ya da bir uzmana danış;** bu belge hukuki görüş değildir. |
 | 3 | Kayıt formu | Tek alan (e-posta). Formun üstünde ne geleceği yazılı: "Haftada bir e-posta: o haftanın prompt'u ve takıldığı yer." Aydınlatma metni bağlantısı ve rıza kutusu formda. |
 | 4 | Karşılama e-postası | Otomatik; dizin sayfasının bağlantısını verir. Videodaki prompt'lar e-posta duvarının arkasına **konmaz;** kayıt olana verilen şey "hepsi bir arada + yenileri e-postayla"dır. |
-| 5 | Bağlantıları güncelle | Açıklama alt bloğu, sabit yorum şablonu ve kanal sayfası bağlantısı kayıt sayfasına döner; eski videolardaki açık dizin bağlantısı çalışmaya devam eder. |
+| 5 | Bağlantıları güncelle | Açıklama alt bloğu, sabitlenmiş yorum şablonu ve kanal sayfası bağlantısı kayıt sayfasına döner; eski videolardaki açık dizin bağlantısı çalışmaya devam eder. |
 
 **Haftalık sayı (20 dk, cumartesi; 48 saat kontrolüyle aynı oturum):**
 
@@ -941,7 +941,7 @@ Intro yok. Video doğrudan görevle açılır. Sabit olanlar:
 | **Ses efekti** | En fazla 3–4: kronometre başlat/durdur, kart geçişi. | Her kesimde efekt yok. |
 | **Bitiş ekranı düzeni** | Son 15–20 sn: solda önerilen video, sağda abone düğmesi, arkada sakin ekran. | Seslendirme bitiş ekranında da sürer; "bir sonraki mantıklı video" sözle söylenir. |
 
-Renk ve yazı tipi: lacivert ve sarının onaltılık kodlarını ve yazı tipi adını bir kez seç, `00_VARLIKLAR/kapak/renk-notu.md` içine yaz; her yerde aynısını kullan (`kronometre.html` içindeki iki renk değişkeni dahil). Sarı üzerine beyaz yazı kullanma (okunmaz); sarı üzerine lacivert, lacivert üzerine sarı/beyaz.
+Renk ve yazı tipi: lacivert ve sarının onaltılık kodlarını ve yazı tipi adını bir kez seç, `00_VARLIKLAR/kapak/renk-notu.md` içine yaz; her yerde aynısını kullan (`kronometre.html` içindeki iki renk değişkeni dâhil). Sarı üzerine beyaz yazı kullanma (okunmaz); sarı üzerine lacivert, lacivert üzerine sarı/beyaz.
 
 Bu varlıkların ilk kurulumu Bölüm 0.4'te bütçelenmiştir (grafikler tahmini 120 dk, proje şablonu 60 dk).
 
@@ -957,7 +957,7 @@ Bir kez kur, proje şablonu olarak kaydet:
 | Kanal düzeni | V1 ekran, V2 büyütme/kopya, V3 grafik, V4 altyazı; A1 ses, A2 müzik, A3 efekt | Her videoda aynı; şablonda boş ve adlandırılmış gelsin |
 | Yakınlaştırma ön ayarı | **1440p kayıtta:** %115 ve %133 (kayıpsız). **4K kayıtta:** %150 ve %200. **1080p kayıtta:** tek ön ayar, %130; daha fazlası çekimde tarayıcı yakınlaştırmasıyla | Yumuşak giriş-çıkış. Yüzdeler 1080p zaman çizelgesine sığdırılmış görüntüye göredir |
 | Ses zinciri | Gürültü azaltma → seviye sıkıştırma → sınırlayıcı | Ön ayar olarak kayıtlı |
-| Ses yüksekliği hedefi | Konuşma tümleşik yaklaşık −14 LUFS, tepe −1 dB altında | **[Gözlem]** YouTube'un oynatmada ses yüksekliğini normalleştirdiği ve bu düzeyin yaygın hedef olduğu kabul edilir; resmî taahhüt değildir. Kendi videonu başka kanalların videolarıyla art arda dinleyerek kontrol et. |
+| Ses yüksekliği hedefi | Konuşma tümleşik yaklaşık −14 LUFS, tepe −1 dB altında | **[Yaygın gözlem]** YouTube'un oynatmada ses yüksekliğini normalleştirdiği ve bu düzeyin yaygın hedef olduğu kabul edilir; resmî taahhüt değildir. Kendi videonu başka kanalların videolarıyla art arda dinleyerek kontrol et. |
 | Müzik seviyesi | Konuşmanın tahmini 20–25 dB altında | Telefon hoparlöründe konuşmayı örtmüyor mu, dinle |
 | Altyazı stili (dikey) | Kalın sans-serif, beyaz, lacivert kutu; vurgu sarı; en fazla 2 satır | Stil olarak kayıtlı |
 | Dışa aktarma (uzun) | H.264, .mp4, 1080p, kaynak kare hızı | Bit hızı için YouTube'un önerilen yükleme ayarları sayfasına bak **[Resmî — yayın öncesi doğrula]**. Ekran kaydında yazı keskinliği için bit hızını düşük tutma. |
@@ -1025,16 +1025,18 @@ Kural: uzun elle süresi olan iki videoyu arka arkaya planlama.
 | Durum | Karar |
 |-------|-------|
 | Çekimde yapay zekâ beklenenden kötü çıktı, fark küçük | Videoyu çevir: "Bu işte neden işe yaramadı" (01 belgesi, formül F8). Sonucu düzeltmek için koşuyu tekrarlayıp iyisini seçme. |
-| Araç çekimle yayın arasında arayüz/model değiştirdi | Açıklamaya ve sabit yoruma tarihli not. Süreli koşuyu etkileyen bir değişiklikse koşuyu yeniden çek. |
+| Araç çekimle yayın arasında arayüz/model değiştirdi | Açıklamaya ve sabitlenmiş yoruma tarihli not. Süreli koşuyu etkileyen bir değişiklikse koşuyu yeniden çek. |
 | Hafta içi zaman kalmadı | Stoktaki videoyu yayınla (Bölüm 2.2). Stok yoksa kapsamı küçült; yarım videoyu yayınlama. |
 | Konuk ya da hakem son anda çekildi | Video ertelenir, yedek video girer (Bölüm 1.11). Konuğun yerine isimsiz "bir uzman" yazılmaz. |
-| Özel kapak, sabit yorum ya da tıklanabilir bağlantı açık değil | Bölüm 0.3. |
-| Yayından sonra olgusal hata bulundu | Sabit yorum + açıklama başına tarihli düzeltme. Hata ölçümdeyse başlık ve kapağı da düzelt. |
+| Özel kapak, sabitlenmiş yorum ya da tıklanabilir bağlantı açık değil | Bölüm 0.3. |
+| Yayından sonra olgusal hata bulundu | Sabitlenmiş yorum + açıklama başına tarihli düzeltme. Hata ölçümdeyse başlık ve kapağı da düzelt. |
 | Kısa video uzun videodan çok daha iyi gitti | O anı konu alan bir uzun video fikri aç; fikir havuzuna gerekçesiyle yaz. |
 
 ---
 
 ## İlgili belgeler
+
+- `README.md` — bütün belgelerin dizini ve 7 adımlık başlangıç sırası
 
 - `01-icerik-uretim-sistemi.md` — fikir filtresi, paketleme, hook, kurgu yapıları (KG1–KG7), kronometre kuralı (6.1), tutma araçları, CTA
 - `02-buyume-stratejisi.md` — haftalık takvimin büyüme işleri (B2), prompt dosyası ve e-posta listesinin aşamaları (B7), haftalık analiz rutini (B8), ilk Studio oturumunda doğrulanacaklar listesi

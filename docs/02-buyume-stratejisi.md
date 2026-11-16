@@ -63,7 +63,7 @@ Zayıf halka neredeyse müdahale oraya yapılır (karar tablosu: Bölüm B5).
   4. **Asgari veri olmadan oran okuma.** 1.000 gösterimde %5 CTR 50 tıklamadır; bir puanlık fark 10 tıklamadan ibarettir. Asgari veri eşikleri B5'te.
 - **İyi işaret:** Aynı kaynakta, benzer gösterim hacminde kanal medyanının üstünde CTR.
 - **Kötü işaret:** Göz atma'da gösterim var, CTR o kaynaktaki kanal dağılımının alt üçte birinde (tanım: B5) → paket o kitleye bir şey söylemiyor. Ya da CTR yüksek ama ilk 30 saniye kaybı da yüksek → paket videonun vermediği bir şey vaat ediyor (Kısa Mesai'nin "tık tuzağı yok" kuralının ölçülebilir hali).
-- **Kısa Mesai için:** "3 sa → 12 dk" kapak kalıbı CTR'nin ana kaldıracı. Kalıp sabit kaldığı için değişen tek şey görev ve rakam olur; bu da hangi **görevin** ilgi çektiğini temiz ölçmeyi sağlar.
+- **Kısa Mesai için:** Kapağın sabit öğesi "X → Y" dönüşüm çiftidir (süre, çıktı ya da soru çifti; hangisinin ne zaman kullanılacağı 01 belgesi 3.1'de; "3 sa → 12 dk" süre çiftinin biçim örneğidir). Varsayım: kalıp sabit kaldığı için videodan videoya değişen şey görev ve çiftin içeriği olur; bu da hangi **görevin** ilgi çektiğini daha temiz okumayı sağlar. Çift türü farklı videoların CTR'si yan yana konurken tür de not edilir.
 
 ## A3. İzlenme süresi, ortalama görüntüleme süresi, ortalama izlenme yüzdesi
 
@@ -88,7 +88,7 @@ Zayıf halka neredeyse müdahale oraya yapılır (karar tablosu: Bölüm B5).
 | İlk 30 sn'de dik düşüş | Paket–açılış uyumsuzluğu ya da yavaş giriş | Görev ve elle süresi ilk cümlede söylenmedi; selamlama/kanal tanıtımı var |
 | Düz, hafif eğimli çizgi | İzleyici vaat edilen şeyi alıyor | Kronometre çalışıyor, adımlar net |
 | Tek noktada basamak düşüş | O saniyede bir şey izleyiciyi kaybettirdi | Uzun yazma/bekleme anı hızlandırılmadı; sponsor/abone çağrısı; "şimdi teoriye geçelim" cümlesi |
-| Tepe (sıçrama) | Tekrar izleme | Prompt ekranda; izleyici kopyalamak için geri sarıyor → prompt'u açıklamaya ve sabit yoruma koy |
+| Tepe (sıçrama) | Tekrar izleme | Prompt ekranda; izleyici kopyalamak için geri sarıyor → prompt'u açıklamaya ve sabitlenmiş yoruma koy |
 | Çukur ardından toparlanma | İzleyici ileri sardı | O bölüm atlanabilir; sonraki videoda kısalt |
 | Son 30–60 sn'de dik düşüş | İzleyici "bitti" sinyalini aldı | "Evet, bu kadardı" cümlesi; sonraki video önerisi bu cümleden **önce** söylenmeli |
 
@@ -154,10 +154,10 @@ Zayıf halka neredeyse müdahale oraya yapılır (karar tablosu: Bölüm B5).
 - **[Yaygın gözlem]** Shorts izleyicisi ile uzun video izleyicisi büyük ölçüde ayrı davranır; Shorts abonesi otomatik olarak uzun video izleyicisine dönüşmez.
 - **Köprü: "ilgili video" bağlantısı.** İkincil kaynaklara göre Shorts düzenlenirken Studio'da (bilgisayarda) aynı kanaldaki bir videoya tek bir "ilgili video" bağlantısı eklenebiliyor; bağlantı Shorts oynatıcısında kanal adının altında görünüyor ([Tubefilter](https://tubefilter.com/2023/09/01/youtube-related-links-multi-format-creators-shorts-live-long-form/), [vidIQ](https://vidiq.com/blog/post/youtube-related-links-connect-shorts-long-videos)). Yeni kanalda erişim koşulu teyit edilemedi; bir ikincil kaynak "gelişmiş özellikler" erişimi gerektiğini yazıyor. Kontrol: Studio → Ayarlar → Kanal → Özellik uygunluğu; ve bir Shorts'un ayrıntılar sayfasında "İlgili video" alanı görünüyor mu.
 - **Bağlantı yoksa yedek yol:** Shorts'un son 2 saniyesinde uzun videonun **tam başlığı** hem sözle hem ekran yazısıyla verilir ("Tamamı kanalda: 3 Saatlik Excel İşini 10 Dakikada Bitirmek"). İzleyici kanal adına dokunup videoyu başlığından bulur.
-- **Shorts açıklamasına ve yorumlarına bağlantı koyma.** YouTube'un 2023'te Shorts açıklama ve yorumlarındaki bağlantıları tıklanamaz yaptığı bildirildi ([Tubefilter](https://tubefilter.com/2023/09/01/youtube-related-links-multi-format-creators-shorts-live-long-form/)); kısıtın bugün sürüp sürmediği teyit edilemedi (ilk Shorts'ta dene). Bu yüzden B3'teki sabit yorum kalıbı Shorts'a **uygulanmaz**; Shorts'ta sabit yorum yalnızca prompt metnini ve uzun videonun tam başlığını düz yazı olarak taşır.
+- **Shorts açıklamasına ve yorumlarına bağlantı koyma.** YouTube'un 2023'te Shorts açıklama ve yorumlarındaki bağlantıları tıklanamaz yaptığı bildirildi ([Tubefilter](https://tubefilter.com/2023/09/01/youtube-related-links-multi-format-creators-shorts-live-long-form/)); kısıtın bugün sürüp sürmediği teyit edilemedi (ilk Shorts'ta dene). Bu yüzden B3'teki sabitlenmiş yorum kalıbı Shorts'a **uygulanmaz**; Shorts'ta sabitlenmiş yorum yalnızca prompt metnini ve uzun videonun tam başlığını düz yazı olarak taşır.
 - **İyi işaret:** Kaydırmadan kalma oranı kanalın Shorts medyanının üstünde ve Shorts'tan uzun videoya geçiş var (uzun videonun trafik kaynağında "Shorts" satırı).
 - **Kötü işaret:** Shorts görüntülemesi yüksek, uzun videolarda hiçbir iz yok ve Shorts kitlesinin demografisi ideal izleyiciden (26–42, çalışan) uzak.
-- **Kısa Mesai için:** Shorts'un işi abone toplamak değil, **uzun videonun tek bir "önce/sonra" anını** göstermek ve ilgili video bağlantısıyla uzun videoya taşımaktır. Her Shorts tek başına anlamlı olmalı ("devamı kanalda" diye yarım bırakılmış klip değil).
+- **Kısa Mesai için:** Shorts'un işi abone toplamak değil, **uzun videonun tek bir anını** (tek ipucu, hata / "yapamadığı şey" ya da önce/sonra; türler ve açılış kuralları 01 belgesi 4.4) göstermek ve ilgili video bağlantısıyla uzun videoya taşımaktır. Her Shorts tek başına anlamlı olmalı ("devamı kanalda" diye yarım bırakılmış klip değil).
 
 ## A11. Öneri sisteminin genel mantığı ve memnuniyet sinyalleri
 
@@ -236,7 +236,7 @@ Aşama geçişi takvimle değil **video sayısı + veri yeterliliği** ile olur.
 |---|---|
 | **Hedef** | Arama + Önerilen + Göz atma arasında dengeli trafik; öngörülebilir video başı performans; izleyici isteklerinden beslenen konu hattı. |
 | **Odak metrik** | (1) Son 10 videonun 28 günlük görüntüleme **medyanı** (tek video değil, taban yükseliyor mu), (2) Göz atma payı, (3) aylık ara sıra + düzenli izleyici sayısı (düzenli izleyici bu aşamada yeni oluşmaya başlar; ilk aylarda küçük sayı beklenir), (4) e-posta listesi büyümesi. |
-| **Yapılır** | Çeyrekte bir kanal denetimi: en zayıf tutmalı 5 videonun ortak noktası, en çok yeni izleyici getiren 5 videonun ortak noktası. Eskiyen araç videolarını güncelle (yeni video + eskisinin açıklamasına ve sabit yorumuna yönlendirme). Meslek serisini izleyici talebine göre genişlet. İkinci haftalık video yalnızca stok 4 videonun altına düşmüyorsa düşünülür. |
+| **Yapılır** | Çeyrekte bir kanal denetimi: en zayıf tutmalı 5 videonun ortak noktası, en çok yeni izleyici getiren 5 videonun ortak noktası. Eskiyen araç videolarını güncelle (yeni video + eskisinin açıklamasına ve sabitlenmiş yorumuna yönlendirme). Meslek serisini izleyici talebine göre genişlet. İkinci haftalık video yalnızca stok 4 videonun altına düşmüyorsa düşünülür. |
 | **Yapılmaz** | İmza formatı "sıkıldım" diye bırakmak — değişiklik veriye dayanmalı. Kapak kalıbını toptan değiştirmek (test et, sonra geç). |
 
 ## B2. Yükleme sıklığı ve takvim
@@ -255,27 +255,29 @@ Sonuç: **haftada 1 videoyu hiç aksatmamak, haftada 2 videoyu üç hafta sürd�
 
 **Varsayım A — tam zamanlı işi olan üretici (akşamlar + hafta sonu):**
 
-| Gün | Üretim (03 belgesi §2.1) | Büyüme işi (bu belge) | Tahmini süre |
+Günler ve üretim süreleri 03 belgesi §2.1 ile birebir aynıdır (tek kaynak orasıdır; orada değişirse burası da değişir). N = bu perşembe yayınlanan video, N+1 = bu hafta üretilen ve gelecek perşembe yayınlanacak video, N−1 = geçen perşembe yayınlanan video.
+
+| Gün | Üretim (03 belgesi §2.1; N+1) | Büyüme işi (bu belge) | Tahmini süre |
 |---|---|---|---|
-| Cumartesi | Gelecek haftanın videosu: araştırma + paketleme + hazırlık + senaryo | Perşembe yayınlanan videoya 48 saat bakışı (B5) · LinkedIn gönderisi · haftalık e-posta (Aşama 2a'dan itibaren, B7) | 3 sa + 5 dk + 25 dk |
-| Pazar | Çekim + seslendirme | — | 1 sa 30 dk |
-| Pazartesi | Kurgu 1 | (İsteğe bağlı) Shorts 3 yayını | 1 sa 30 dk |
-| Salı | Kurgu 2 + kapak | Shorts 1 yayını (uzun videodan önce) | 1 sa 10 dk |
-| Çarşamba | Yayın hazırlığı + 2–3 Shorts kesimi | Görev anketi gönderisi (koşul sağlanınca, B6) | 1 sa 20 dk + 10 dk |
-| **Perşembe** | Yayın: teknik kontrol, sabit yorum, ilk yorumlar (B5 "1. saat") | **Haftalık analiz rutini (B8)** | 15 dk + 30 dk |
-| Cuma | — | Shorts 2 yayını (uzun videodan sonra) · sonuç kartı gönderisi (koşul sağlanınca) | 10 dk |
+| Cumartesi | Araştırma + paketleme + hazırlık (1 sa 45 dk) + elle koşu (görev süresi + 15 dk) | N−1'e 48 saat bakışı (B5) · LinkedIn gönderisi · haftalık e-posta (Aşama 2a'dan itibaren, B7; süresi bütçe dışı) | 1 sa 45 dk + elle koşu + 5 dk + 15 dk |
+| Pazar | Senaryo | — | 1 sa 30 dk |
+| Pazartesi | Çekim + seslendirme | (İsteğe bağlı) N−1'in üçüncü Shorts'u yayında | 1 sa 45 dk |
+| Salı | Kurgu 1 | N'nin ilk Shorts'u yayında (uzun videodan önce; geçen hafta zamanlandı) | 1 sa 20 dk |
+| Çarşamba | Kurgu 2 + kapak | Görev anketi gönderisi (koşul sağlanınca, B6) | 1 sa 35 dk + 10 dk |
+| **Perşembe** | N+1'in Shorts kesimi (2 video) | **N yayında:** teknik kontrol, sabitlenmiş yorum, ilk yorumlar (B5 "1. saat") · **haftalık analiz rutini (B8)** | 50 dk + 15 dk + 30 dk |
+| Cuma | N+1'in yayın hazırlığı ve zamanlaması + Shorts dağıtımı | N'nin ikinci Shorts'u yayında (uzun videodan sonra) · sonuç kartı gönderisi (koşul sağlanınca) | 50 dk + 10 dk |
 | Her gün | — | Yorum cevapları | 10 dk × 7 |
 
-**Haftalık toplam (tahmini): 11 sa 15 dk.** Hesap: 03 belgesindeki 9 sa 30 dk'lık standart hafta − oradaki 20 dk'lık analiz kalemi + bu belgedeki 35 dk analiz (5 + 30) + 20 dk topluluk gönderisi + 70 dk yorum cevabı. Topluluk gönderileri başlamadan önce 10 sa 55 dk. En uzun tek oturum cumartesidir (yaklaşık 3,5 saat); o gün sığmıyorsa senaryo pazar sabahına kayar.
+**Haftalık toplam (tahmini): 12 sa 10 dk + elle koşu.** Hesap: 03 belgesindeki 10 sa 25 dk'lık standart hafta (elle koşu hariç) − oradaki 20 dk'lık analiz kalemi + bu belgedeki 35 dk analiz (5 + 30) + 20 dk topluluk gönderisi + 70 dk yorum cevabı. Topluluk gönderileri başlamadan önce 11 sa 50 dk. Elle koşu bunun üstüne görev süresi + 15 dk ekler (en fazla 1 sa 15 dk); haftalık e-posta da bütçe dışıdır. En uzun gün cumartesidir (elle koşuyla en fazla 3 sa 35 dk); sığmıyorsa elle koşu bir önceki cuma akşamına alınır, senaryodan sonraya alınmaz (03 belgesi §2.1).
 
 **Varsayım B — haftada iki tam gün ayırabilen üretici (serbest çalışan):**
 
 | Gün | İş | Tahmini süre |
 |---|---|---|
-| 1. gün (ör. pazartesi) | Araştırma + paketleme + hazırlık + senaryo + çekim + seslendirme | 4 sa 30 dk |
-| 2. gün (ör. salı) | Kurgu 1 + kurgu 2 + kapak + yayın hazırlığı + Shorts kesimi | 4 sa |
+| 1. gün (ör. pazartesi) | Araştırma + paketleme + hazırlık + elle koşu + senaryo + çekim + seslendirme | 5 sa + elle koşu |
+| 2. gün (ör. salı) | Kurgu 1 + kurgu 2 + kapak + yayın hazırlığı + Shorts kesimi ve dağıtımı | 4 sa 35 dk |
 | Perşembe | Yayın + haftalık analiz rutini | 45 dk |
-| Cumartesi | 48 saat bakışı + LinkedIn + e-posta | 30 dk |
+| Cumartesi | 48 saat bakışı + LinkedIn (+ e-posta, bütçe dışı) | 20 dk |
 | Diğer | Yorumlar (günde 10 dk), gönderiler (20 dk), Shorts yayınları zamanlanmış | 1 sa 30 dk |
 
 Toplam aynıdır; fark, üretimin iki blokta bitmesi ve stok biriktirmenin kolaylaşmasıdır.
@@ -314,27 +316,27 @@ Liste adları izleyicinin sorununu söyler, kategori harfini değil. Başlangı�
 
 Kurallar:
 - Her video **tam bir** ana listeye girer (ikincil listeye de eklenebilir).
-- **Açıklamadaki ve sabit yorumdaki** video bağlantıları oynatma listesi parametresiyle (`&list=…`) verilir ki bir sonraki video otomatik sırada olsun. Bitiş ekranı için böyle bir ayar yoktur; oradaki seçim aşağıda.
+- **Açıklamadaki ve sabitlenmiş yorumdaki** video bağlantıları oynatma listesi parametresiyle (`&list=…`) verilir ki bir sonraki video otomatik sırada olsun. Bitiş ekranı için böyle bir ayar yoktur; oradaki seçim aşağıda.
 - Tek videolu liste kanal sayfasında gösterilmez; ikinci video gelince raf olarak eklenir.
 - "Buradan Başla" listesi resmî seri olarak işaretlenebiliyorsa işaretle (oynatma listesi ayarları → seri seçeneği; mevcutsa).
 - Liste açıklamasının ilk cümlesi kime ve hangi sonuç için olduğunu söyler: "Excel'de saatler süren işleri yapay zekâyla kısaltmak isteyenler için; her videoda süre ölçümü ve kopyalanabilir prompt var."
 
-### Oturum uzatma: bitiş ekranı + sabit yorum + sözlü geçiş
+### Oturum uzatma: bitiş ekranı + sabitlenmiş yorum + sözlü geçiş
 
-1. **Sözlü geçiş (en etkilisi) [Yaygın gözlem].** Karşılaştırma bölümü biter bitmez, veda cümlesinden **önce**, bir sonraki videoyu tek cümleyle ve nedeniyle söyle: "Bu tabloyu yaptık; formülleri de aynı yöntemle yazdırmak istersen ekrandaki video tam onu yapıyor." Cümle biterken bitiş ekranı açık olsun. (CTA metinleri: 01 belgesi §8.2.)
+1. **Sözlü geçiş (en etkilisi) [Yaygın gözlem].** Prompt gösterildikten sonra, videonun **son sesli cümlesi** olarak bir sonraki videoyu tek cümleyle ve nedeniyle söyle; vedalaşma cümlesi yoktur (yer ve sıra kuralı: 01 belgesi 8.2 ve 8.5). Örnek: "Bu tabloyu yaptık; formülleri de aynı yöntemle yazdırmak istersen ekrandaki video tam onu yapıyor." Cümle biterken bitiş ekranı açık olsun. (CTA metinleri: 01 belgesi §8.2.)
 2. **Bitiş ekranı.** **[Resmî — sayfada teyit et]** Videonun son 5–20 saniyesine eklenir ([Add end screens](https://support.google.com/youtube/answer/6388789)). Öğe olarak ya **belirli bir video** ya da **bir oynatma listesi** seçilir; video öğesini "liste içinden" açtırmanın ayarı yoktur. Varsayılan düzen: 1 belirli video (sözlü geçişte adı geçen "sonraki adım") + abone düğmesi. Oynatma listesi öğesinin daha çok oturum üretip üretmediği B4'te FT7 olarak test edilir. "İzleyici için en iyisi" seçeneğini ikinci öğe olarak ancak 15+ video olduğunda ekle; öncesinde sistemin seçeceği anlamlı bir aday yok. Öğeler ekrandaki içeriğin üstüne binmesin diye son 15 saniyenin görsel şablonunu sabit tut.
-3. **Sabit yorum.** Her uzun videoda aynı üç bloklu kalıp (prompt, sıradaki adım, soru):
+3. **Sabitlenmiş yorum.** Her uzun videoda aynı üç bloklu kalıp (prompt, sıradaki adım, soru):
    ```
    Videodaki prompt (kopyala-yapıştır): ↓
    [prompt metni]
 
    Sıradaki adım: [sonraki video başlığı] → [bağlantı, &list= parametreli]
 
-   Sen bu işi şu an kaç dakikada yapıyorsun? Yaz; yorumlardan çıkan görevleri videoya çeviriyorum.
+   [Videoda sorulan yorum sorusu, aynı kelimelerle; ör. "İşinde en çok vaktini alan yazı işi hangisi? Sıradaki videoları buradaki cevaplara bakarak seçeceğim."]
    ```
    Aşama 1'de "sıradaki adım" bloğunun altına tek satır eklenebilir: "Bütün prompt'lar tek dosyada: [açık bağlantı]". Aşama 2a'dan itibaren bu satır kayıt formuna gider: "Bütün prompt'lar tek dosyada, yenileri e-postayla: [bağlantı]" (B7). Prompt'un yorumda olması tutma grafiğindeki "geri sarma" ihtiyacını karşılar ve yorum bölümüne inme nedenidir. Bu kalıp Shorts'ta kullanılmaz (A10).
 4. **Kartlar.** Yalnızca videoda başka bir videoya sözlü atıf yapılan anda ("bunu şu videoda ayrıntılı gösterdim"). Sebepsiz kart ekleme.
-5. **Ölçüm.** Video → Analytics → Etkileşim → bitiş ekranı öğesi tıklama oranı. Kanalın alt üçte birinde kalan videolarda önce sözlü geçişin varlığını ve bitiş ekranının veda cümlesinden önce açılıp açılmadığını kontrol et.
+5. **Ölçüm.** Video → Analytics → Etkileşim → bitiş ekranı öğesi tıklama oranı. Kanalın alt üçte birinde kalan videolarda önce sözlü geçişin varlığını ve son sesli cümle biterken bitiş ekranının açık olup olmadığını kontrol et.
 
 ## B4. İçerik test sistemi
 
@@ -350,7 +352,7 @@ Güncel durum (2026-11 itibarıyla, arama sonuçlarındaki resmî sayfa alıntı
 
 **Kısa Mesai test kuralları:**
 
-1. Test başına **tek değişken**. Kapak kalıbı sabit olduğu için test edilecek eksenler bellidir:
+1. Test başına **tek değişken**. Dönüşüm çifti kalıbı sabit olduğu için test edilecek eksenler bellidir (örnekler süre çiftli bir G videosu içindir):
 
 | Eksen | Varyant A | Varyant B |
 |---|---|---|
@@ -370,7 +372,7 @@ Güncel durum (2026-11 itibarıyla, arama sonuçlarındaki resmî sayfa alıntı
 Yerleşik araç yok; test birimi videodur.
 
 - **Bir seferde tek değişken**, en az **3 video** dene, aynı kategoride ve benzer rolde (arama/öneri) kontrol videolarıyla kıyasla. 1 videoyla karar verilmez; konu etkisi format etkisini bastırır.
-- Sıradaki format hipotezleri (öneri). Kodlar "FT" ile başlar; 01 belgesindeki F1–F14 başlık formülleriyle karışmasın:
+- Sıradaki format hipotezleri (öneri). Kodlar "FT" ile başlar; 01 belgesindeki F1–F16 başlık formülleriyle karışmasın:
 
 | # | Değişken | Kontrol | Deneme | Bakılacak metrik |
 |---|---|---|---|---|
@@ -378,7 +380,7 @@ Yerleşik araç yok; test birimi videodur.
 | FT2 | Kronometre görünürlüğü | Sürekli ekranda | Yalnızca başta/sonda | Orta bölüm eğimi |
 | FT3 | "Yapamadığı şey" konumu | Sonda | Ortada, karşılaştırmadan önce | Karşılaştırmaya ulaşma oranı |
 | FT4 | Uzunluk | 8–10 dk | 12–14 dk | AVD (dakika) ve bitiş ekranı tıklaması |
-| FT5 | Shorts tipi | Önce/sonra anı | Tek prompt ipucu | Kaydırmadan kalma; uzun videoya geçiş |
+| FT5 | Shorts türü (01 belgesi 4.4) | Önce/sonra | Tek ipucu | Kaydırmadan kalma; uzun videoya geçiş |
 | FT6 | Shorts zamanlaması | İlk Shorts uzun videodan önce (salı) | İki Shorts da uzun videodan sonra (cuma, pazartesi) | Uzun videonun trafik kaynağında Shorts kaynaklı görüntüleme (7. gün) |
 | FT7 | Bitiş ekranı öğesi | Belirli video | Oynatma listesi | Bitiş ekranı öğesi tıklama oranı; videodan sonra kanalda izlenen süre (ölçülebiliyorsa) |
 
@@ -426,7 +428,7 @@ Nereye işlendi: [01 belgesi § …]
 
 | Zaman | Süre | Bakılan | Yapılabilecek müdahale |
 |---|---|---|---|
-| **1. saat** (perşembe) | 15 dk | **Metrik değil, teknik kontrol.** Video herkese açık mı; kapak telefonda okunuyor mu (koyu modda da); başlık kesiliyor mu; bölümler (chapter) çalışıyor mu; altyazı; bitiş ekranı; sabit yorum; oynatma listesi; Shorts'lar zamanlandı mı. İlk yorumlara cevap. | Yalnızca hata düzeltme. Studio verisi bu aşamada gecikmeli ve çok küçük örneklem; CTR'ye bakıp karar verme. |
+| **1. saat** (perşembe) | 15 dk | **Metrik değil, teknik kontrol.** Video herkese açık mı; kapak telefonda okunuyor mu (koyu modda da); başlık kesiliyor mu; bölümler (chapter) çalışıyor mu; altyazı; bitiş ekranı; sabitlenmiş yorum; oynatma listesi; Shorts'lar zamanlandı mı. İlk yorumlara cevap. | Yalnızca hata düzeltme. Studio verisi bu aşamada gecikmeli ve çok küçük örneklem; CTR'ye bakıp karar verme. |
 | **48 saat** (cumartesi) | 5 dk | Üç şey: gösterim geliyor mu (hangi kaynaktan), 0:30 tutması, tutma grafiğinde teknik soruna işaret eden basamak düşüş. Karta yalnızca gösterim ve 0:30 değeri yazılır. | **Karar noktası değil.** Müdahale yalnızca açık hata varsa: kapak mobilde okunmuyor, başlık videonun konusunu söylemiyor, ilk 30 sn'de ses/görüntü sorunu. |
 | **7. gün** (perşembe, B8 içinde) | 10 dk | Planlanan birincil kaynağın gösterimi ve CTR'si; işaret noktaları; arama terimleri; bitiş ekranı tıklaması; yorumlardaki tekrar eden soru. | KM-001–005: yalnızca kaydet. KM-006+: asgari veri varsa karar tablosuna göre **tek** müdahale. Yerleşik test sürüyorsa pakete dokunma. |
 | **28. gün** (perşembe, B8 içinde) | 8 dk | Nihai rakamlar; planlanan ↔ gerçekleşen birincil kaynak; kazanılan abone; videodan çıkan ders (tek cümle). 7. günde asgari veriye ulaşmamış metrikler burada okunur. | Paket yenileme adayı listesine alma ya da "tamam" işaretleme. Arama videosuysa açıklama/başlıkta gerçek arama terimlerine göre ince ayar. |
@@ -475,7 +477,7 @@ Sıfırdan başlayan kanalda kıyas noktası video sayısıyla birlikte oluşur.
 | **Ortada basamak düşüş** | V2 | Belirli bir an | O saniyeyi izle: bekleme, tekrar, konu dışı açıklama, erken CTA? | Mevcut videoda o noktaya bölüm (chapter) başlığı ekle ki izleyici atlayıp devam etsin. Sonraki videolar için 01 belgesi §7.5 "sıkılma noktası" kontrolüne madde ekle. |
 | **Ortada sürekli dik eğim** | V2 | Tempo ya da değer yoğunluğu düşük | Adım başına süre; yapay zekânın cevap yazmasını bekleme anları hızlandırılmış mı? | Kurgu kuralı: bekleme anları hızlandırılır, her 60–90 sn'de (tahmini) bir ara sonuç gösterilir. FT2/FT4 testi. |
 | **Tutma normal ya da yüksek, bitiş ekranı tıklaması düşük** | V3 | Veda sinyali erken; önerilen video alakasız | Bitiş ekranı açılmadan "bu kadardı" deniyor mu? | Bitiş ekranındaki videoyu daha yakın bir "sonraki adım"la değiştir (yayın sonrası değiştirilebilir). Sonraki videolarda sözlü geçiş. |
-| **Görüntüleme normal ya da yüksek, 1000 görüntüleme başına abone düşük** | V3 | İzleyici tek seferlik çözüm aldı | Videoda seri vaadi var mı? | B7. Sabit yoruma ve bitiş ekranına seri bağlantısı. |
+| **Görüntüleme normal ya da yüksek, 1000 görüntüleme başına abone düşük** | V3 | İzleyici tek seferlik çözüm aldı | Videoda seri vaadi var mı? | B7. Sabitlenmiş yoruma ve bitiş ekranına seri bağlantısı. |
 | **Yeni izleyici geliyor, vekil göstergeler (A5) düz** | Aylık bakış; en az 10 video | Kanal seri olarak algılanmıyor | Son 5 video birbirine bağlı mı? | B3 seri mimarisi; aynı sorunun devam videosu. |
 | **Shorts: kaydırma oranı yüksek** | V4 | İlk 1–2 saniye boş | İlk karede sonuç ya da süre farkı var mı? | İlk kareye "önce/sonra" görüntüsü ve ekran yazısı; giriş cümlesini at. |
 | **Shorts izleniyor, uzun videoya geçiş yok** | V4 | Köprü yok | İlgili video bağlantısı eklendi mi? Yoksa tam başlık sözle ve yazıyla veriliyor mu? | Bağlantıyı ekle ya da yedek yolu uygula (A10); Shorts'u "tek adım"a indir, bütünü uzun videoda bırak. |
@@ -488,8 +490,8 @@ Sıfırdan başlayan kanalda kıyas noktası video sayısıyla birlikte oluşur.
 ### Yorum stratejisi
 
 - **Cevap kuralı:** İlk 30 videoda her gerçek yoruma cevap. Cevap bir soruyla ya da somut ek bilgiyle biter; "teşekkürler" tek başına cevap değildir.
-- **Yorumu tetikleyen soru** videonun içinde ve sabit yorumda aynıdır ve **cevabı kolay, kişisel, sayısal**dır: "Bu işi sen şu an kaç dakikada yapıyorsun?", "Mesleğin ne, en çok vakit alan işin hangisi?" Genel "ne düşünüyorsunuz" sorusu sorulmaz. (Metinler: 01 belgesi §8.3.)
-- **Üç etiketle işle** (video kartındaki "Yorumlar" tablosuna; GÖREV olanlar ayrıca `fikir-havuzu.md` dosyasına):
+- **Yorumu tetikleyen soru** videonun içinde ve sabitlenmiş yorumda aynıdır ve **cevabı kolay, kişisel, sayısal**dır: "Bu işi sen şu an kaç dakikada yapıyorsun?", "Mesleğin ne, en çok vakit alan işin hangisi?" Genel "ne düşünüyorsunuz" sorusu sorulmaz. (Metinler: 01 belgesi §8.3.)
+- **Üç etiketle işle** (video kartındaki "Yorumlar" tablosuna; GÖREV olanlar ayrıca `fikir-havuzu.md` dosyasına; bu, senin tutacağın çalışma dosyasıdır ve bu depoda henüz yoktur: ilk GÖREV yorumunda `docs/` altında aç, satır başına tarih · kaynak · izleyici cümlesi · 01 belgesi Bölüm 1 filtre puanı yaz):
 
 | Etiket | Örnek yorum | Ne yapılır |
 |---|---|---|
@@ -497,7 +499,7 @@ Sıfırdan başlayan kanalda kıyas noktası video sayısıyla birlikte oluşur.
 | **İTİRAZ** | "Bende böyle çıkmadı / yanlış hesapladı" | Cevapla, nedenini sor; tekrar ediyorsa "yapamadığı şey" bölümüne ya da ayrı videoya malzeme |
 | **KANIT** | "Denedim, raporu 20 dakikada bitirdim" | Kalple işaretle; izin isteyerek topluluk gönderisinde/sonraki videoda ekran görüntüsü olarak kullan |
 
-- **Kalp ve sabitleme:** En iyi GÖREV sorusunu geçici olarak sabitlemek yerine sabit yorum kalıbını koru; iyi yorumları kalple işaretle (yorum sahibine bildirim gider).
+- **Kalp ve sabitleme:** En iyi GÖREV sorusunu geçici olarak sabitlemek yerine sabitlenmiş yorum kalıbını koru; iyi yorumları kalple işaretle (yorum sahibine bildirim gider).
 - **Yapılmaz:** Yorum karşılığı çekiliş/vaat; kendi yorumuna sahte hesaptan cevap; olumsuz ama haklı yorumu silme.
 
 ### Topluluk gönderileri (Gönderiler sekmesi)
@@ -506,9 +508,9 @@ Sıfırdan başlayan kanalda kıyas noktası video sayısıyla birlikte oluşur.
 
 **Başlangıç koşulu:** Abonesi olmayan kanalda gönderi kimseye ulaşmaz. Sıra şöyle:
 
-1. **Aşama 1:** Gönderi yok. Görev sorusu yalnızca sabit yorumda ve videoda sorulur.
+1. **Aşama 1:** Gönderi yok. Görev sorusu yalnızca sabitlenmiş yorumda ve videoda sorulur.
 2. **Sonuç kartı** gönderisi, özellik erişilebilir olduğunda ve Aşama 2a başladığında başlar (ankete göre daha az etkileşim ister; bir görsel ve bir bağlantıdır).
-3. **Anket**, art arda iki sonuç kartı gönderisi en az 20'şer etkileşim (beğeni + yorum; tahmini çalışma kuralı) aldıktan sonra başlar. Öncesinde aynı soru sabit yorumda seçenekli sorulur: "Sıradaki test hangisi olsun: A) … B) … C) …?"
+3. **Anket**, art arda iki sonuç kartı gönderisi en az 20'şer etkileşim (beğeni + yorum; tahmini çalışma kuralı) aldıktan sonra başlar. Öncesinde aynı soru sabitlenmiş yorumda seçenekli sorulur: "Sıradaki test hangisi olsun: A) … B) … C) …?"
 
 Haftada en fazla 2 gönderi, her birinin tek işi olsun:
 
@@ -526,7 +528,7 @@ Haftada en fazla 2 gönderi, her birinin tek işi olsun:
 ```
 1. TOPLA   → yorum (GÖREV etiketi), anket, arama terimleri, e-posta cevapları
 2. PUANLA  → 01 belgesi §1 fikir filtresi; ek ölçüt: kaç ayrı kişi istedi
-3. DUYUR   → topluluk gönderisi ya da sabit yorum: "Bunu çekiyorum, [tarih] dolayında yayında"
+3. DUYUR   → topluluk gönderisi ya da sabitlenmiş yorum: "Bunu çekiyorum, [tarih] dolayında yayında"
 4. ÇEK     → videonun açılışında kaynağı söyle: "Bu görev yorumlardan geldi: …"
              (isim anmak için yorum sahibinden izin; yoksa "bir izleyici")
 5. KAPAT   → orijinal yoruma video bağlantısıyla cevap yaz
@@ -551,7 +553,7 @@ Bu cümle kanal açıklamasının ilk satırı, fragmanın son cümlesi ve abone
 
 - Her video bir serinin parçası olarak sunulur: "Excel serisinin 2. videosu" ifadesi başlıkta değil, videonun ilk dakikasında ve açıklamada geçer (başlıkta bölüm numarası soğuk izleyiciyi uzaklaştırabilir **[Yaygın gözlem]**).
 - Her videonun sonunda **bir sonraki videonun görevi** söylenir; henüz yayınlanmadıysa tarihle: "Bir sonraki video: [görev]. Perşembe yayında."
-- "Mesleğine Göre" serisinde sıradaki mesleği izleyici belirler (sabit yorum sorusu; koşul sağlanınca anket) — abone olmanın somut nedeni: "senin mesleğin sıraya girsin."
+- "Mesleğine Göre" serisinde sıradaki mesleği izleyici belirler (sabitlenmiş yorum sorusu; koşul sağlanınca anket) — abone olmanın somut nedeni: "senin mesleğin sıraya girsin."
 
 ### Kanal sayfası
 
@@ -580,10 +582,10 @@ Fragman ve öne çıkan video ayarı: Studio → Özelleştirme → Ana sayfa se
 Gerekçe: ilk 10 videoda trafik azdır ve form + otomasyon + hukuki hazırlık, formatı kanıtlama işinden zaman çalar; dosyaya gelen tıklama sayısı ise formun açılmaya değip değmeyeceğini önceden gösterir.
 
 - **Mıknatıs:** "Kısa Mesai Prompt Dosyası" — videolarda kullanılan prompt'ların tek dosyada, görev adına göre dizilmiş, kopyalanabilir hali. İlk sürüm: KM-001'in prompt'ları + "boşlukları doldur" kalıbı.
-- **Videodaki prompt her aşamada açıklamada ve sabit yorumda açık durur.** Kayıt formu açıldıktan sonra da dosya, videodaki prompt'u e-postanın arkasına saklamaz; kayıt olana "hepsi bir arada + yenileri e-postayla" verir. Aksi, kanalın "tık tuzağı yok" tonuyla çelişir.
+- **Videodaki prompt her aşamada açıklamada ve sabitlenmiş yorumda açık durur.** Kayıt formu açıldıktan sonra da dosya, videodaki prompt'u e-postanın arkasına saklamaz; kayıt olana "hepsi bir arada + yenileri e-postayla" verir. Aksi, kanalın "tık tuzağı yok" tonuyla çelişir.
 - **Kurulum (Aşama 2a, asgari):** tek alanlı kayıt formu (yalnızca e-posta) → otomatik teslim e-postası (dosya bağlantısı) → her yeni videoda kısa e-posta. Araç seçimi `03` iş akışı belgesinin konusu; burada koşul: çift onay (double opt-in) ve tek tıkla abonelikten çıkma desteklesin.
 - **Hukuki not:** Türkiye'de e-posta adresi toplamak KVKK kapsamında aydınlatma ve açık rıza gerektirir; ticari nitelikli e-posta gönderimi için İleti Yönetim Sistemi (İYS) yükümlülüğü doğabilir. Kendi durumun (şahıs/şirket, gönderi niteliği) için yayına almadan önce bir uzmana ya da resmî kaynaklara danış; bu belge hukuki görüş değildir.
-- **Yerleşim (her iki aşamada aynı yerler; yalnızca bağlantının hedefi değişir):** açıklamanın ilk 3 satırından biri; sabit yorumun "sıradaki adım" bloğunun altındaki satır (B3); videoda prompt ekranda gösterilirken tek cümle (01 belgesi §8.4); kanal sayfası bağlantısı.
+- **Yerleşim (her iki aşamada aynı yerler; yalnızca bağlantının hedefi değişir):** açıklamanın ilk 3 satırından biri; sabitlenmiş yorumun "sıradaki adım" bloğunun altındaki satır (B3); videoda prompt ekranda gösterilirken tek cümle (01 belgesi §8.4); kanal sayfası bağlantısı.
 - **Haftalık e-posta kalıbı (Aşama 2a'dan itibaren; cumartesi, 5 satır):** bu haftanın görevi ve ölçülen süre farkı → prompt → "yapamadığı şey" tek cümle → video bağlantısı → "Bu e-postayı yanıtla: en çok vakit alan işin ne?" (B6 döngüsünün dördüncü kaynağı).
 
 ## B8. Haftalık 30 dakikalık analiz rutini ve takip kaydı

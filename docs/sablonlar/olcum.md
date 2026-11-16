@@ -15,7 +15,7 @@
 
 ## 1. Ön denemeler
 
-Fikir aşamasındaki kaba deneme dahil, süreli koşudan önce yapay zekâyla yapılan **her** deneme buraya yazılır. Ön deneme, çekimde kullanılacak verinin kendisiyle değil, bir parçası ya da farklı bir kopyasıyla yapılır.
+Fikir aşamasındaki kaba deneme dâhil, süreli koşudan önce yapay zekâyla yapılan **her** deneme buraya yazılır. Ön deneme, çekimde kullanılacak verinin kendisiyle değil, bir parçası ya da farklı bir kopyasıyla yapılır.
 
 | # | Tarih | Araç | Hangi veriyle | Süre | Ne öğrendim / prompt'ta ne değişti |
 |---|-------|------|---------------|------|-------------------------------------|
@@ -40,7 +40,7 @@ Fikir aşamasındaki kaba deneme dahil, süreli koşudan önce yapay zekâyla ya
 | **Başlangıç – bitiş** (kronometre) | 00:00 – [ ] |
 | **`[ELLE SÜRE]` (ham)** | [ ] sa [ ] dk [ ] sn |
 | **Zamanın en çok gittiği adım** | [adım] · [ ] dk |
-| **Yapılan kontroller** (süreye dahil) | |
+| **Yapılan kontroller** (süreye dâhil) | |
 | **Hata yaptım mı, düzelttim mi** | |
 | **Kayıt dosyası** | `KM-[NO]_elle-kosu_ham.mp4` |
 | **Koşu kesintiye uğradı mı** | H / E → nasıl ele alındı: |
@@ -99,7 +99,7 @@ Yuvarlama kuralı: **yapay zekâ süresi yukarı, elle süre aşağı;** iddia h
 Videoda ve açıklamadaki "Nasıl ölçtüm" bloğunda geçecek sabit cümleler (değerleri doldur):
 
 ```text
-Prompt'u önceden [N] denemede hazırladım; bu süre hazır prompt'la. İlk kez yapan için hazırlık dahil [KURULUM SÜRE] daha ekle.
+Prompt'u önceden [N] denemede hazırladım; bu süre hazır prompt'la. İlk kez yapan için hazırlık dâhil [KURULUM SÜRE] daha ekle.
 Elle yolu önce yaptığım için yapay zekâlı turda dosyayı zaten tanıyordum.
 ```
 

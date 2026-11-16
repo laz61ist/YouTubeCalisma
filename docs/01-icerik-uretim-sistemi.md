@@ -14,7 +14,7 @@ Paket yazılmadan senaryoya, senaryo bitmeden çekime geçilmez.
 - `[ELLE SÜRE]` = aynı işin yapay zekâsız yapıldığında aldığı, ayrıca ölçülmüş süre. `[YZ SÜRE]` = yapay zekâyla, kontrol ve düzeltme dâhil ölçülen süre. `[N]` = çekimde ya da sayımda ortaya çıkacak adet. `[ÇEKİMDE ÖLÇ]` = çekimde ölçülecek değer. `[ÇEKİMDE: …]` = çekimde ne olduysa ona göre yazılacak ya da silinecek cümle.
 - **Sonuç bildiren hiçbir cümle çekimden önce yazılmaz.** "Hata çıktı", "iki slaytı elle düzelttim", "en çok kullandığım sekizinci sırada" gibi cümleler bu belgede yalnızca koşullu yer tutucu olarak durur.
 - "Tahmini" yazan her eşik başlangıç varsayımıdır; ilk 10 videonun verisiyle yeniden ayarlanır.
-- **[Resmî]** = YouTube'un kendi yardım sayfalarında / Studio arayüzünde açıkladığı şey. **[Gözlem]** = sektörde yaygın kabul gören ama YouTube'un taahhüt etmediği pratik. Resmî maddelerin kaynak bağlantıları ve doğrulama durumu `02-buyume-stratejisi.md` içindedir.
+- **[Resmî]** = YouTube'un kendi yardım sayfalarında / Studio arayüzünde açıkladığı şey. **[Yaygın gözlem]** = sektörde yaygın kabul gören ama YouTube'un taahhüt etmediği pratik. Etiketlerin tek tanımı `02-buyume-stratejisi.md` başındaki "Kaynak ve doğrulama durumu" tablosudur; bu belgedeki [Resmî] maddelerin bir kısmı orada **[Resmî — sayfada teyit et]** düzeyindedir (sayfa bu çalışma ortamından açılamadı). Kaynak bağlantıları ve doğrulanacaklar listesi de o belgededir.
 
 ### Terimler ve kodlar
 
@@ -22,7 +22,12 @@ Paket yazılmadan senaryoya, senaryo bitmeden çekime geçilmez.
 |-------------|--------|
 | **prompt** | Seslendirmede ilk geçtiği yerde bir kez açıklanır: "prompt, yani yapay zekâya yazdığın talimat". Sonrasında hep "prompt". Başlıkta ve kapakta da "prompt". |
 | **e-posta** | Belgenin ve seslendirmenin dili. "Mail" yalnızca izleyicinin kendi cümlesi tırnak içinde aktarılırken geçer ("Müşteriye teklif maili yaz."). |
-| **sabitlenmiş yorum** | Videonun altına sabitlenen ilk yorum. |
+| **sabitlenmiş yorum** | Videonun altına sabitlenen ilk yorum. Üç bloklu kalıbı `02-buyume-stratejisi.md` B3'tedir (prompt · sıradaki adım · videodaki yorum sorusu). "Sabit yorum" denmez. |
+| **Yayın N / KM-00N** | Aynı video: bu belgedeki "Yayın 3", 02 ve 03 belgelerinde ve performans kaydında `KM-003` diye geçer. Parantezli numara (ör. "(21)") fikir havuzu numarasıdır. |
+| **gösterim tıklama oranı (CTR)** | Studio'daki adıyla; "tıklanma oranı" denmez. Tanım ve okuma kuralları: 02 belgesi A2. |
+| **izleyici tutma** | Studio'daki tutma grafiği ve ondan okunan değerler ("0:30 tutması", "giriş kaybı"; bkz. 7.5). "Elde tutma", "retention" denmez. |
+| **kapak** | YouTube'un "küçük resim" dediği görsel. Belgelerde hep "kapak". |
+| **Shorts / kısa video** | "Shorts" YouTube'daki dikey video; "kısa video" aynı dikey ana dosyanın bütün platformlardaki (Shorts, LinkedIn vb.) genel adı (03 belgesi 5.2–5.3). |
 | **metin bloğu** | Kapakta tek bakışta okunan yazı kümesi (bkz. 3.2). |
 | **B, G, K, M, İ, P** | İçerik kategorileri: başlangıç, görev, araç testi, meslek, işletme, kariyer. Tek harf yalnızca kategori için kullanılır. |
 | **F1–F16** | Başlık formülleri (2.2). |
@@ -66,7 +71,7 @@ Her fikir önce tek cümleye indirilir. İki kalıptan biri kullanılır:
 
 **Ölçütler nasıl doldurulur (tahminle değil):**
 
-- **Ölçüt 2 (2 dakika):** YouTube arama kutusuna sorun cümlesinin ilk iki kelimesini yaz ("excel rapor", "cv hazırlama"). Otomatik tamamlamada görev cümlesine benzer bir öneri çıkıyorsa 2; yalnızca araç adıyla birlikte çıkıyorsa 1; hiç çıkmıyorsa 0. Çıkan önerileri fikir kartına aynen kopyala; izleyici cümlesi (2.1 adım 1) oradan beslenir. **[Gözlem]** Otomatik tamamlama o ifadenin arandığına dair kaba bir işarettir; hacim göstermez.
+- **Ölçüt 2 (2 dakika):** YouTube arama kutusuna sorun cümlesinin ilk iki kelimesini yaz ("excel rapor", "cv hazırlama"). Otomatik tamamlamada görev cümlesine benzer bir öneri çıkıyorsa 2; yalnızca araç adıyla birlikte çıkıyorsa 1; hiç çıkmıyorsa 0. Çıkan önerileri fikir kartına aynen kopyala; izleyici cümlesi (2.1 adım 1) oradan beslenir. **[Yaygın gözlem]** Otomatik tamamlama o ifadenin arandığına dair kaba bir işarettir; hacim göstermez.
 - **Ölçüt 3:** Fikir cümlesinin "yerine" kelimesinden önceki ve sonraki parçalarını kapak çifti olarak yaz (bkz. 3.1). Yazılabiliyorsa en az 1; çift, açıklama gerektirmeden anlaşılıyorsa 2.
 - **Ölçüt 5:** 10 dakikalık kaba bir ön deneme yap; karşılaştığın ilk sınırı not et. Ön deneme yapılmadan 2 verilmez.
 - **Ölçüt 7:** Üç aday Shorts anını birer satırla yaz (bkz. 4.4). Üçü yazılamıyorsa en fazla 1.
@@ -127,7 +132,7 @@ Puanlar ön değerlendirmedir (tahmini); ölçüt 2 ve 5 yukarıdaki yöntemle d
 8. **Ölçüm (süre ayrıca tutulur):** Elle süre, hakem görüşü ya da ölçüt listesi çekimden önce alınır. Elle ölçüm çoğu zaman işin en uzun adımıdır; takvimdeki yeri için `03-yapim-is-akisi.md` Bölüm 7.1'e bak. Ölçülen değer paketteki bütün yer tutuculara aynı biçimde yazılır.
 9. **Senaryoya geç.** Hook'un ilk cümlesi, başlığın verdiği sözü kendi kelimeleriyle tekrar eder (bkz. Bölüm 4).
 
-Yayın sonrası: **[Resmî]** Studio'daki başlık/kapak testi özelliği en fazla 3 varyantı karşılaştırır ve kazananı tıklanma oranına göre değil izlenme süresine göre seçer; yani tık tuzağı paket testte de kazanmaz. Hazırladığın üç paketten ikisini ya da üçünü oraya yükle. Uygunluk koşulları ve sıfırdan kanal için gerçekçi beklenti `02-buyume-stratejisi.md` B4'te; özelliğin hesabında açık olup olmadığını Studio'da kontrol et.
+Yayın sonrası: **[Resmî]** Studio'daki başlık/kapak testi özelliği en fazla 3 varyantı karşılaştırır ve kazananı gösterim tıklama oranına (CTR) göre değil izlenme süresine göre seçer; yalnızca tıklatıp izletmeyen paketin kazanma ihtimali düşer. Ne zaman açılacağının tek kuralı `02-buyume-stratejisi.md` B4'tedir: ilk 10 videoda (Aşama 1) yerleşik test açılmaz; gösterim koşulu sağlanınca 2 varyantla açılır (3 değil). O zamana kadar hazırladığın üç paketten biri yayınlanır, diğer ikisi brief'te yedek durur. Özelliğin hesabında açık olup olmadığını Studio'da kontrol et.
 
 ### 2.2 Başlık formülleri
 
@@ -155,10 +160,10 @@ Her formül kanalın imzasından en az bir zorunlu parça taşır: **ölçülmü
 ### 2.3 Başlık yazım kuralları
 
 - **Önce sorun ya da sonuç, sonra araç.** İdeal izleyici sorunu arar. "Excel raporu" başa, "ChatGPT" sona. İstisna: F2 ve F3, aracın adının kendisi sorunun parçası olduğunda.
-- **Kritik kelimeler ilk 40–45 karakterde.** **[Gözlem]** Mobilde ve önerilen video sütununda başlıkların sonu kesilir; kesilme noktası cihaza göre değişir. Yayından önce Studio önizlemesinde ve telefonda kontrol et.
+- **Kritik kelimeler ilk 40–45 karakterde.** **[Yaygın gözlem]** Mobilde ve önerilen video sütununda başlıkların sonu kesilir; kesilme noktası cihaza göre değişir. Yayından önce Studio önizlemesinde ve telefonda kontrol et.
 - **Bir başlıkta en fazla bir sayı çifti.** Süre çifti varsa üçüncü sayı ("7 adımda") eklenmez.
 - **Türkçe yazım:** "yapay zekâ" şapkalı; başlıkta her kelimenin ilk harfi büyük; TAMAMI BÜYÜK kelime yok.
-- **Sayı ölçülmüş olmalı ve her yerde aynı olmalı.** Ölçüm 14 dakika çıktıysa başlık, kapak, seslendirme ve açıklama "14 dakika" der. Yuvarlama izleyici lehine değil gerçeğe doğru yapılır.
+- **Sayı ölçülmüş olmalı ve her yerde aynı olmalı.** Ölçüm 14 dakika çıktıysa başlık, kapak, seslendirme ve açıklama "14 dakika" der. Yuvarlama gerekiyorsa kendi aleyhine yapılır: yapay zekâ süresi yukarı, elle süre aşağı (tek kural ve örnek tablo: `03-yapim-is-akisi.md` Aşama 7); yuvarlanmış değer her yerde aynıdır, ham değer `olcum.md` içinde ve açıklamada durur.
 - **Sonucu varsayan başlık çekimden sonra yazılır.** "Biri devredilmez", "çalışmayan [N]", "[N] tanesini kendim yazdım" gibi parçalar ancak gerçekleştiyse başlığa girer.
 
 ### 2.4 Kaçınılacak başlık hataları
@@ -195,6 +200,7 @@ Kanalın tanınma işareti renk değil, **"X → Y" çiftidir**: önce ne vardı
 
 Üç kural:
 
+- **Süre çifti eşiği:** süre çifti kapağa ancak ölçüm vaadi karşılıyorsa konur: `[ELLE SÜRE]`, `[YZ SÜRE]`nin en az 2 katı ("yarı sürede"). Oran 2'nin altındaysa çıktı çiftine geçilir ve iki süre videoda yine söylenir (uygulaması: senaryo 02 ve 03, "Eşik kuralı"). Süreyi başlığa taşıyan F1 için eşik 3 kattır (senaryo 02).
 - **Süre farkının çıkıp çıkmayacağı belirsizse süre kapağa konmaz.** Çıktı kalıbındaki bir videoda elle süre yine ölçülür ve videoda söylenir, ama paket ona dayanmaz (örnek: senaryo 01, 2.8 kural 3 — süre yarıdan kısa da çıksa uzun da çıksa kapak aynı kalır).
 - **"→" yalnızca "önce → sonra" anlamında kullanılır.** "0 → 30 dk" gibi, önce/sonra olmayan bir bilgiyi okla yazmak yasaktır; kalıbı tanıyan izleyici bunu "sıfır saatlik iş otuz dakikaya çıktı" diye okur.
 - **Art arda iki kapak aynı yerleşimde olmaz** (3.3). Süre çifti, süre kalıbındaki videolar için saklanır; her kapağa konursa imza olmaktan çıkar.
@@ -276,7 +282,7 @@ Her hook üç işi sırayla yapar: **(1) başlık/kapağın sözünü onaylar, (
 ### 4.1 Sonuç cümlesi kuralı
 
 1. **Hook iki geçişte yazılır.** Çekimden önce iskelet (görev, ölçülecek şey, sondaki söz); çekimden sonra sonuç cümleleri. Aşağıdaki metinlerde `[ÇEKİMDE: …]` ile işaretli her cümle ikinci geçişte ya gerçeğe göre yazılır ya da silinir.
-2. **Hata bilerek veriye konduysa videoda söylenir.** Tuzaklı veri kullanmak serbesttir; gizlemek değildir. Örnek uygulama: `docs/senaryolar/02-3-saatlik-excel-isi-10-dakikada.md`, "Kontrol ve sessiz hata" bölümü ("bu satırları veriye bilerek koydum") ve aynı bölümün, yapay zekâ tuzağı baştan yakalarsa okunacak ikinci metni.
+2. **Hata bilerek veriye konduysa videoda söylenir.** Tuzaklı veri kullanmak serbesttir; gizlemek değildir. Örnek uygulama: `senaryolar/02-3-saatlik-excel-isi-10-dakikada.md`, "Kontrol ve sessiz hata" bölümü ("bu satırları veriye bilerek koydum") ve aynı bölümün, yapay zekâ tuzağı baştan yakalarsa okunacak ikinci metni.
 3. **Beklenen sonuç çıkmazsa hook değişir, çekim tekrarlanmaz.** Aynı prompt'u istenen sonuç çıkana kadar yeniden çalıştırmak, sonucu uydurmakla aynı şeydir. Sonuca göre hangi cümlenin okunacağı çekimden önce karar tablosuna bağlanabilir (örnek: senaryo 01, 2.8 "Karar kuralları").
 4. **İzleyici hakkında ölçülmemiş genelleme yok.** "Çoğu kişi şunu yazıyor", "herkese vasat cevap verir" ölçülmemiş iddialardır. İki güvenli biçim: birinci tekil ("benim de ilk yazdığım şuydu") ya da konuşanı içine alan birinci çoğul ("çoğumuz şunu yazıyoruz") ve hemen ardından ekranda gerçek çıktı.
 
@@ -364,11 +370,11 @@ Hook kontrol listesi (kütüphanedeki kalıplar ve senaryo dosyalarındaki hook'
 
 Her uzun videodan 2–3 Shorts kesilir. Kesim akışı `03-yapim-is-akisi.md` 5.2'de, ölçümü `02-buyume-stratejisi.md` A10'da; burada yalnızca açılış ve paket kuralı var.
 
-**Seçim:** Üç aday an fikir filtresinde (ölçüt 7) yazılır, senaryoda zaman damgasıyla işaretlenir. Bir uzun videonun üç Shorts'u üç ayrı türden seçilir: bir **tek ipucu**, bir **hata / "yapamadığı şey"**, bir **önce/sonra**. Hangi türün uzun videoya daha çok izleyici taşıdığı 02 belgesindeki format testiyle izlenir.
+**Seçim:** Üç aday an fikir filtresinde (ölçüt 7) yazılır, senaryoda zaman damgasıyla işaretlenir. Tür adları her belgede ve şablonda aynıdır: **tek ipucu** (bir prompt satırı, bir kontrol), **hata / "yapamadığı şey"**, **önce/sonra** (sonuç). Bir uzun videonun Shorts'ları **en az iki ayrı türden** seçilir; üçü üç ayrı türden olabiliyorsa öyle seçilir (hata türü yalnızca çekimde gerçekten yaşandıysa vardır, bu yüzden üç tür şart koşulmaz). Hangi türün uzun videoya daha çok izleyici taşıdığı 02 belgesi B4'teki FT5 testiyle izlenir. **Adet ve takvim:** haftada 2 Shorts esas, üçüncüsü isteğe bağlı; biri uzun videodan önce (salı), biri sonra (cuma), üçüncüsü ertesi pazartesi (02 belgesi B2, 03 belgesi 2.1).
 
 **Açılış kuralları:**
 
-- İlk karede sonuç, hata ya da önce/sonra görünür; ekran kaydının "açılma" anı değil. **[Gözlem]** Shorts'ta kapağın işini ilk 1–2 saniye görür.
+- İlk karede sonuç, hata ya da önce/sonra görünür; ekran kaydının "açılma" anı değil. **[Yaygın gözlem]** Shorts'ta kapağın işini ilk 1–2 saniye görür.
 - Uzun videodan yalnızca görüntü alınır; **seslendirme ayrıca kaydedilir**, çünkü uzun videodaki cümleler ("az önceki cevap", "ilk dört adım") tek başına anlaşılmaz. İlk cümle en fazla 10 kelimedir, uzun videoyu görmemiş biri için anlaşılır ve görevi ya da sonucu içerir.
 - Ekranın üst bandında 3–5 kelimelik sabit yazı durur (görevin adı); ses kapalı izleyen için.
 - Süre yalnızca uzun videonun paketi süre taşıyorsa söylenir; çıktı kalıbındaki videoların Shorts'unda süre iddiası olmaz.
@@ -446,7 +452,7 @@ Uygulama kuralları:
 | 10:00–11:15 | Yapamadığı şey | Çekimde karşılaşılan sınır, nasıl fark edildi, nasıl önlenir. |
 | 11:15–12:00 | Prompt + köprü | Son prompt ekranda tam hâliyle; açıklamada kopyalanabilir. Sonraki videoya köprü cümlesi, bitiş ekranı. |
 
-**Tam senaryo örneği:** `docs/senaryolar/02-3-saatlik-excel-isi-10-dakikada.md`. Senaryoda turlar, işin doğasına göre adımlara bölünmüştür (temizle → kontrol → birleştir → özetle → yorumla); iskelet aynıdır.
+**Tam senaryo örneği:** `senaryolar/02-3-saatlik-excel-isi-10-dakikada.md`. Senaryoda turlar, işin doğasına göre adımlara bölünmüştür (temizle → kontrol → birleştir → özetle → yorumla); iskelet aynıdır.
 
 ### KG2 — Önce / Sonra (+ hakem)
 
@@ -490,7 +496,7 @@ Sıralama kuralı: maddeler **üst üste biniyorsa** (her madde aynı prompt'a b
 
 **10 maddelik sürüm:** Madde başına 45–60 saniye (toplam tahmini 7:30–10:00); hook, sabit bağlam, özet ve "yapamadığı şey" ile video tahmini 10:30–13:00. Ara vaatler 3., 6. ve 9. maddede verilir; desen kırıcı 5. ile 6. madde arasına girer. Bir madde 60 saniyeyi aşıyorsa ya ikiye bölünür ya listeden çıkar.
 
-**Tam senaryo örneği:** `docs/senaryolar/01-chatgptyi-yanlis-kullaniyorsun.md` (7 maddelik sürüm). Aynı iskeletin üç işli sürümü: `docs/senaryolar/03-prompt-yazmanin-tek-formulu.md` (yedek video; bkz. Bölüm 9).
+**Tam senaryo örneği:** `senaryolar/01-chatgptyi-yanlis-kullaniyorsun.md` (7 maddelik sürüm). Aynı iskeletin üç işli sürümü: `senaryolar/03-prompt-yazmanin-tek-formulu.md` (yedek video; bkz. Bölüm 9).
 
 ### KG4 — Süreli Deney (bir hafta / 30 gün)
 
@@ -606,7 +612,7 @@ Alıştırma kartı sabit bir grafiktir: lacivert zemin, sarı "Durdur ve yaz", 
 
 ## 7. İzleyici tutma araçları
 
-**[Resmî]** Studio'daki izleyici tutma grafiği videonun hangi anlarında izleyicinin kaldığını, geri sardığını veya ayrıldığını gösterir. Aşağıdaki araçların işe yarayıp yaramadığı bu grafikten okunur. Araçların kendisi **[Gözlem]** niteliğindedir; hiçbiri YouTube'un garanti ettiği bir mekanizma değildir.
+**[Resmî]** Studio'daki izleyici tutma grafiği videonun hangi anlarında izleyicinin kaldığını, geri sardığını veya ayrıldığını gösterir. Aşağıdaki araçların işe yarayıp yaramadığı bu grafikten okunur. Araçların kendisi **[Yaygın gözlem]** niteliğindedir; hiçbiri YouTube'un garanti ettiği bir mekanizma değildir.
 
 ### 7.1 Açık döngüler
 
@@ -694,7 +700,7 @@ Adımlar:
 1. **Bu videoda** hook'un hangi cümlesinde düşüşün başladığını bul (zaman damgasını senaryo metniyle eşleştir). Sonraki hook'ta o cümle türünü kullanma ya da yerini değiştir.
 2. Her belirgin düşüş için o saniyede ekranda ne olduğunu ve senaryoda paragrafın etiketini (yeni / kanıt / geçiş) yaz.
 3. Her belirgin yükseliş için de aynısını yaz. Bunlar sonraki videoda öne çekilecek öğelerdir.
-4. Bulguları tek satır hâlinde "öğrenilenler" kaydına ekle (`docs/sablonlar/performans-kaydi.md`). Bir örüntü üç videoda tekrar etmeden kural hâline getirilmez. Sonraki senaryo bu kayıt okunduktan sonra yazılır.
+4. Bulguları tek satır hâlinde "öğrenilenler" kaydına ekle (`sablonlar/performans-kaydi.md`). Bir örüntü üç videoda tekrar etmeden kural hâline getirilmez. Sonraki senaryo bu kayıt okunduktan sonra yazılır.
 
 ---
 
@@ -705,11 +711,11 @@ Tek kural: **video başına en fazla 3 sözlü CTA vardır: prompt dosyası, yor
 ### 8.1 Abone (görsel)
 
 - **Nereye:** İlk somut sonuç gösterildikten hemen sonra (KG1'de 2. turun sonu, KG3'te 2. maddenin sonu) 5–7 saniyelik alt bant; ayrıca bitiş ekranındaki abone düğmesi. Hook'ta ve ilk dakikada yok.
-- **Alt bant metni:** Kanalın abone gerekçesi, tek satır: "Her hafta bir iş, kronometreyle." Ekran akışı durmaz, seslendirme çağrıya değinmez.
+- **Alt bant metni:** Kanalın abone gerekçesinin (tam cümlesi: 02 belgesi B7) tek satırlık kısaltması: "Her hafta bir iş, kronometreyle." Ekran akışı durmaz, seslendirme çağrıya değinmez.
 - **Sözlü hâli (istisna):** Yalnızca **yorum sorusu kullanılmayan** videoda, yorum sorusunun yerine ve bir sonraki somut görevle birlikte söylenir. Böylece sözlü CTA sayısı yine 3'ü geçmez.
   - "Gelecek hafta aynı testi sunum hazırlama için yapıyorum; abone olursan Abonelikler sekmende görürsün."
   - Meslek serisinde: "Bu seri her ay başka bir meslekle devam ediyor; abone olursan yayınlandığında Abonelikler sekmende görürsün."
-- **Söz verilmeyen şey:** Aboneliğin, videonun ana sayfada ya da bildirimde çıkmasını sağlayacağı. **[Gözlem]** Abone olmak videonun izleyiciye önerilmesini garanti etmez; izleyiciye tutulabilecek tek söz, videonun Abonelikler sekmesinde listeleneceğidir.
+- **Söz verilmeyen şey:** Aboneliğin, videonun ana sayfada ya da bildirimde çıkmasını sağlayacağı. **[Yaygın gözlem]** Abone olmak videonun izleyiciye önerilmesini garanti etmez; izleyiciye tutulabilecek tek söz, videonun Abonelikler sekmesinde listeleneceğidir.
 
 ### 8.2 Sonraki video (ana CTA, sözlü)
 
@@ -769,9 +775,9 @@ Tek kural: **video başına en fazla 3 sözlü CTA vardır: prompt dosyası, yor
 
 Sıra, kanalın yayın sırasıdır; parantez içindeki numara fikir havuzundaki numara, kart başlığı fikir havuzundaki çalışma adıdır. Yayın başlığı kartın "Başlıklar" satırından seçilir.
 
-**Tam senaryosu yazılmış videolar:** Yayın 1 → `docs/senaryolar/01-chatgptyi-yanlis-kullaniyorsun.md`; Yayın 2 → `docs/senaryolar/02-3-saatlik-excel-isi-10-dakikada.md`. Bu iki videoda okunacak metnin tek kaynağı senaryo dosyasıdır; kart hook metnini kopyalamaz, senaryoya atıf verir. Kart ile senaryo arasında fark doğarsa senaryo geçerlidir ve kart aynı gün ona göre güncellenir. Diğer sekiz videonun tam senaryosu henüz yazılmadı.
+**Tam senaryosu yazılmış videolar:** Yayın 1 → `senaryolar/01-chatgptyi-yanlis-kullaniyorsun.md`; Yayın 2 → `senaryolar/02-3-saatlik-excel-isi-10-dakikada.md`. Bu iki videoda okunacak metnin tek kaynağı senaryo dosyasıdır; kart hook metnini kopyalamaz, senaryoya atıf verir. Kart ile senaryo arasında fark doğarsa senaryo geçerlidir ve kart aynı gün ona göre güncellenir. Diğer sekiz videonun tam senaryosu henüz yazılmadı.
 
-**Yedek video:** `docs/senaryolar/03-prompt-yazmanin-tek-formulu.md` (dört parçalı prompt formülü; B kategorisi, KG3'ün üç işli sürümü) ilk 10 listesinin dışındadır ve yeri şöyle belirlenir:
+**Yedek video:** `senaryolar/03-prompt-yazmanin-tek-formulu.md` (dört parçalı prompt formülü; B kategorisi, KG3'ün üç işli sürümü) ilk 10 listesinin dışındadır ve yeri şöyle belirlenir:
 
 - **Stok:** Çekilip hazır bekler. Yayın 3'ten sonraki herhangi bir hafta üretim aksarsa o hafta yayınlanır. Yayın 3 haftasına konmaz (Yayın 2'nin kapanışı o hafta için araç karşılaştırması sözü verir) ve Yayın 1'den önce yayınlanmaz (köprü cümlesi ona dayanır).
 - **Aksama olmazsa:** Yayın 9 ile Yayın 10 arasında yayınlanır; ilk tur 11 videoya çıkar, Yayın 9 kaydırılmaz. Kapanışı Yayın 10'a bağlanır; daha erken yayınlanırsa köprü cümlesi ve bitiş ekranı Yayın 1'e döner (senaryo dosyasında yedek metin yazılı).
@@ -804,7 +810,7 @@ Kartlardaki bütün süreler ve adetler yer tutucudur. "Neden çeker" satırlar�
 | **Fikir cümlesi** | Ofis çalışanı, dağınık bir aylık satış dökümünü dosyayı yüklemeden temizleyip özetini [ELLE SÜRE] yerine [YZ SÜRE]de çıkarıyor. (Süre kalıbı.) |
 | **Başlıklar** | Senaryo 02, "Başlık seçenekleri". Kapak süre çiftini taşıdığı için kapakla birlikte kullanılacak başlık: B) Dağınık Satış Dökümünden Yönetici Özetine: Kronometreyle Denedim. A) [ELLE SÜRE]'lik Excel İşini [YZ SÜRE]'de Bitirmek (F1) yalnızca süresiz kapakla ("DAĞINIK → ÖZET") eşleşir ve başlık/kapak testinin ikinci paketidir. Arama varyantı: C) Excel'de Veri Temizleme ve Tablo Birleştirme: Dosyayı Yapay Zekâya Yüklemeden. |
 | **Kapak** | Yerleşim A (A1): süre çifti "[ELLE SÜRE] → [YZ SÜRE]", solda dağınık Excel parçası, sağda temiz özet tablo, etiket "DOSYAYI YÜKLEMEDEN". Kanalın imza kapağı ilk kez burada görünür. Ayrıntı: senaryo 02, "Kapak tarifi". |
-| **Hook** | H1 — bkz. senaryo 02, 0:00–0:30. Metin burada tekrar edilmez. Hatayla ilgili cümle senaryodaki koşula bağlıdır: tuzak veriye bilerek konmuştur ve kontrol bölümünde söylenir. |
+| **Hook** | H1 — bkz. senaryo 02, 0:00–0:35. Senaryoda H1'e H2'den bir öğe eklenmiştir: iki süre de ilk cümlelerde söylenir; açık döngü sürenin kendisi değil, kontrol payı ve tuzaktır. Metin burada tekrar edilmez. Hatayla ilgili cümle senaryodaki koşula bağlıdır: tuzak veriye bilerek konmuştur ve kontrol bölümünde söylenir. |
 | **Açılış** | S1 (kronometre + ham iş): kirli tablo, sarı çerçeveler, "Elle: [ELLE SÜRE]". |
 | **Kurgu** | KG1 — Kronometre Yarışı; senaryoda adımlara bölünmüş hâli. |
 | **Neden çeker** | Dağınık Excel dökümü ideal izleyicinin tanıdığı bir yük; "dosyayı yüklemeden" ifadesi "şirket dosyamı oraya veremem" itirazına kapakta cevap veriyor. **Varsayım:** bu itiraz yaygın. Yoklama: Yayın 1'in yorumlarında gizlilik sorusu geliyor mu. |
@@ -966,7 +972,7 @@ Her video için sırayla:
 12. [ ] En fazla 3 sözlü CTA; abone yalnızca görsel; ilk 60 saniyede istek yok; vedalaşma cümlesi yok; son sesli cümle sonraki video; bitiş ekranı hedefi kartla aynı.
 13. [ ] Başlık, kapak, seslendirme ve açıklamadaki sayılar ölçümle ve birbiriyle aynı.
 14. [ ] Kapak 3.4'teki listeden geçti.
-15. [ ] 2–3 Shorts anı seçildi; seslendirmeleri ayrı kaydedildi; üçü üç ayrı türden.
+15. [ ] 2–3 Shorts anı seçildi; seslendirmeleri ayrı kaydedildi; en az iki ayrı türden (4.4).
 16. [ ] Ham kurgu 1,5× hızda telefonda izlendi; işaretlenen anlar düzeltildi.
 17. [ ] Yayından 48 saat ve 7 gün sonra tutma grafiği okundu; "öğrenilenler" kaydına bir satır eklendi.
 
@@ -974,7 +980,9 @@ Her video için sırayla:
 
 ## İlgili belgeler
 
-- Tam senaryolar: `docs/senaryolar/01-chatgptyi-yanlis-kullaniyorsun.md` (Yayın 1), `docs/senaryolar/02-3-saatlik-excel-isi-10-dakikada.md` (Yayın 2), `docs/senaryolar/03-prompt-yazmanin-tek-formulu.md` (yedek video).
-- `docs/02-buyume-stratejisi.md` — metriklerin okunması, başlık/kapak testi, bitiş ekranı ve e-posta listesi kurulumu, Shorts ölçümü, resmî kaynak bağlantıları.
-- `docs/03-yapim-is-akisi.md` — üretim hattı, elle süre ölçümünün takvimi, kısa video kesim akışı, varlık kütüphanesi (kronometre, bölüm kartı, renk ve yazı tipi notu).
-- `docs/sablonlar/video-brief.md` — fikir filtresi ve paket alanlarının doldurulduğu şablon; `docs/sablonlar/performans-kaydi.md` — "öğrenilenler" kaydı.
+Bu klasördeki bütün dosya yolları `docs/` klasörüne göre yazılır. Dizin ve başlangıç sırası: `README.md`.
+
+- Tam senaryolar: `senaryolar/01-chatgptyi-yanlis-kullaniyorsun.md` (Yayın 1), `senaryolar/02-3-saatlik-excel-isi-10-dakikada.md` (Yayın 2), `senaryolar/03-prompt-yazmanin-tek-formulu.md` (yedek video).
+- `02-buyume-stratejisi.md` — metriklerin okunması, başlık/kapak testi, bitiş ekranı ve e-posta listesi kurulumu, Shorts ölçümü, resmî kaynak bağlantıları.
+- `03-yapim-is-akisi.md` — üretim hattı, elle süre ölçümünün takvimi, kısa video kesim akışı, varlık kütüphanesi (kronometre, bölüm kartı, renk ve yazı tipi notu).
+- `sablonlar/video-brief.md` — fikir filtresi ve paket alanlarının doldurulduğu şablon; `sablonlar/performans-kaydi.md` — "öğrenilenler" kaydı.
