@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Kronometre</title>
+<!--
+  Kısa Mesai kayda gömülü kronometre.
+  Kullanım: Bu dosyayı küçük bir tarayıcı penceresinde aç, pencereyi kayıt karesinin sağ üst köşesine yerleştir.
+  Etiket adresle seçilir: kronometre.html?etiket=ELLE  ya da  kronometre.html?etiket=YAPAY%20ZEKÂ
+  Tuşlar (pencere seçiliyken): Boşluk = başlat / durdur · S = sıfırla (yalnızca dururken)
+  Süre, sekme arka planda kalsa da saat farkından hesaplanır; kayıtta görünen rakam gerçek süredir.
+  Renkleri 00_VARLIKLAR/kapak/renk-notu.md içindeki kodlarla değiştir.
+-->
+<style>
+  :root { --lacivert: #0b1f3a; --sari: #ffd400; --gri: #8a94a6; }
+  html, body { margin: 0; height: 100%; background: var(--lacivert); }
+  body { display: flex; flex-direction: column; align-items: center; justify-content: center;
+         font-family: system-ui, "Segoe UI", Arial, sans-serif; user-select: none; cursor: pointer; }
+  #etiket { color: #fff; font-size: 14vw; font-weight: 700; letter-spacing: .08em; }
+  #sure { color: var(--gri); font-size: 30vw; font-weight: 800; font-variant-numeric: tabular-nums; line-height: 1; }
+  body.calisiyor #sure { color: var(--sari); }
+  #ipucu { color: var(--gri); font-size: 12px; position: fixed; bottom: 4px; }
+  body.calisiyor #ipucu { display: none; }
+</style>
+</head>
+<body>
+<div id="etiket"></div>
+<div id="sure">00:00</div>
+<div id="ipucu">Boşluk: başlat/durdur · S: sıfırla</div>
+<script>
+  var etiket = new URLSearchParams(location.search).get("etiket") || "";
+  document.getElementById("etiket").textContent = etiket;
+  var sureEl = document.getElementById("sure");
+  var birikmis = 0;      // durdurulana kadar biriken milisaniye
+  var baslangic = null;  // çalışıyorsa başlangıç anı
+
+  function gecen() { return birikmis + (baslangic === null ? 0 : Date.now() - baslangic); }
+  function iki(n) { return (n < 10 ? "0" : "") + n; }
+  function ciz() {
+    var sn = Math.floor(gecen() / 1000);
+    var s = Math.floor(sn / 3600), d = Math.floor((sn % 3600) / 60), k = sn % 60;
+    sureEl.textContent = (s > 0 ? s + ":" : "") + iki(d) + ":" + iki(k);
+  }
+  function baslatDurdur() {
+    if (baslangic === null) { baslangic = Date.now(); document.body.classList.add("calisiyor"); }
+    else { birikmis += Date.now() - baslangic; baslangic = null; document.body.classList.remove("calisiyor"); }
+    ciz();
+  }
+  function sifirla() { if (baslangic === null) { birikmis = 0; ciz(); } }
+
+  document.addEventListener("keydown", function (e) {
+    if (e.code === "Space") { e.preventDefault(); baslatDurdur(); }
+    else if (e.key === "s" || e.key === "S") { sifirla(); }
+  });
+  document.body.addEventListener("click", baslatDurdur);
+  setInterval(ciz, 200);
+</script>
+</body>
+</html>
