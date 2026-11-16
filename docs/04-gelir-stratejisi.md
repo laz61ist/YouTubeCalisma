@@ -208,24 +208,15 @@ A. Erişim tabanlı   = M × (BGT / 1000)
      M    = son 10 uzun videonun 30. gün görüntüleme medyanı (en iyi videon değil)
      BGT  = bin görüntüleme başına istediğin tutar; ilk anlaşmada markaya bütçesini sor,
             sonraki anlaşmalarda önceki kabul edilen tekliflerinden türet
-
 B. Emek tabanı      = (ek üretim saati + yazışma/revizyon saati) × saat değerin
      Bunun altına inme. Saat değerin = bu saati başka işte kullansan kazanacağın tutar.
-
 C. Sponsorun değeri = M × beklenen tıklama oranı × beklenen dönüşüm oranı × müşteri başına gelir
      Tıklama oranını kendi ortaklık bağlantısı verinden al (Kart 3); yoksa sponsora sor.
 ```
 
 Üstüne eklenenler (her biri ayrı satır): kullanım hakkı (marka videoyu kendi reklamında kullanacaksa), kategori münhasırlığı (süreyle çarp), sabitlenmiş yorumda/bültende yer, acele teslim. İndirim nedeni olabilecekler: çoklu video paketi. **Ürün karşılığı ya da yalnızca komisyon karşılığı "sponsorluk" kabul edilmez**; o bir ortaklık bağlantısıdır ve Kart 3 kurallarıyla yürür.
 
-**Medya kiti (tek sayfa PDF) içeriği:**
-1. Kanalın tek cümlesi ve imza formatı (4 madde)
-2. Kitle: yaş, ülke, cihaz (Studio → Kitle; ekran görüntüsü tarihiyle)
-3. Rakamlar: abone, son 10 videonun 30. gün görüntüleme **medyanı**, ortalama izlenme yüzdesi, bülten abone sayısı ve açılma oranı. Hepsi tarihli, hiçbiri yuvarlatılmış "yaklaşık" değil
-4. Çalışma biçimi: "sponsorlu test" tanımı ve 1.3'teki üç kural (test, "yapamadığı şey", ölçüm) açıkça
-5. Sunulan paketler (bölüm / tam video / video + bülten) — fiyat kitte yazmaz, teklifte yazar
-6. Süreç: brief → test → olgusal kontrol → yayın; teslim süreleri
-7. İletişim ve fatura bilgisi
+**Medya kiti (tek sayfa PDF) içeriği:** (1) kanalın tek cümlesi ve imza formatı (4 madde); (2) kitle: yaş, ülke, cihaz (Studio → Kitle; ekran görüntüsü tarihiyle); (3) rakamlar: abone, son 10 videonun 30. gün görüntüleme **medyanı**, ortalama izlenme yüzdesi, bülten okuyucu sayısı ve açılma oranı — hepsi tarihli, hiçbiri yuvarlatılmış "yaklaşık" değil; (4) çalışma biçimi: "sponsorlu test" tanımı ve 1.3'teki üç kural (test, "yapamadığı şey", ölçüm); (5) sunulan paketler (bölüm / tam video / video + bülten) — fiyat kitte yazmaz, teklifte yazar; (6) süreç: brief → test → olgusal kontrol → yayın, teslim süreleri; (7) iletişim ve belge bilgisi.
 
 **Teklif e-postası şablonu:**
 
@@ -308,8 +299,7 @@ Hiçbirinin güncel özellikleri bu oturumda doğrulanmadı; 03 belgesi 3.2'deki
 1. Tek sayfa yaz: kim için, 4 haftada hangi 4 görev, tarih, kontenjan, fiyat, iade koşulu, **asgari katılımcı sayısı**.
 2. Yalnızca bültene duyur (YouTube'da değil); kayıt penceresi 7 gün.
 3. Sayfada açık yaz: "Asgari sayıya ulaşılmazsa kohort açılmaz, ödemenin tamamı iade edilir." Bu gerçek bir sınırdır, sahte aciliyet değil.
-4. Karar kuralı **[Tahmini]**: asgari sayıya ulaşıldıysa aç; ulaşılmadıysa iade et, kayıt olanlara neden kaydolduklarını, sayfayı açıp kaydolmayan 5 kişiye neden kaydolmadıklarını sor; teklifi değiştir, en erken 8 hafta sonra bir kez daha dene.
-5. İçeriği kohort sürerken, bir hafta önden üret.
+4. Karar kuralı **[Tahmini]**: asgari sayıya ulaşıldıysa aç; ulaşılmadıysa iade et, kayıt olanlara neden kaydolduklarını, sayfayı açıp kaydolmayan 5 kişiye neden kaydolmadıklarını sor; teklifi değiştir, en erken 8 hafta sonra bir kez daha dene. Açıldıysa içeriği kohort sürerken, bir hafta önden üret.
 
 Ön ödeme almak yasal yükümlülük doğurur (belge düzenleme, iade, cayma) **[DOĞRULA]**; 6.2 kurulumu bundan önce bitmiş olmalı.
 
@@ -447,7 +437,6 @@ Kohort          = katılımcı sayısı × (fiyat − platform kesintisi)   [yı
 Kurumsal        = iş sayısı × iş başı tutar
 Brüt toplam     = yukarıdakilerin toplamı
 Net             = brüt − araç giderleri − vergi/kesinti − (isteğe bağlı) kendi saat maliyetin
-
 Saat başı net   = aylık net / o ay gelir işlerine harcanan saat
 Listenin değeri = (ürün + kohort geliri, son 3 ay) / ortalama aktif bülten okuyucusu sayısı
 ```
@@ -498,13 +487,11 @@ Hesap:
 
 ```
 Senaryo 1  Reklam = 30.000 × 1 / 1000                         = 30 birim/ay   (ek saat: 0)
-
 Senaryo 2  Reklam                                              = 30
            Ortaklık = 30.000 × %2 = 600 tıklama × %3 × 5       = 90
            Ürün     = 1.000 × %10 = 100 ziyaret × %5 × 10 = 50 / duyuru; × 4 / 12 ay ≈ 17
            Toplam                                              ≈ 137 birim/ay
            Reklam dışı gelirin saat başı = (137 − 30) / 6      ≈ 18 birim/saat
-
 Senaryo 3  Senaryo 2                                           ≈ 137
            Kohort   = 2 × 12 × 150 / 12 ay                     = 300   (2 kohort × ~30 saat = yılda 60 saat)
            Kurumsal = 4 × 500 / 12 ay                          ≈ 167   (4 iş × ~12 saat = yılda 48 saat)
@@ -524,55 +511,60 @@ Senaryo 3  Senaryo 2                                           ≈ 137
 
 İki ayrı yükümlülük vardır; biri diğerinin yerine geçmez.
 
-**A. YouTube.** Videoda ücretli ürün yerleştirme, sponsorluk ya da onay (endorsement) varsa yükleme akışında "ücretli tanıtım içerir" kutusu işaretlenir; YouTube videonun başında izleyiciye bir bildirim gösterir **[Resmî — sayfada teyit et]** ([154235](https://support.google.com/youtube/answer/154235)). Ortaklık bağlantısının bu kutuyu gerektirip gerektirmediği sayfada tanımlıdır **[DOĞRULA]**; kanal kuralı: ortaklık bağlantısı olan videoda da kutu işaretlenir.
+**A. YouTube.** Videoda ücretli ürün yerleştirme, sponsorluk ya da marka onayı varsa yükleme akışında "ücretli tanıtım içerir" kutusu işaretlenir; YouTube videonun başında izleyiciye bir bildirim gösterir **[Resmî — sayfada teyit et]** ([154235](https://support.google.com/youtube/answer/154235)). YouTube'un ayrı bir markalı içerik politikası sayfası vardır ([17596007](https://support.google.com/youtube/answer/17596007)); ikisi birlikte okunur. İkincil kaynaklara göre YouTube bu alanı "markalı içerik" adıyla yeniledi, beyan edilmemiş markalı içeriğe Eylül 2026'dan itibaren otomatik etiket koyabiliyor (üretici itiraz edebiliyor) ve ücretsiz verilen ürün de markalı içerik sayılabiliyor **[Yaygın gözlem] [DOĞRULA]**. Ortaklık bağlantısının tek başına kutuyu gerektirip gerektirmediği doğrulanamadı; kaynaklar çelişiyor **[DOĞRULA]**.
 
-**B. Türkiye — Reklam Kurulu kılavuzu.** Ticaret Bakanlığı Reklam Kurulu'nun 4 Mayıs 2021 tarihli ilke kararıyla kabul edilen "Sosyal Medya Etkileyicileri Tarafından Yapılan Ticari Reklam ve Haksız Ticari Uygulamalar Hakkında Kılavuz", 6502 sayılı Tüketicinin Korunması Hakkında Kanun'a dayanır **[Yaygın gözlem — ikincil kaynaklar]**; duyuru: [ticaret.gov.tr](https://ticaret.gov.tr/haberler/ticaret-bakanligi-sosyal-medya-etkileyicileri-icin-kilavuz-yayimladi). Arama özetlerinden görülenler:
+**B. Türkiye — yönetmelik ve Reklam Kurulu kılavuzu.**
 
-- Etkileyici aracılığıyla yapılan reklam açıkça belirtilmeli ve ayırt edilebilir olmalı; örtülü reklam yasak.
-- Kullanılan etiket örnekleri: #Reklam, #Reklam/Tanıtım, #Sponsor, #İşbirliği, #Ortaklık.
-- Deneyimlemediği ürünü deneyimlemiş gibi tanıtmak yasak (kanalın 1.3 kural 1'iyle aynı yön).
-- Reklamveren, etkileyiciyi kılavuz hakkında bilgilendirmekle yükümlü; sorumluluk hem reklamverende hem etkileyicidedir.
-- Video paylaşım platformları için ifşanın nerede ve nasıl yapılacağı (başlık/açıklama, video içi yazılı ya da sözlü) kılavuzda ayrıca tarif edilir **[DOĞRULA]** — tam metni oku; kılavuzun 2021'den sonra güncellenip güncellenmediği bu oturumda kontrol edilemedi.
+- **2026 değişikliği.** Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği'nde değişiklik yapan yönetmelik 1 Temmuz 2026 tarihli Resmî Gazete'de yayımlandı ve 1 Ağustos 2026'da yürürlüğe girdi; "sosyal medya etkileyicisi" tanımı eklendi, etkileyici reklamlarına ilişkin kuralların bir kısmı kılavuzdan yönetmeliğe taşındı ve belirli ifadelerin ("Reklam", "Tanıtım"; bazı kaynaklara göre "İş birliği", "Sponsorlu içerik" de) kullanılması zorunlu hâle geldi **[Yaygın gözlem] [DOĞRULA — resmigazete.gov.tr; Bakanlık duyurusu: [ticaret.gov.tr](https://ticaret.gov.tr/haberler/ticaret-bakanligindan-sosyal-medyada-seffaf-reklam-donemi)]**. Kabul edilen ifadelerin tam listesi ve video mecrası için yeri resmî metinden okunmalıdır. Aynı değişikliğin reklamda yapay zekâ kullanımına ilişkin hükümler de getirdiği aktarılıyor; sponsorlu videoda yapay zekâyla üretilmiş görüntü/ses kullanacaksan o maddeyi de oku **[DOĞRULA]**.
+- **2021 kılavuzu.** Reklam Kurulu'nun 4 Mayıs 2021 tarihli ilke kararıyla kabul edilen etkileyici kılavuzu ([duyuru](https://ticaret.gov.tr/haberler/ticaret-bakanligi-sosyal-medya-etkileyicileri-icin-kilavuz-yayimladi)) 6502 sayılı Kanun'a dayanır **[Yaygın gözlem]**. Değişiklikten sonra hangi hükümlerinin geçerli kaldığı **[DOĞRULA]**. Kaynaklarda aktarılan içeriği: reklam açıkça belirtilir ve ayırt edilebilir olur, örtülü reklam yasaktır; bedelsiz sağlanan ürün de reklam sayılır ve etiket ister; deneyimlenmemiş ürünü deneyimlenmiş gibi tanıtmak yasaktır (1.3 kural 1 ile aynı yön); sorumluluk hem reklamverende hem etkileyicidedir; video paylaşım mecralarında ifşanın yeri (başlık/açıklama, video içi yazılı ya da sözlü) ayrıca tarif edilir.
 
-**Kanal uygulaması (ikisini birden karşılamak üzere, kılavuz metni okunana kadar en sıkı yorum):**
+**Kanal uygulaması — geçici kural.** Ek A madde 8 ve 9 okunana kadar en sıkı yorum uygulanır. Çıkış koşulu: resmî YouTube sayfası ortaklık bağlantısı için kutuyu şart koşmuyorsa kutu yalnızca sponsorlu içerikte ve ücretsiz üründe işaretlenir, ortaklıkta açıklama etiketi kalır; böylece izleyici sponsorlu test ile sıradan videoyu ayırt eder (1.3 kural 4). Etiket metinleri yönetmelikte sayılan ifadelerle eşleştirilmek üzere taslaktır **[DOĞRULA]**.
 
 | Durum | Studio kutusu | Açıklamanın ilk satırı | Video içi |
 |---|---|---|---|
 | Sponsorlu test / sponsorlu bölüm | Evet | `#Reklam — Bu video [marka] iş birliğiyle hazırlandı.` | Bölümün başında sözlü + ekranda yazı: "Bu bölüm [marka] sponsorluğundadır." |
-| Ortaklık bağlantısı | Evet | `#Reklam — Aşağıda satış ortaklığı bağlantıları var.` + Kart 3'teki cümle | Gerekmez (bağlantı sözlü anılmıyorsa) **[DOĞRULA]** |
-| Ücretsiz verilmiş ürün/hesap, ödeme yok | Evet | `[Marka] bu aracı test için ücretsiz sağladı.` | Sözlü tek cümle |
-| Kendi ürünün | Hayır **[DOĞRULA]** | "Kendi ürünüm" ifadesi | — |
+| Ortaklık bağlantısı | Geçici olarak evet | `#Tanıtım — Aşağıda satış ortaklığı bağlantıları var.` + Kart 3'teki cümle | Gerekmez (bağlantı sözlü anılmıyorsa) **[DOĞRULA]** |
+| Ücretsiz verilmiş ürün/hesap, ödeme yok | Evet | `#Reklam — [Marka] bu aracı test için ücretsiz sağladı; ödeme almadım.` | Sözlü tek cümle |
+| Kendi ürünün | Hayır **[DOĞRULA — hem YouTube hem yönetmelik açısından]** | "Kendi ürünüm" ifadesi | — |
 | Hiçbir ticari ilişki yok | Hayır | İstersen: "Bu videoda sponsor ya da ortaklık bağlantısı yok." | — |
 
-Etiket "daha fazla" bağlantısının arkasında kalmayacak şekilde ilk satırda durur. Shorts ve bülten için de aynı etiket kullanılır.
+Etiket "daha fazla" bağlantısının arkasında kalmayacak şekilde ilk satırda durur; prompt ikinci satırdan başlar (Kart 4 açık karar, c). Shorts ve bülten için de aynı etiket kullanılır.
 
 ### 6.2 Vergi ve faturalandırma — genel çerçeve
 
 Aşağıdakiler ikincil kaynakların (muhasebe ve hukuk siteleri) arama özetlerine dayanır; **tamamı [DOĞRULA]**. Resmî kaynak: [gib.gov.tr](https://www.gib.gov.tr), başvuru için [Dijital Vergi Dairesi](https://digital.gib.gov.tr).
 
 - **Sosyal içerik üreticiliği istisnası.** Gelir Vergisi Kanunu'na 2021'de eklenen ve 2022'den beri uygulanan bir düzenleme, gerçek kişilerin sosyal ağ sağlayıcıları üzerinden elde ettiği kazançları belirli koşullarla gelir vergisinden istisna tutar. Kaynaklarda geçen koşullar: vergi dairesinden **istisna belgesi** almak, Türkiye'de bir bankada bu faaliyete özgü **hesap** açmak ve hasılatın tamamını bu hesap üzerinden tahsil etmek; banka hesaba gelen tutar üzerinden **kesinti (tevkifat)** yapar; yıllık kazanç gelir vergisi tarifesinin belirli bir dilimindeki tutarı aşarsa istisna o yıl uygulanmaz. Kesinti oranı ve yıllık sınır tutarı her yıl için resmî kaynaktan okunmalıdır; bu belgeye yazılmadı.
-- **İstisna neyi kapsar, neyi kapsamaz.** Kapsamın sosyal ağ sağlayıcısı **üzerinden** elde edilen gelirle sınırlı olduğu anlaşılıyor. Kendi sitenden sattığın dijital ürün, kurs, kurumsal eğitim ve danışmanlık geliri büyük olasılıkla bu istisnanın dışındadır ve ayrı bir mükellefiyet (ve fatura) gerektirir. Sponsorluk ve ortaklık komisyonunun kapsamda olup olmadığı ödemenin kimden ve nasıl geldiğine göre değişebilir. **Bu ayrım, Aşama B'ye geçmeden önce mali müşavire sorulacak ilk sorudur.**
-- **Şirketler.** İstisna yalnızca gerçek kişiler içindir; limited/anonim şirket yararlanamaz (ikincil kaynaklar).
-- **KDV.** İstisna kapsamındaki kazançlar için KDV istisnasından söz eden kaynaklar var; kapsam dışı satışlarda KDV ve dijital hizmetlerde yurt dışı alıcı/satıcı durumları ayrı konudur.
-- **Fatura.** Türkiye'deki bir marka sponsorluk için senden fatura (ya da serbest meslek makbuzu) ister; istisna belgesiyle çalışan üreticinin belge düzeni farklıdır. Hangi belgenin düzenleneceğini mali müşavir belirler.
-- **Başka işte çalışıyorsan.** Ücretli çalışırken ek faaliyet yürütmenin iş sözleşmen ve sosyal güvenlik açısından sonuçları olabilir.
-- **ABD stopajı.** 2.4'teki AdSense vergi formu ayrı bir konudur ve Türkiye'deki vergiyle birlikte değerlendirilir.
+- **İstisna neyi kapsar.** İkincil kaynaklara göre kapsam 2024'ten itibaren genişletildi (kaynaklarda 7491 sayılı Kanun'a atıf yapılıyor): internet ve benzeri elektronik ortamlarda verilen **bireysel kurs, eğitim ve ürün tanıtımı** hizmetleri de istisnaya alındı; bir özelgeye dayanan yorumlar sosyal ağdaki ücretli abonelik gelirini de kapsamda sayıyor **[Yaygın gözlem] [DOĞRULA]**. Buna göre kanalın kurs, kohort ve sponsorluk geliri kapsamda olabilir. Belirsiz kalanlar: dijital dosya satışı (prompt seti, şablon), kurumlara verilen ya da yüz yüze eğitim, danışmanlık, yurt dışı ortaklık komisyonu. **Bu ayrım mali müşavire sorulacak ilk sorudur**; yanıtı, hangi gelir için ayrı mükellefiyet açılacağını belirler.
+- **Resmî metin.** GİB'in sosyal içerik üreticiliği istisnasına ilişkin Gelir Vergisi Genel Tebliği'ni (numarasını ve kapsam maddesini) gib.gov.tr'den bul ve oku **[DOĞRULA]**. İkincil kaynaklarda 2026 için geçen kesinti oranı ve sınır tutarını müşavirle teyit et.
+- **Şirketler.** İstisna yalnızca gerçek kişiler içindir; limited/anonim şirket yararlanamaz. Aynı kazancın genç girişimci istisnasıyla birlikte kullanılamayacağı da aktarılıyor **[Yaygın gözlem]**.
+- **KDV ve belge.** İkincil kaynaklara göre istisna kapsamında vergilenen kazanca konu teslim ve hizmetlerde KDV hesaplanmaz ve ödeme özel banka hesabına yapılır; kaynaklar dayanak konusunda tam uyuşmuyor. İstisna belgeli üreticinin markaya hangi belgeyi vereceği (fatura yerine istisna belgesi + banka dekontu olup olmadığı) **[DOĞRULA]**. Kapsam dışı satışta fatura ve KDV gerekir; yurt dışı alıcı/satıcı durumları ayrı konudur.
+- **Başka işte çalışıyorsan.** Ücretli çalışırken ek faaliyet yürütmenin iş sözleşmen ve sosyal güvenlik açısından sonuçları olabilir. 2.4'teki ABD vergi formu ayrı bir konudur; Türkiye'deki vergiyle birlikte değerlendirilir.
 
-**Mali müşavire götürülecek soru listesi:**
+**Mali müşavire götürülecek soru listesi** (görüşme zamanı: ilk ücretli işten ya da başvurudan önce — 2.7; ücreti 5.2 gider satırına yazılır):
 1. Bu yıl için istisna belgesi koşulları, kesinti oranı ve yıllık sınır nedir?
-2. AdSense, Super Thanks/üyelik, yurt dışı ortaklık komisyonu, yurt içi sponsorluk, kendi sitemden ürün/kurs, kurumsal eğitim: hangisi istisna kapsamında, hangisi için mükellefiyet gerekir?
-3. Kapsam dışı gelir başladığında en uygun yapı hangisi (şahıs işletmesi türleri, genç girişimci gibi teşvikler)?
-4. Dövizle gelen ödemede kur hangi tarihe göre alınır, hangi belge saklanır?
+2. 2024 kapsam genişlemesi ve ilgili genel tebliğ sonrası: AdSense, Super Thanks/üyelik, yurt dışı ortaklık komisyonu, yurt içi sponsorluk (ürün tanıtımı), kendi sitemden dijital ürün, çevrim içi kurs/kohort, kurumsal eğitim, danışmanlık — hangisi istisna kapsamında, hangisi için mükellefiyet gerekir?
+3. Kapsam dışı gelir başladığında en uygun yapı hangisi (şahıs işletmesi türleri, teşvikler)?
+4. Dövizle gelen ödemede kur hangi tarihe göre alınır, hangi belge saklanır? Ödeme kuruluşu üzerinden gelen tutar "özel hesaptan tahsil" koşulunu sağlar mı?
 5. Ön satışta (Kart 6) ödeme alındığı anda mı, hizmet verildiğinde mi belge düzenlenir; iade nasıl kaydedilir?
 6. AdSense'teki ABD vergi formunda hangi anlaşma hükmü beyan edilir?
+7. İstisna kapsamındaki işte markaya hangi belgeyi veririm; KDV hesaplanır mı?
 
 ### 6.3 Dövizle gelir
 
 - AdSense kazancı dolar üzerinden hesaplanır; Türkiye'deki hesabına hangi para biriminde ve hangi yöntemle ulaştığı AdSense ödeme ayarlarında görünür **[DOĞRULA]**. Banka seçerken sor: gelen yurt dışı havalesinden kesinti var mı, muhabir banka masrafı kime yansır, döviz hesabına mı TL hesabına mı düşer, 6.2'deki özel hesap koşuluyla uyumlu mu.
-- Yurt dışı ortaklık programlarının çoğu ödemeyi PayPal ya da belirli ülke bankalarıyla yapar; PayPal Türkiye'de kullanılamıyor **[Yaygın gözlem]**. Programın "banka havalesi" ya da Türkiye'de çalışan bir ödeme kuruluşu seçeneği olup olmadığını başvurudan önce kontrol et; yoksa o program bu kanal için yoktur.
+- **Yurt dışından ödeme alma — karar tablosu.** Ortaklık programı, satış ya da üyelik platformu seçerken ödeme yolunu bu tabloya göre ele; "yok say" çıkan yol o aracı bu kanal için eler.
+
+| Ödeme yolu | Türkiye'den durum | Karar |
+|---|---|---|
+| Türkiye'deki banka hesabına uluslararası havale | Çalışır **[Yaygın gözlem]**; muhabir banka masrafı küçük tutarı eritebilir | Geçerli; asgari ödeme eşiğini masrafa göre seç |
+| AdSense | 2.4 | Geçerli |
+| Ödeme kuruluşu (ör. Payoneer) | Türkiye'den hesap açılıp banka hesabına çekim yapılabildiği aktarılıyor **[Yaygın gözlem] [DOĞRULA]** | Program destekliyorsa geçerli; çekim masrafını ve 6.2 soru 4'ü kontrol et |
+| PayPal | Türkiye'de hizmet vermiyor **[Yaygın gözlem] [DOĞRULA]** | Yok say |
+| Stripe | Türkiye'deki satıcıya hesap açmıyor **[Yaygın gözlem] [DOĞRULA]** | Yok say; ödemesi yalnızca buna dayanan araç da elenir |
+| Hediye çeki / mağaza kredisi / ürün | — | Kabul etme: belgelenemez, Kart 4'e göre sponsorluk da değildir **[Tahmini]** |
 - Türk izleyiciye satışta fiyatı TL yaz. Döviz fiyatı ve yabancı ödeme sayfası satın almayı düşürür **[Yaygın gözlem]**. Kur değiştikçe fiyatı güncelleme takvimini önceden belirle (ör. çeyrekte bir); duyurusuz sık değişiklik güveni zedeler.
-- Gider tarafı (yapay zekâ araç abonelikleri) dövizdir; 5.2 tablosundaki gider satırını her ay güncel kurla doldur.
-- Her döviz girişinin dekontunu ve o günün kurunu sakla; hangi kurun esas alınacağı mali müşavirin konusudur.
+- Gider tarafı (yapay zekâ araç abonelikleri) dövizdir; 5.2 tablosundaki gider satırını her ay güncel kurla doldur. Her döviz girişinin dekontunu ve o günün kurunu sakla; hangi kurun esas alınacağı mali müşavirin konusudur.
 
 ### 6.4 E-posta listesi: KVKK ve ticari ileti izni
 
@@ -580,8 +572,8 @@ Temel yükümlülük (aydınlatma metni, açık rıza, çift onay, İYS olasıl�
 
 - **Gönderinin niteliği değişir.** Yalnızca içerik özeti gönderen bülten ile ürün satan, sponsor bloğu ya da ortaklık bağlantısı taşıyan bülten aynı değerlendirilmeyebilir. Ticari elektronik ileti için önceden onay, her iletide gönderenin kimliği ve ücretsiz/kolay ret imkânı aranır. İlk satış e-postasından **önce** rıza metnini ve ileti altbilgisini kontrol ettir.
 - **İYS.** Ticari ileti gönderen hizmet sağlayıcıların onayları İleti Yönetim Sistemi'ne kaydetmesi beklenir; mükellefiyetin (tacir/esnaf sıfatının) başladığı an bu yükümlülüğü de başlatabilir. Mükellefiyet açarken aynı görüşmede sor.
-- **Yurt dışı araç.** E-posta, ödeme ya da kurs platformu yurt dışındaysa abone verisi yurt dışına aktarılmış olur; KVKK'nın yurt dışına aktarım kuralları geçerlidir. Aydınlatma metninde aracı ve aktarımı belirt; aracın veri işleme sözleşmesini sakla.
-- **Amaçla sınırlılık.** Prompt dosyası için toplanan adres, ayrı rıza olmadan sponsora verilemez, başka listeye eklenemez. Kart 8'deki iki ayrı rıza kutusu bunun içindir.
+- **Yurt dışı araç.** E-posta, ödeme ya da kurs platformu yurt dışındaysa abone verisi yurt dışına aktarılmış olur. Aydınlatma metninde aracı ve aktarımı belirtmek gerekir ama tek başına yetmez: KVKK'nın yurt dışına aktarım maddesinin 2024'te değişen hâline göre bir aktarım dayanağı aranır (yeterlilik kararı; Kurul'un standart sözleşmesi ve imzadan sonra Kurul'a bildirim gibi uygun güvence; yalnızca arızi aktarımda açık rıza) **[DOĞRULA — kvkk.gov.tr, hukukçu]**. Bülten aracını seçerken standart sözleşme imzalayıp imzalamadığını sor; imzalamıyorsa Türkiye'de sunucusu olan bir aracı aday listesine ekle (03 belgesi 3.2 kabul testi).
+- **Amaçla sınırlılık.** Prompt dosyası için toplanan adres, ayrı rıza olmadan sponsora verilemez, başka listeye eklenemez; ürün/eğitim duyurusu için rıza yolu Kart 8 açık karar 2'dedir.
 - **Kayıt.** Her abonenin rıza tarihi, rıza metninin o günkü sürümü ve kaynağı (hangi form) dışa aktarılabilir biçimde saklanır.
 - **Alıcı verisi.** Ürün/kurs satışında toplanan ad, fatura adresi, ödeme bilgisi için ayrı aydınlatma gerekir; satış platformunun sunduğu metne güvenme, kendi metnini hazırlat.
 
@@ -595,50 +587,37 @@ Temel yükümlülük (aydınlatma metni, açık rıza, çift onay, İYS olasıl�
 |---|---|---|
 | YPP eşiğine yetişmek için yayın sıklığını ya da video süresini şişirmek | Tutma düşer; toplu üretim riski (2.6) | Ritim 02 belgesi B2'de sabit; eşik sonuçtur, hedef değil |
 | Abone/izlenme satın almak, karşılıklı abone grupları | Eşiğe sayılmaz, hesap riski, kitle verisini bozar | Yapma |
-| İlk videolardan ortaklık bağlantısı | Güven kurulmadan harcanır; gelir de gelmez | Kart 3 tetikleyicisi |
+| Kartlardaki tetikleyiciyi beklemeden açmak: ilk videolardan ortaklık bağlantısı, talep saymadan kurs, erken üyelik/topluluk | Güven ve emek, karşılığı ölçülmeden harcanır | Kart 3, 5, 6, 7, 9 "Ne zaman" alanları |
 | Test etmeden "en iyi 10 yapay zekâ aracı" listesi + bağlantı | 1.3 kural 1; nişteki en yaygın güven kaybı | Yalnızca `olcum.md` kaydı olan araç |
-| İngilizce kanalların RPM/kazanç rakamıyla plan yapmak | 1.1 | Kendi Studio verin; öncesinde reklam satırı planlamada düşük varsayılır |
-| Talep saymadan kurs çekmek | Haftalarca emek, araç değişince eskir | Ön satış (Kart 6) |
-| Videodaki prompt'u ücretli yapmak / e-posta arkasına almak | 1.3 kural 5; 02 belgesi B7 | Ücretli olan "tam set"tir |
+| İngilizce kanalların RPM/kazanç rakamıyla plan yapmak | 1.1 | Kendi Studio verin; öncesinde reklam satırı düşük varsayılır |
 | Aynı anda üç gelir yöntemi açmak | Tek kişi; hiçbiri ölçülemez | Çeyrekte en fazla 1 yeni yöntem **[Tahmini]** |
-| Erken topluluk / üyelik | Bakım yükü, boş oda | Kart 7 ve 9 tetikleyicileri |
 | Sponsor fiyatını abone sayısından hesaplamak | Sponsor görüntüleme alır | Kart 4: medyan görüntüleme |
-| İfşayı açıklamanın dibine gömmek | 6.1; idari yaptırım ve güven riski | İlk satır + video içi |
-| Vergi kurulumunu ilk ödemeden sonraya bırakmak | İstisna koşulları geriye dönük sağlanamayabilir **[DOĞRULA]** | 90 günlük plan, 2. ay |
+| İfşayı açıklamanın dibine gömmek ya da ücretsiz ürünü beyan etmemek | 6.1; idari yaptırım, platform etiketi ve güven riski | İlk satır + video içi |
+| Vergi kurulumunu ilk ödemeden sonraya bırakmak | İstisna koşulları geriye dönük sağlanamayabilir **[DOĞRULA]** | 6.2 görüşmesi ilk ücretli işten/başvurudan önce |
+| Ödemesi yalnızca PayPal/Stripe'a dayanan programa emek vermek | Kazanılan tutar tahsil edilemez | 6.3 karar tablosu, başvurudan önce |
 | Tek gelir kalemine bağımlılık | Politika/sponsor değişikliğinde gelir sıfırlanır | Aşama D denge kuralı; e-posta listesi |
-| Sahte aciliyet, gelir vaadi, "pasif gelir" dili | Kanal tonunun tersi | 1.3 kural 6–7 |
-| Gelir işine harcanan saati kaydetmemek | Saat başı net bilinmez; kötü kalem kapatılamaz | 5.2 son iki satır |
+| Gelir işine harcanan saati kaydetmemek | Saat başı net bilinmez; kötü kalem kapatılamaz | 5.2 "Saat" sütunu |
 
 ### 7.2 90 günlük gelir hazırlık planı
 
 Amaç bu 90 günde para kazanmak değildir; ilk gelir geldiğinde altyapının, kayıtların ve kuralların hazır olmasıdır. Süreler **[Tahmini]** ve 03 belgesi 2.1'deki haftalık bütçenin dışındadır; toplamı yaklaşık 10–12 saattir.
 
-**Gün 1–30 — Temel (toplam ~4 saat)**
+Hafta 1–4 temel (~4 saat), 5–8 kayıt ve hukuk (~4 saat), 9–12 varlıklar (~3 saat):
 
 | Hafta | İş | Çıktı |
 |---|---|---|
 | 1 | 2.7 "bugün" listesi: 2 adımlı doğrulama, Para kazanma bildirimi, dört resmî sayfanın okunması | 2.1 tablosu resmî sayfaya göre düzeltildi; Ek A'da ilgili maddeler işaretlendi |
-| 1 | Kısa bağlantı düzeni: her video için ayrı prompt dosyası bağlantısı | `performans-kaydi.md`'de "prompt tıklaması" sütunu doluyor |
+| 1 | Kısa bağlantı düzeni `performans-kaydi.md` Bölüm 0'da kurulu mu kontrol et (kurulum 03 belgesinde); satış ve ortaklık bağlantıları için aynı araçta ayrı etiket aç | "Prompt tıklaması" sütunu doluyor |
 | 2 | İş e-postası ve alan adı (bülten gönderen adresi ve medya kiti için) | Kanal "Hakkında"sında iş e-postası |
 | 3 | 1.3'teki güven kurallarını kanalın "Hakkında" metnine 2 cümleyle yaz: "Test etmediğim aracı önermem. Sponsorlu içerik her zaman belirtilir." | Yayında |
 | 4 | Talep sayım düzeni: `fikir-havuzu.md` içinde her yoruma/e-postaya meslek + istek türü etiketi (araç sorusu · "tamamı var mı" · "öğretir misin" · kurumsal) | İlk sayım |
-
-**Gün 31–60 — Kayıt ve hukuk (toplam ~4 saat)**
-
-| Hafta | İş | Çıktı |
-|---|---|---|
-| 5 | Mali müşavir görüşmesi: 6.2'deki altı soru | Yazılı not; istisna belgesi/hesap için karar ve tarih |
-| 6 | Ortaklık program notları (Kart 3 ilk adım): kullandığın her araç için üç satır | Tablo; başvuru yok |
-| 7 | Rıza ve aydınlatma metni taslağı, iki ayrı rıza kutusuyla (Kart 8); 6.4 maddeleri kontrol ettirildi | Bülten formu açılmaya hazır (açılış kararı 03 belgesi 5.6 eşiğine bağlı) |
+| 5 | 6.2'deki resmî tebliği bul ve oku; yedi soruyu kendi durumuna göre yaz; müşavir adayı belirle. Görüşmenin kendisi tetikleyiciye bağlıdır: ilk ücretli işten, erken erişim ya da ilk ortaklık başvurusundan önce (2.7) | Soru listesi hazır; görüşme tarihi tetikleyiciye bağlandı |
+| 6 | Ortaklık program notları: Kart 3 "ilk adım" sütunları + 6.3 karar tablosu | Tablo; başvuru yok |
+| 7 | Rıza ve aydınlatma metni taslağı (form 02 belgesi B7'deki gibi tek kutulu); Kart 8'deki iki açık karar verildi; 6.4 maddeleri ve yurt dışına aktarım dayanağı kontrol ettirildi | Bülten formu açılmaya hazır (açılış kararı 03 belgesi 5.6 eşiğine bağlı) |
 | 8 | 5.2 tablosunu e-tablo olarak kur; gider satırını bugünkü araç abonelikleriyle doldur | İlk ay kaydı (gelir 0, gider gerçek) |
-
-**Gün 61–90 — Varlıklar (toplam ~3 saat)**
-
-| Hafta | İş | Çıktı |
-|---|---|---|
 | 9 | Medya kiti iskeleti (Kart 4); rakamlar boş olabilir, yapı hazır | Tek sayfa taslak |
-| 10 | Sponsor kabul/ret ölçütlerini ve hazır ret yanıtını yaz: "Teşekkürler. Kanalda yalnızca kendi testimden geçen araçlara yer veriyorum; [araç]ı test etme fırsatım olursa dönerim." | Kayıtlı yanıt |
-| 11 | Açıklama şablonuna (`sablonlar/yayin-metaverisi.md` — değiştirmeden önce sahibine sor) eklenecek üç blok metnini hazırla: ifşa satırı, "Kullandığım araçlar", "ticari ilişki yok" satırı | Metinler bu belgede 6.1'de; şablona işleme ayrı karar |
+| 10 | Kart 4'teki asgari sözleşme maddelerini tek sayfaya al; hazır ret yanıtını yaz: "Teşekkürler. Kanalda yalnızca kendi testimden geçen araçlara yer veriyorum; [araç]ı test etme fırsatım olursa dönerim." | Kayıtlı yanıt |
+| 11 | Açıklama şablonuna (`sablonlar/yayin-metaverisi.md` — değiştirmeden önce sahibine sor) eklenecek üç blok metnini hazırla: ifşa satırı, "Kullandığım araçlar", "ticari ilişki yok" satırı | Metinler 6.1'de; şablona işleme Ek A madde 15 |
 | 12 | İlk çeyrek değerlendirmesi: sinyal sayımı (araç sorusu, "tamamı var mı", prompt tıklaması) → Aşama A tablosundaki geçiş sinyalleriyle karşılaştır | Tek paragraf karar: bülten formu açılıyor mu, ortaklık başvurusu yapılıyor mu |
 
 90. günde hâlâ hiçbir gelir yönteminin açılmamış olması planın başarısızlığı değildir; sinyal yoksa beklenen sonuç budur. Bir sonraki değerlendirme 12 hafta sonradır.
@@ -647,28 +626,20 @@ Amaç bu 90 günde para kazanmak değildir; ilk gelir geldiğinde altyapının, 
 
 ## Ek A — Doğrulanacaklar listesi
 
-Tarayıcıdan aç, sonucu tarihle bu belgeye işle.
+Tarayıcıdan aç, sonucu tarihle bu belgeye işle. Parantez içindeki bağlantılar bu belge yazılırken arama özeti görülen **ikincil** kaynaklardır; hiçbiri resmî değildir.
 
-1. YPP tam katman eşikleri ve **1 Şubat 2027 değişikliği** (8.000 saat / 20 milyon; mevcut üyelere etkisi; koşulların 31 Ocak 2027'ye kadar kabulü) → [72851](https://support.google.com/youtube/answer/72851), [YouTube resmî blogu](https://blog.youtube/). Sonucu 03 belgesi 4.4 D'nin sahibine de bildir.
-2. Erken erişim katmanının eşikleri ve **Türkiye'nin ülke listesinde olup olmadığı** → [13429240](https://support.google.com/youtube/answer/13429240); Studio → Para kazanma ekranı.
-3. Shorts aylık süreklilik eşiği (1 Şubat 2027, 90 günde 10 milyon) → [12504220](https://support.google.com/youtube/answer/12504220).
-4. Gelir payları (%55 izleme sayfası, %45 Shorts, %70 hayran desteği), video içi reklam arası için asgari süre → Studio'daki sözleşme modülleri; [72857](https://support.google.com/youtube/answer/72857).
-5. Başvuru inceleme süresi ve ret sonrası bekleme süreleri → 72851.
-6. AdSense: doğrulama ve ödeme eşikleri, Türkiye için ödeme yöntemi ve para birimi, ABD vergi formu → AdSense Yardım; AdSense → Ödemeler.
+1. YPP tam katman eşikleri ve **1 Şubat 2027 değişikliği** (8.000 saat / 20 milyon; mevcut üyelere etkisi; koşulların 31 Ocak 2027'ye kadar kabulü; erken katmandaki kanalın hangi eşiğe tabi olacağı) → [72851](https://support.google.com/youtube/answer/72851), [YouTube resmî blogu](https://blog.youtube/). Sonucu 03 belgesi 4.4 D'nin sahibine de bildir. ([Tubefilter](https://www.tubefilter.com/2026/08/10/youtube-partner-program-ad-eligibility-requirements-shorts/), [vidIQ](https://vidiq.com/blog/post/youtube-partner-program-changes-2027/), [ppc.land](https://ppc.land/new-youtube-creators-face-8-000-hour-bar-for-ad-revenue-from-february-2027/))
+2. Erken erişim katmanının eşikleri ve **Türkiye'nin ülke listesinde olup olmadığı** → [13429240](https://support.google.com/youtube/answer/13429240), [uygunluk kontrol sayfası](https://support.google.com/youtube/troubleshooter/13536952); Studio → Para kazanma ekranı.
+3. Shorts aylık süreklilik eşiği (1 Şubat 2027, 90 günde 10 milyon; eşik altında yalnızca Shorts payının durması) → [12504220](https://support.google.com/youtube/answer/12504220). Shorts açıklama/yorum bağlantılarının tıklanamaması → YouTube Yardım.
+4. Gelir payları (%55 izleme sayfası, %45 Shorts, %70 hayran desteği), video içi reklam arası için asgari süre ve güncel otomatik/elle yerleşim ayarları → Studio'daki sözleşme modülleri; [72857](https://support.google.com/youtube/answer/72857).
+5. Başvuru inceleme süresi; ret sonrası 30/90 gün bekleme ve 21 gün itiraz süresi → 72851.
+6. AdSense: doğrulama ve ödeme eşikleri, Türkiye için ödeme yöntemi ve para birimi, ABD vergi formu ve kesintinin yalnızca ABD izleyici gelirine uygulanması → AdSense Yardım; AdSense → Ödemeler.
 7. Kanal üyelikleri ve Super Thanks'in Türkiye'de kullanılabilirliği ve koşulları → 72857'den ilgili sayfalar.
-8. "Ücretli tanıtım içerir" kutusunun ortaklık bağlantısı ve kendi ürünün için gerekip gerekmediği → [154235](https://support.google.com/youtube/answer/154235).
-9. Reklam Kurulu kılavuzunun güncel tam metni; video platformları için ifşa yeri ve biçimi; 2021 sonrası değişiklik → [ticaret.gov.tr](https://ticaret.gov.tr).
-10. Sosyal içerik üreticiliği istisnası: koşullar, kesinti oranı, bu yılın sınır tutarı, kapsam → [gib.gov.tr](https://www.gib.gov.tr) + mali müşavir (6.2 soru listesi).
-11. KVKK aydınlatma/rıza, yurt dışına aktarım, İYS kayıt yükümlülüğü → [kvkk.gov.tr](https://www.kvkk.gov.tr), [iys.org.tr](https://www.iys.org.tr) + hukukçu.
+8. "Ücretli tanıtım içerir" kutusunun ortaklık bağlantısı, ücretsiz ürün ve kendi ürünün için gerekip gerekmediği; markalı içerik politikası ve otomatik etiketleme → [154235](https://support.google.com/youtube/answer/154235), [17596007](https://support.google.com/youtube/answer/17596007).
+9. Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği'nin güncel metni (1 Temmuz 2026 değişikliği: zorunlu ifadeler, video mecrasında yeri, bedelsiz ürün, reklamda yapay zekâ) + 2021 kılavuzunun geçerli kalan kısmı → [resmigazete.gov.tr](https://www.resmigazete.gov.tr), [ticaret.gov.tr](https://ticaret.gov.tr). ([alomaliye.com](https://www.alomaliye.com/2026/07/01/reklam-yonetmeliginde-kapsamli-degisiklik/), [hukukihaber.net](https://www.hukukihaber.net/reklam-ve-isbirligi-etiketi-zorunluluk-nerede-baslar-keyfilik-nerede-biter))
+10. Sosyal içerik üreticiliği istisnası: koşullar, kesinti oranı, bu yılın sınır tutarı, 2024 kapsam genişlemesi (kurs, eğitim, ürün tanıtımı), KDV ve markaya verilecek belge → [gib.gov.tr](https://www.gib.gov.tr) (ilgili genel tebliğ) + mali müşavir (6.2 soru listesi). ([alomaliye.com — ürün tanıtımı](https://www.alomaliye.com/2026/02/19/youtube-ve-kisisel-internet-sitesi-uzerinden-yapilan-urun-tanitimlarinda-vergi-istisnasi/), [alomaliye.com — KDV](https://www.alomaliye.com/2026/10/02/sosyal-icerik-ureticiliginde-kdv-uygulamasi/), [hukukcularevi.com](https://hukukcularevi.com/internetten-sosyal-medyadan-kazananlarin-vergisi-icerik-ureticisi-istisnasi/))
+11. KVKK aydınlatma/rıza, yurt dışına aktarım dayanağı (standart sözleşme ve Kurul'a bildirim), İYS kayıt yükümlülüğü → [kvkk.gov.tr](https://www.kvkk.gov.tr), [iys.org.tr](https://www.iys.org.tr) + hukukçu.
 12. Mesafeli satış, dijital içerikte cayma hakkı, ön satışta iade → Ticaret Bakanlığı mevzuatı + hukukçu.
-13. Satış ve üyelik platformlarının (Gumroad, Lemon Squeezy, Paddle, Patreon, iyzico, Shopier, PayTR vb.) Türkiye'deki satıcıya ödeme yapıp yapmadığı ve mükellefiyet koşulu → her aracın kendi "desteklenen ülkeler / ödemeler" sayfası.
-14. Kullanılan her yapay zekâ aracının ortaklık programı: Türkiye'den kabul, ödeme yöntemi, marka kullanım kısıtı → programın koşullar sayfası.
-
-## Ek B — Bu belge yazılırken bakılan ikincil kaynaklar
-
-Yalnızca arama özetleri görüldü; hiçbiri resmî kaynak değildir.
-
-- 2027 YPP değişikliği: [Tubefilter](https://www.tubefilter.com/2026/08/10/youtube-partner-program-ad-eligibility-requirements-shorts/), [The Next Web](https://thenextweb.com/news/youtube-partner-program-doubles-entry-requirements-2027), [vidIQ](https://vidiq.com/blog/post/youtube-partner-program-changes-2027/), [Shacknews](https://www.shacknews.com/article/150324/youtube-partner-program-minimum-qualified-public-watch-hours-shorts-views), [ppc.land](https://ppc.land/new-youtube-creators-face-8-000-hour-bar-for-ad-revenue-from-february-2027/)
-- Reklam Kurulu kılavuzu: [Webrazzi](https://webrazzi.com/2021/05/06/ticaret-bakanligi-influencerlara-yonelik-yeni-bir-kilavuz-yayinladi/), [hukukihaber.net](https://www.hukukihaber.net/reklam-ve-isbirligi-etiketi-zorunluluk-nerede-baslar-keyfilik-nerede-biter)
-- Sosyal içerik üreticiliği istisnası: [hukukcularevi.com](https://hukukcularevi.com/internetten-sosyal-medyadan-kazananlarin-vergisi-icerik-ureticisi-istisnasi/), [alomaliye.com](https://www.alomaliye.com/2026/10/02/sosyal-icerik-ureticiliginde-kdv-uygulamasi/amp/)
-- Ödeme platformları: [Gumroad Yardım — Payoneer](https://gumroad.com/help/article/223-payoneer-and-gumroad), [Lemon Squeezy — desteklenen ülkeler](https://docs.lemonsqueezy.com/help/getting-started/supported-countries)
+13. Satış ve üyelik platformlarının (Gumroad, Lemon Squeezy, Paddle, Patreon, Kreosus, iyzico, Shopier, PayTR vb.) Türkiye'deki satıcıya ödeme yapıp yapmadığı ve mükellefiyet koşulu; PayPal, Stripe ve Payoneer'in Türkiye'deki güncel durumu → her aracın kendi "desteklenen ülkeler / ödemeler" sayfası. ([Gumroad Yardım](https://gumroad.com/help/article/223-payoneer-and-gumroad), [Lemon Squeezy](https://docs.lemonsqueezy.com/help/getting-started/supported-countries))
+14. Kullanılan her yapay zekâ aracının ortaklık programı: Türkiye'den kabul, ödeme yöntemi, asgari ödeme eşiği, çerez süresi, marka kullanım kısıtı → programın koşullar sayfası.
+15. **Başka belgelerin sahiplerine iletilecek değişiklik istekleri** (bu belge onları değiştirmez; karar verilince tarihle işaretle): (a) 01 belgesi Bölüm 8 ve `sablonlar/yayin-metaverisi.md`: sponsorlu bölümün yeri, sponsor bağlantısının sözlü anılmaması, açıklamada 1. satır ifşa etiketi + 2. satırdan prompt, "Kullandığım araçlar" bloğu (Kart 4 açık karar, 6.1). (b) 03 belgesi 5.6: haftalık şablona altıncı "Duyuru / Sponsor" bloğu ve kayıt penceresi hatırlatması istisnası (Kart 8 açık karar 1). (c) 02 belgesi B7 ve 03 belgesi 5.6 adım 3: ürün/eğitim duyurusu rızasının yolu (Kart 8 açık karar 2). (d) `sablonlar/performans-kaydi.md`: gelir işi saati ve ret/politika kaydı için alan; eklenene kadar 5.2 e-tablosu kullanılır. (e) 03 belgesi 4.4 D: madde 1'in sonucu.
