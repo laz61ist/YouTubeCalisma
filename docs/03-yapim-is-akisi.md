@@ -498,7 +498,7 @@ Kısa videoların yayın dağılımı: uzun videodan **önce** 1 (merak uyandır
 
 En uzun gün cumartesidir (elle koşuyla 3 sa 35 dk). Sığmıyorsa elle koşu bir önceki haftanın cuma akşamına alınır; senaryodan sonraya **alınmaz**, çünkü senaryonun hook'u elle süreye yaslanır.
 
-`02-buyume-stratejisi.md` B2'deki haftalık takvim bu tablonun üstüne büyüme işlerini (yorum cevapları, haftalık analiz rutini, topluluk gönderileri) ekler.
+`02-buyume-stratejisi.md` B2'deki haftalık takvim bu tablonun üstüne büyüme işlerini (yorum cevapları, haftalık analiz rutini, topluluk gönderileri) ekler. Bu tabloda yer almayan ve ölçülünce buraya işlenecek ekler: aylık ve çeyreklik analiz oturumları (`05-performans-analiz-sistemi.md` Bölüm 5), yüz göstermeyen üretimin ek adımları (`06-yuz-gostermeden-yapim.md` Bölüm 8), gelir işlerinin haftalık payı (`04-gelir-stratejisi.md` Bölüm 4). Özet: `README.md`, "tek kaynak" tablosu.
 
 ### 2.2 Önde gitme kuralı
 
@@ -663,6 +663,8 @@ Yapay zekânın seste yeri: temizlik, seviye, sessizlik kesme, yazıya dökme. S
 
 **Ses klonu ve sentetik ses ilk 10 videoda kullanılmaz;** kendi sesinin klonuyla tek cümle düzeltmek de buna dâhildir. Yayın sonrası fark edilen hata sesle değil yazıyla düzeltilir: sabitlenmiş yoruma ve açıklamanın başına tarihli not (Bölüm 4.2, madde 5). 10. videodan sonra bu karar yeniden açılacaksa önce Bölüm 4.4 A'daki kanal kuralı uygulanır.
 
+Kararın yüz göstermeyen üretimdeki uygulaması, sentetik sese geçiş ölçütleri ("Yol B"), üç videoluk pilot ve geri dönüş kuralı `06-yuz-gostermeden-yapim.md` Bölüm 0 ve 2'dedir. İlk 10 videoda Yol B'yi açmak (ör. kendi sesinle kayıt fiilen mümkün değilse) bu karardan sapmadır; tarihi ve gerekçesi `sablonlar/performans-kaydi.md` Bölüm 0'a yazılır. Yukarıdaki "haftada 20–30 dk kazanç" tahmini ilk videolar için geçerli sayılmaz: 06 belgesi Bölüm 8'deki dökümde Yol B seslendirmesi tahmini 75 dk, kendi sesle 55 dk'dır; iki tahmin de ölçülene kadar tahminidir.
+
 ### 4.4 Politikalar: beyan, etiket, özgün olmayan içerik, İş Ortağı Programı
 
 > **Doğrulama notu:** support.google.com bu belge yazılırken açılamadı. Aşağıdaki [Resmî] maddeler ilgili yardım sayfasının arama sonucunda görünen özetine ve ikincil haber kaynaklarına dayanır. Bölüm 0.2'deki okumayı yapınca bu bölümü düzelt.
@@ -712,7 +714,7 @@ Bölüm 4.3'teki karar gereği bu tablo ilk 10 videoda devreye girmez; durum de�
 
 **[Yaygın gözlem — ikincil haber kaynakları, resmî duyuru okunmadı]** Ağustos 2026 tarihli haberlere göre YouTube, 1 Şubat 2027'de yürürlüğe girecek İş Ortağı Programı değişiklikleri duyurdu. Haberlerde geçenler: yeni başvurular için izlenme süresi ve Shorts görüntüleme eşiklerinin yükseltilmesi (birden çok kaynakta "yaklaşık iki katı": 365 günde 8.000 saat ya da 90 günde 20 milyon Shorts görüntülemesi; 1.000 abone koşulu sürüyor), Shorts reklam geliri paylaşımı için ayrı bir süreklilik eşiği ve güncellenen koşulların 31 Ocak 2027'ye kadar Studio'dan kabul edilmesi. Mevcut üyelerin etkilenip etkilenmediği konusunda kaynaklar çelişiyor.
 
-Bu kanal için sonucu: para kazanma başvurusu Şubat 2027'den sonra yapılacağı için **yeni eşikler geçerli olacaktır.** Bir gelir ya da başvuru tarihi hedefi koymadan önce sayıları resmî sayfadan doğrula (Bölüm 0.2); doğrulanmamış eşiği plana yazma.
+Bu kanal için sonucu: para kazanma başvurusu büyük olasılıkla 1 Şubat 2027'den sonra yapılacağı için, haber resmî sayfada teyit edilirse tam katmanda **yeni eşikler geçerli olur.** Bir gelir ya da başvuru tarihi hedefi koymadan önce sayıları resmî sayfadan doğrula (Bölüm 0.2); doğrulanmamış eşiği plana yazma. Eşik tablosunun (500 abonelik erken erişim katmanı ve bugünkü tam katman dâhil), başvuru adımlarının ve teyit edilene kadar iki eşik için ayrı yapılan süre hesabının tek kaynağı `04-gelir-stratejisi.md` 2.1–2.3'tür; teyit sonucu oraya ve buraya birlikte işlenir.
 
 ### 4.5 Gizlilik ve veri
 
@@ -1040,5 +1042,8 @@ Kural: uzun elle süresi olan iki videoyu arka arkaya planlama.
 
 - `01-icerik-uretim-sistemi.md` — fikir filtresi, paketleme, hook, kurgu yapıları (KG1–KG7), kronometre kuralı (6.1), tutma araçları, CTA
 - `02-buyume-stratejisi.md` — haftalık takvimin büyüme işleri (B2), prompt dosyası ve e-posta listesinin aşamaları (B7), haftalık analiz rutini (B8), ilk Studio oturumunda doğrulanacaklar listesi
+- `04-gelir-stratejisi.md` — İş Ortağı Programı eşikleri ve başvurusu (2.1–2.3), gelir yöntemlerinin açılma koşulları, bültenin gelir tarafı (Kart 8)
+- `05-performans-analiz-sistemi.md` — Aşama 9'un üstüne kurulan analiz katmanı: analiz tablosu, haftalık rutinin açılımı, aylık ve çeyreklik oturumlar
+- `06-yuz-gostermeden-yapim.md` — bu hattın yüz göstermeyen üretime özel uygulaması; sentetik seslendirme (4.3'teki karardan sapma koşulları dâhil)
 - `senaryolar/` — yazılmış senaryolar (şablonun dolu örnekleri)
 - `sablonlar/` — bu belgedeki aşamaların doldurulabilir şablonları

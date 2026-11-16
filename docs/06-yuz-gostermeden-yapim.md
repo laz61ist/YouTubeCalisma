@@ -548,7 +548,7 @@ Gün ve ritim: 02 belgesi B2 (perşembe; tek kaynak). Yüzsüz üretimin ekledi�
 
 **Toplam (3–18. satırlar, çekimden yayın hazırlığına):** tahmini 6 sa 55 dk (5. satıra göre 6 sa 45 dk – 7 sa 5 dk). 03 belgesi 2.1'in aynı aşamalar için bütçesi 5 sa 10 dk'dır (çekim 50 + seslendirme 55 + kurgu 150 + kapak 25 + yayın 30). **Fark: tahmini +1 sa 45 dk [Tahmini]**; dökümü: Kayıt B ve C +28–48 dk ve masa çekimi +15 dk (senaryo 01'e özgü), masaüstü hazırlığı +10, sese göre ek anlatım çekimi +15, dosya kontrolü +10 (bu belgenin ekleri), Yol B seslendirmesi +20. Yol A'da fark tahmini +1 sa 25 dk'dır. Takvimde yeri: pazartesi oturumu (03 belgesinde çekim + seslendirme, 1 sa 45 dk) 3–10. satırlarla tahmini 3 sa 10 dk'ya çıkar; sığmıyorsa 5 ve 7. satırlar pazar günü senaryodan sonraya alınır. Salıya +15 dk, çarşambaya +10 dk eklenir. Haftalık bütçenin tek kaynağı 03 belgesi 2.1'dir; fark ilk videoda ölçülür, doğrulanırsa orası güncellenir.
 
-**Kronometre notu.** Senaryo 01 2.1'deki "kronometre bir kurgu grafiğidir … başka kayıtlardan görüntü ekrandayken gri olur ve durur" ifadesi 03 belgesi Aşama 4 ile çelişir; bu örnekte 03 geçerlidir. Kayıt B ve C çekilirken `kronometre.html` karede **durmuş hâlde** açık tutulur (03 belgesi 6.3: süre dışı kayıtlarda kronometre durmuş görünür); kurguda yalnızca "Ayrı sohbet · süre dışı" etiketi eklenir, rakam yazılmaz ve griye boyanmaz.
+**Kronometre notu.** Kronometre çekimde kayda gömülür (03 belgesi Aşama 4); senaryo 01 2.1'deki eski "kurgu grafiğidir" ifadesi 2026-11-16'da buna göre düzeltildi. Kayıt B ve C çekilirken `kronometre.html` karede **durmuş hâlde** açık tutulur (03 belgesi 6.3: süre dışı kayıtlarda kronometre durmuş görünür); sayfa durduğunda rakamları kendiliğinden gri gösterir (01 belgesi 6.1). Kurguda yalnızca "Ayrı sohbet · süre dışı" etiketi eklenir; rakam yazılmaz, rengi kurguda değiştirilmez.
 
 Bu videoda katman dökümü (senaryo 01'in süre dökümüne göre, **[Tahmini]**): ekran kaydı ≈ %86; tam ekran kartlar (karşılaştırma, "yapamadığı şey" kartı, prompt kartı) tahmini 60–75 sn ≈ %8–10; açıklayıcı animasyon yok; bağlam sahnesi 30 sn (masa çekimi, kendi görüntün) ≈ %4; stok plan yok.
 
@@ -637,10 +637,9 @@ Her satır ölçülmüş bir darboğaza bağlıdır. Örnek adlar yalnızca aram
 | 10 | OBS Studio kayıt biçimi seçenekleri ve varsayılanı; Resolve'da menü adları, izleme özelliği ve projeler arası öğe kutusu | [obsproject.com/kb/hybrid-mp4](https://obsproject.com/kb/hybrid-mp4); kullandığın sürümün arayüzü | 3.2, 3.6, 5.2, 6.1 |
 | 11 | Studio yükleme akışındaki adımların sırası ve adları; Kontroller adımının kapsamı; Shorts'ta güvenli alan | Studio, yükleme ekranı; telefonda gizli deneme | 6.8, 7.6, 7.7 |
 
-Bu belge başka dosyaları değiştirmez; aşağıdakiler ilgili belgede karara bağlanmalıdır:
+Durum, 2026-11-16 tutarlılık kontrolünden sonra. İşlenenler: `senaryolar/01-…` 2.1'deki "kronometre bir kurgu grafiğidir" ifadesi 03 belgesi Aşama 4'e göre düzeltildi; 03 belgesi 4.3'e bu belgenin 0. ve 8. bölümlerine atıf, 2.1'e süre eklerine atıf eklendi; `README.md` dizini ve "tek kaynak" tablosu güncellendi. Açık kalanlar, ilgili belgede karara bağlanmalıdır:
 
-- **`senaryolar/01-…` 2.1:** "Kronometre bir kurgu grafiğidir" ifadesi 03 belgesi Aşama 4 ile çelişiyor (bu belgede 8).
-- **03 belgesi 2.1:** Yüzsüz üretim ekleriyle süre farkı (ölçüldükten sonra) (bu belgede 8).
+- **03 belgesi 2.1:** Yüzsüz üretim ekleriyle süre farkının bütçeye işlenmesi (ilk videoda ölçüldükten sonra) (bu belgede 8).
 - **03 belgesi 6.1, 6.2:** Yeni klasör ve dosyalar (`00_VARLIKLAR/ses/`, `00_VARLIKLAR/stok/`, `grafik/aciklayici/`, `tts-metni.md`, `tts-kaydi.md`); `tts` türü (bu belgede 2.5, 4.4, 5.4). 03 belgesi 6.3, 6.4 ve kurgu kapısı: ×N'in hesaplanışı; `KAPAT` ve `KR` kanalları; 1440p dışa aktarma (denenirse) (bu belgede 3.5, 6.1, 6.7).
 - **`sablonlar/prompt-kutuphanesi.md`:** Okunuş metni prompt'u (bu belgede 2.3).
-- **`README.md`:** Belge dizini ve "tek kaynak" tablosunda bu belge ve getirdiği dosyalar yok.
+- **`sablonlar/kalite-kontrol-listeleri.md`:** 10.1'deki ek maddeler ilgili kapılara eklenmedi; Yol B açılırsa ya da ilk çekimden önce eklenir.

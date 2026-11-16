@@ -2,7 +2,7 @@
 
 > Kullanım: Bu dosya `03_KAYITLAR/performans-kaydi.md` olarak tek kopya tutulur. Bölüm 1–3 tüm videoların özet tablolarıdır; Bölüm 4'teki kart her video için çoğaltılır. Sayılar YouTube Studio'dan elle girilir. Tablolar büyüyünce aynı sütunlarla bir elektronik tabloya taşı; çıkarım alanları burada kalsın.
 >
-> Kanalın tek takip şablonu budur. Hangi hücrenin hangi kontrolde doldurulacağı (asgari doldurma kuralı), kıyas merdiveni, "düşük/yüksek" tanımı ve asgari veri eşikleri `02-buyume-stratejisi.md` B5 ve B8'dedir.
+> Kanalın tek takip şablonu budur; yukarıda sözü edilen elektronik tablo `sablonlar/analiz-tablosu.csv` dosyasıdır (`05-performans-analiz-sistemi.md` Bölüm 2). O tablo kurulduğunda §1 ve §2'deki sayılar ile karttaki "Metrikler" tablosunun 7 gün / 28 gün sütunları yalnızca orada tutulur (kartta 48 saat sütunu, tutma notları, arama terimleri, yorumlar ve çıkarım kalır); §5.3'teki kategori dağılımını tablonun "Özet" sayfası karşılar. Aynı sayı iki yere yazılmaz. Hangi hücrenin hangi kontrolde doldurulacağı (asgari doldurma kuralı), kıyas merdiveni, "düşük/yüksek" tanımı ve asgari veri eşikleri `02-buyume-stratejisi.md` B5 ve B8'dedir.
 
 ## Okuma kuralları
 
@@ -24,6 +24,7 @@ Bu kayıttaki bazı sütunlar YouTube Studio'dan **gelmez.** Hangisinin nereden 
 | **Prompt tıklaması** | Studio açıklamadaki bağlantının tıklanma sayısını vermez; herkese açık belge de anonim ziyaretçi saymaz. Her videonun açıklamasına ve sabitlenmiş yorumuna, tıklama istatistiği veren **videoya özel kısa bağlantı** konur; sayı o aracın panelinden okunur. Sayılan şey tıklamadır, tekil kişi değildir. Prompt'un tam metni açıklamada durduğu için bu sayı kullananların alt sınırıdır. | Araç: [ ] · Kuruldu: [TARİH] / kurulmadı |
 | **Kısa videodan uzun videoya geçiş** | Shorts "ilgili video" tıklamaları için Studio'da veri olup olmadığı doğrulanamadı. Studio'da görüyorsan nerede gördüğünü buraya yaz; görmüyorsan sütun `[ölçüm yok]` kalır ve yerine uzun videonun trafik kaynaklarındaki Shorts kaynaklı görüntülemeye bakılır. | Görünüyor: [nerede] / görünmüyor |
 | **LinkedIn ve diğer platformlar** | Her platformun kendi gönderi istatistikleri; tanımları YouTube'unkiyle aynı değildir, platformlar arası kıyas yapılmaz. | — |
+| **Tutma grafiğinin adım aralığı** | İlk videoda imleci grafikte gezdirerek iki veri noktası arasındaki süreyi ölç (05 belgesi Bölüm 7). | Adım: [ ] sn · Ölçüldü: [TARİH] |
 | **Bülten** (KM-011'den itibaren) | Gönderim aracının paneli: gönderilen, açılan, tıklanan, çıkan. Açılma oranı e-posta istemcilerinin gizlilik ayarları yüzünden güvenilmezdir; tıklama ve yanıt sayısına bak. | Araç: [ ] |
 
 Kanal özellikleri (gizli test videosunda denendi; `03-yapim-is-akisi.md` Bölüm 0.1):

@@ -627,9 +627,9 @@ Hafta numarası = o perşembe yayınlanan video (1. hafta KM-001). Bir videonun 
 
 ## Diğer belgelerde gereken güncellemeler
 
-Bu belge aşağıdaki dosyalara dokunmaz; uyum için sahiplerinin işlemesi gerekir.
+Durum, 2026-11-16 tutarlılık kontrolünden sonra:
 
-- **`README.md`:** belge dizinine 05 belgesi, `analiz-tablosu.csv` ve `aylik-degerlendirme.md`; "tek kaynak" tablosuna "analiz tablosunun sütunları ve formülleri → 05 belgesi Bölüm 2" ve "7g / 28g tanımı → 05 belgesi Bölüm 1" satırları.
-- **`sablonlar/performans-kaydi.md`:** kullanım notundaki "kanalın tek takip şablonu budur" cümlesi; §1, §2 sayılarının ve karttaki "Metrikler" tablosunun 7 gün / 28 gün sütunlarının analiz tablosunda tutulduğu, §5.3 kategori tablosunun "Özet" sayfasıyla karşılandığı notu; Bölüm 0'a "tutma grafiği adım aralığı" satırı.
-- **`02-buyume-stratejisi.md`:** B8'deki "tek şablon" cümlesi ve kanal düzeyi "Erişim → YouTube araması" yolu; B5 ve B8'de 7. gün okumasının ön değer olduğu; B2'deki haftalık toplam süreye aylık +70 dk, çeyreklik +3 saat ve teşhis oturumu (03 belgesi 2.1 ile birlikte).
-- **`01-icerik-uretim-sistemi.md` 7.5:** olay sayılmanın izleyici alt sınırı ve eşleştirmenin pencere düzeyinde yapıldığı.
+- **İşlendi — `README.md`:** belge dizini, "tek kaynak" tablosu (analiz tablosu → Bölüm 2; 7g / 28g tanımı → Bölüm 1; analiz rutinleri → Bölüm 4–8) ve süre bütçesi ekleri.
+- **İşlendi — `sablonlar/performans-kaydi.md`:** kullanım notuna analiz tablosuyla iş bölümü; Bölüm 0'a "tutma grafiğinin adım aralığı" satırı. §1, §2 ve karttaki tabloların kendisi değiştirilmedi; analiz tablosu kurulana kadar oldukları gibi kullanılabilir.
+- **İşlendi — `02-buyume-stratejisi.md`:** B8'e bu belgeye atıf (ön değer, bitiş ekranı tıklamasının zamanı, kanal düzeyi arama terimleri yolu, analiz tablosu, aylık oturum) ve B2'deki haftalık toplamın altına ek süreler; 03 belgesi 2.1'e aynı ekler için atıf. B5 metni değiştirilmedi.
+- **Açık — `01-icerik-uretim-sistemi.md` 7.5:** olay sayılmanın izleyici alt sınırı ve eşleştirmenin pencere düzeyinde yapıldığı.

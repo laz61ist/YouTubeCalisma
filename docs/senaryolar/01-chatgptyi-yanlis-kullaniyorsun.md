@@ -63,7 +63,7 @@ Başlıktaki "7 alışkanlık" çözüm adlarıdır; seslendirme her maddeyi "D�
 - **Her prompt en az 3 kez, her seferinde yeni sohbette denenir.** Ekranda üç denemeden tipik olanı gösterilir; en kötüsü ya da en iyisi değil. Üç deneme birbirinden çok farklıysa bu, seslendirmede söylenir.
 - **Kenar çubuğu gizli;** ekranda hesap adı, e-posta adresi ve sohbet geçmişi görünmez.
 - **Bekleme süresi:** yapay zekânın cevap yazışı kurguda hızlandırılır ya da atlanır; ekranda "hızlandırıldı" notu durur ve kronometre gerçek süreyi göstermeye devam eder (bekleme süreden düşülmez). Soruları cevaplama görüntüsü de hızlandırılır, aynı notla.
-- **Kronometre bir kurgu grafiğidir.** Kayıt A'nın (2.6) gerçek zaman kodunu gösterir. Başka kayıtlardan görüntü ekrandayken gri olur ve durur.
+- **Kronometre çekimde kayda gömülür** (`sablonlar/kronometre.html`; 03 belgesi Aşama 4 ve 6.3), kurguda yazılmaz. Kayıt A'da (2.6) çalışır ve gerçek süreyi gösterir. Kayıt B ve C çekilirken karede durmuş hâlde açık tutulur; sayfa durduğunda rakamları kendiliğinden gri gösterir (01 belgesi 6.1). Kurguda eklenen yalnızca çerçeve ve etiketlerdir.
 
 ### 2.2 Örnek malzeme
 

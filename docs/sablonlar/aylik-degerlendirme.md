@@ -120,7 +120,7 @@ Kural adayları (05 belgesi Bölüm 7, adım 7):
 |---|---|---|---|---|
 | | | | | ipucu / bulgu |
 
-## 4. Trafik kaynağı karışımı (10 dk)
+## 4. Trafik kaynağı karışımı ve Shorts (10 dk)
 
 Kanal düzeyi (Analytics → Gelişmiş mod → boyut: Trafik kaynağı), son 28 gün ↔ önceki 28 gün:
 
@@ -145,7 +145,7 @@ Kanal düzeyi (Analytics → Gelişmiş mod → boyut: Trafik kaynağı), son 28
 | Shorts: kaynak tablosunda Shorts kaynaklı görüntülemesi olan uzun video (yayın sırası: önce / sonra; FT6) | [ ] / [ ] · önce: [ ] · sonra: [ ] |
 | Shorts: bu dönemin kesim + dağıtım süresi → üçüncü Shorts sürsün mü | [ ] dk → E / H |
 
-## 5. Kitle ve abone dönüşümü (10 dk)
+## 5. Kitle, abone dönüşümü, etkileşim (10 dk)
 
 | | Değer | Hedefle uyum / not |
 |---|---|---|

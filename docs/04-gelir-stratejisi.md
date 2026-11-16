@@ -1,6 +1,6 @@
 # 04 — Gelir Stratejisi
 
-Kanal: **Kısa Mesai** · Belge tarihi: 2026-11-16 · İlgili belgeler: `02-buyume-stratejisi.md` (metrik tanımları Bölüm A; e-posta listesi B7), `03-yapim-is-akisi.md` (politikalar 4.4; bülten akışı 5.6; araç kuralı Bölüm 3), `01-icerik-uretim-sistemi.md` (CTA kuralı Bölüm 8), `sablonlar/performans-kaydi.md`.
+Kanal: **Kısa Mesai** · Belge tarihi: 2026-11-16 · İlgili belgeler: `02-buyume-stratejisi.md` (metrik tanımları Bölüm A; e-posta listesi B7), `03-yapim-is-akisi.md` (politikalar 4.4; bülten akışı 5.6; araç kuralı Bölüm 3), `01-icerik-uretim-sistemi.md` (CTA kuralı Bölüm 8), `05-performans-analiz-sistemi.md` (eşik ilerlemesi ve gelir öncüllerinin aylık okuması: Bölüm 5, adım 6; RPM teşhisi: Bölüm 6, D8), `06-yuz-gostermeden-yapim.md` (sentetik sesin para kazanma riski: 7.5), `sablonlar/performans-kaydi.md`.
 
 Bu belge kanalın hangi gelir yöntemini, hangi koşulda, hangi sırayla açacağını anlatır. Kanal bugün sıfırdadır; bu yüzden belgenin büyük kısmı "şimdi açma, şu sinyali bekle" der. Hukuk ve vergi bölümleri genel bilgidir; **hukuki ya da mali tavsiye değildir, karar vermeden önce mali müşavire danış.**
 
@@ -114,7 +114,7 @@ Kanalın sattığı şey "bu kişi ölçmeden konuşmaz" güvenidir. Aşağıdak
 Özgün olmayan içerik, yeniden kullanılan içerik ve yapay zekâ beyanının ayrıntısı **03 belgesi 4.4 A–B**'de yazılıdır; burada tekrar edilmez. Gelir açısından ek olanlar:
 
 1. **Değerlendirme kanal düzeyindedir:** başvuruda incelemeci ana temayı, en çok izlenen ve en yeni videoları, izlenme süresinin çoğunu getiren videoları, başlık/kapak/açıklamaları ve "Hakkında" bölümünü görür **[Resmî — sayfada teyit et]** ([1311392](https://support.google.com/youtube/answer/1311392)). Kanal sayfası ve ilk 10 video bu gözle hazırlanır.
-2. **Sentetik ses + hazır görüntü birleşimi** toplu üretim izlenimini en kolay veren desendir (03 belgesi 4.4 B). Yüz göstermeden üretim yapılacaksa kanalın savunması şudur: her videoda **kendi yaptığın gerçek ekran kaydı, kendi ölçümün, kendi verin** vardır. Stok görüntü yalnızca geçişte, taşıyıcı değil.
+2. **Sentetik ses + hazır görüntü birleşimi** toplu üretim izlenimini en kolay veren desendir (03 belgesi 4.4 B). Yüz göstermeden üretim yapılacaksa (uygulaması: 06 belgesi 1.1 ve 7.5) kanalın savunması şudur: her videoda **kendi yaptığın gerçek ekran kaydı, kendi ölçümün, kendi verin** vardır. Stok görüntü yalnızca geçişte, taşıyıcı değil.
 3. **Yapay zekâ beyanı ile para kazanma ayrı konulardır.** "Değiştirilmiş veya sentetik içerik" beyanı ([14328491](https://support.google.com/youtube/answer/14328491)) tek başına reklamı kısıtlamaz **[Resmî — sayfada teyit et]**; beyan etmemek ise yaptırım nedenidir. Kanal kuralı 03 belgesi 4.4 A tablosudur.
 4. **Reklamveren dostu içerik.** Bu nişte risk düşüktür; dikkat edilecek tek yer başlık ve kapakta yanıltıcı iddia (ör. ölçülmemiş süre). Kapak kuralı (01 belgesi Bölüm 3) bunu zaten kapatır.
 
@@ -393,7 +393,7 @@ Abone sayısı kaba bir göstergedir; bir yöntemi açan şey **davranış sinya
 | **Açılır** | Satış ortaklığı (Kart 3 koşullarıyla; A'da açılmadıysa) · YPP tam katman ve reklam (eşikte) · ilk dijital ürün (Kart 5 sinyaliyle, bekleme listesi testiyle) · gelen sponsor tekliflerinin ölçütlerle değerlendirilmesi · medya kitinin tutulması |
 | **Açılmaz — neden** | Kayıtlı kurs (araçlar değişiyor, talep kanıtlanmadı) · üyelik (ayrıcalık yükü) · ücretli topluluk (bakım yükü) · kendin sponsor arama (medyan küçük; zamanın ürüne gitmesi daha iyi) |
 | **Sinyal → sonraki aşama** | İlk ürün bekleme listesi eşiğini geçti ve satıldı · alıcılardan "canlı / ekibime" talebi · bir işletmeden kendiliğinden eğitim sorusu · ortaklık bağlantısı tıklama oranı ölçülebilir hâlde |
-| **Haftalık zaman payı** | 1–2 saat; toplam üst sınır ≈ 14 sa 10 dk. Ürün üretimi tek haftaya sığdırılmaz: 3–4 haftaya yayılır, o haftalarda pay 4 saate çıkar (toplam ≈ 16 sa 10 dk) ve üçüncü Shorts atlanır (03 belgesi 2.4). Bu toplamı ayıramıyorsan ürün ertelenir |
+| **Haftalık zaman payı** | 1–2 saat; toplam üst sınır ≈ 14 sa 10 dk. Ürün üretimi tek haftaya sığdırılmaz: 3–4 haftaya yayılır, o haftalarda pay 4 saate çıkar (toplam ≈ 16 sa 10 dk) ve isteğe bağlı üçüncü Shorts atlanır (02 belgesi B2; sonraki kesintiler 03 belgesi 2.4 sırasıyla). Bu toplamı ayıramıyorsan ürün ertelenir |
 
 ### Aşama C — 10.000–50.000 abone
 
