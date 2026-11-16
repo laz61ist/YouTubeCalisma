@@ -12,7 +12,9 @@ Model adları bilgi kesim tarihime (Haziran 2026) göredir; sürümler hızlı d
 
 | İş | En uygun araç | Neden | Yedek |
 |---|---|---|---|
-| Senaryo, diyalog, prompt | Claude (bu depo) | Metin işi | — |
+| Yeni bölüm senaryosu ve prompt'ları (30–40 sn) | Claude Sonnet 5.5 | Kısa komedi bölümü için yeterli; kullanım sınırını en az tüketen seçenek | Claude Opus 5.5 |
+| Kısa film senaryosu, yeni dizi ve karakter tasarımı | Claude Opus 5.5 | Uzun kurgu ve özgün fikir işinde daha güçlü | Claude Fable 5.2 (en yetenekli, sınırı en çabuk dolan) |
+| Başlık, açıklama, altyazı düzeltme | Claude Haiku 5.5 | Basit ve hızlı iş | Claude Sonnet 5.5 |
 | Karakter referans görseli | Gemini görsel modeli (Nano Banana) | Aynı karakteri farklı pozlarda tutarlı üretir | Midjourney, ChatGPT görsel |
 | Konuşan karakter klibi (ses ve dudak dahil) | Google Veo (Flow ya da Gemini içinden) | Diyaloğu, sesi ve dudak hareketini tek üretimde verir; bu tür videoların çoğu bununla yapılıyor | Sora, Kling |
 | Karakter sesi tutarlı kalsın istersen | ElevenLabs (ses) + Kling ya da Hedra (dudak eşleme) | Her klipte aynı ses; daha çok iş | — |
