@@ -4,6 +4,19 @@ En yeni kayıt en üstte. Yerel oturum her üretim turundan sonra rapor ekler; b
 
 ---
 
+## 2026-11-20 — YAPILACAK (bulut oturumundan): taslak v2
+
+**Bulut oturumunun önizleme incelemesi (24 kare + referanslar):** Genel görünüm, ışık ve Pip çok iyi; Pip referansa sadık. Ana sorun **Hux'un yuva sahnelerinde (s03–s07) pandaya benzemesi**: kafa çok yuvarlak, kulaklar büyük ve yuvarlak, yüz geniş, kafanın tamamı beyaz. Referanstaki Hux'un dar ve uzun burnu, küçük ve kafaya yapışık kulakları, belirgin kaşları ve alaycı yarım kapalı gözleri kaybolmuş. s07 yakın çekimde bu çok belirgin; s08'de (yuva dışı) Hux daha doğru. Yerel kalite kontrolündeki "kimlik iyi" değerlendirmesine bu yüzden katılmıyorum; kök neden ortak uyku anahtar karesi (seed 333).
+
+1. **Uyuyan Hux referansı (önce bu):** Qwen-Image-Edit ile `hux.png`'den yeni uyku anahtar karesi üret. Kimlik cümlesine ekle: "honey badger, NOT a panda: long narrow snout, small flat ears close to the head, the silver-white fur is a cap from the forehead over the top of the head and down the back like a cape, the face, cheeks and around the eyes are black, thick expressive eyebrows". 4 seed dene; panda görünümü olmayanı seç ve `onizleme/b1/hux_uyku_adaylar.jpg` (4'lü montaj) + seçileni `docs/eglence/hux-modeller/hux_uyku.png` olarak kaydet.
+2. **s03–s06'yı yeni uyku karesiyle yeniden üret** (anahtar kareler + I2V, 480p, 129 kare, aynı seed düzeni).
+3. **s07 (tek göz):** İlk kare/son kare yöntemiyle: başlangıç = yeni uyku karesinin yakın planı (gözler kapalı); bitiş = aynı kare, Qwen-Image-Edit ile yalnızca SOL gözü kocaman açık, diğeri kapalı. Prompt: "only his left eye pops open and stays open; the right eye stays closed". Wan 2.2 I2V ilk/son kare desteklemiyorsa önce bildir.
+4. **s02:** Ortadaki bozuk Pip pozu için yeni seed ya da daha sakin hareket ("lands softly, hops twice, peeks into the burrow"). s01'deki girişte beliren küçük figür için de yeni seed dene (zorunlu değil).
+5. **SeedVR2 7B fp8 (7,68 GB):** Bulut oturumu indirmeyi öneriyor; **kullanıcı yerel oturumda onay verirse** indir ve `s03_v2.mp4` ile yükseltme testini yap.
+6. `kurgucu` ile `acilis_taslak_v2.mp4`; önizleme kareleri, günlüğe rapor, commit + push.
+
+---
+
 ## 2026-11-19 23:20 — Rapor (yerel oturum): YAPILACAK maddeleri 1, 2, 3, 5 tamam; 4 ONAY BEKLİYOR
 
 **Özet:** Pip referansı, 8 sahnenin anahtar kareleri ve 8 taslak klip (480p, 129 kare = 8 sn, sessiz) üretildi; birleştirilmiş taslak ve önizlemeler hazır. SeedVR2 yükseltme testi kurulu modelle **çalışmadı** (aşağıda).
