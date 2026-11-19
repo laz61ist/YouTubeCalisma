@@ -43,6 +43,15 @@ Tipik akış: `senarist` sahne prompt'larını yazar → `comfyui-operator` üre
 - `uretim/<bolum>/klipler/`, `uretim/<bolum>/kareler/`, `uretim/<bolum>/cikti/` — üretilen medya; **git'e girmez** (`.gitignore`)
 - Senaryo ve prompt metinleri `docs/eglence/` altına yazılır
 
+## Ortak çalışma (yerel oturum + bulut oturumu)
+
+İki Claude oturumu aynı dalda (`claude/quirky-dijkstra-e7uour`) çalışır: **yerel** (kullanıcının PC'si, ComfyUI, üretim) ve **bulut** (planlama, senaryo, ikinci göz). Bulut oturumu PC'yi ve videoları göremez; ne bilmesi gerekiyorsa git ile gider.
+
+- **İşe başlarken:** `git pull`. **İş bitince:** commit + `git push`. Zorla push (`--force`) yok; çakışırsa `git pull` ile birleştir.
+- **Rapor:** Her üretim turunun raporunu `docs/eglence/uretim-gunlugu.md` dosyasının **en üstüne**, tarih ve saatle ekle (ne üretildi, ayarlar, süre, sorunlar, sıradaki adım). Bulut oturumu raporları buradan okur.
+- **Önizleme kareleri:** Her klipten 3–4 kare (baş, orta, son) `onizleme/<bolum>/` altına JPG olarak koy: en fazla 960 px genişlik, dosya başına ~200 KB altı, ad: `taslak_s01_a.jpg` gibi. Bunlar commit edilir (bulut oturumu görsel kontrolü bunlardan yapar). Video dosyaları yine commit edilmez.
+- **Görev devri:** Bulut oturumu yerel oturuma iş bırakmak isterse `docs/eglence/uretim-gunlugu.md` en üstüne "YAPILACAK" başlıklı bir not ekler; yerel oturum `git pull` sonrası bunu okur ve uygular.
+
 ## Genel kurallar
 
 - Büyük model dosyası (GB'larca) indirmeden önce adını, boyutunu ve kaynağını söyle, onay al.
