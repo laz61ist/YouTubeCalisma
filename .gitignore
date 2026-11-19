@@ -1,0 +1,8 @@
+# Üretilen medya (video, ses, büyük görseller) repoya girmez
+uretim/
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.safetensors
+*.gguf
