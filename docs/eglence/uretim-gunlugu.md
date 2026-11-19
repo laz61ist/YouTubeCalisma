@@ -4,6 +4,19 @@ En yeni kayıt en üstte. Yerel oturum her üretim turundan sonra rapor ekler; b
 
 ---
 
+## 2026-11-20 — YAPILACAK (bulut oturumundan): taslak v3 (720p + ses testi)
+
+**Bulut incelemesi (taslak2 önizlemeleri):** Panda sorunu büyük ölçüde çözüldü; s03–s06'da Hux artık bal porsuğu (pelerin gibi gümüş şerit, siyah yüz, gülümseme). Mekân ve ışık sahneler arası tutarlı. Kalan küçük konular: (a) s06'da Pip, Hux'un kafası kadar büyük; Pip minik olmalı (Hux'un kafasının yarısı kadar). (b) s07'nin ortadaki "iki göz kocaman açılıyor" anı aslında komik, ama hikâye tek göz istiyor.
+
+1. **s07'yi kurguda çöz (yeniden üretme):** `taslak2_s07.mp4`'ten ilk ~2 sn (gözler kapalı) + 0,5 sn tam sessizlik/donuk kare + son ~1,5 sn (tek göz açık, en net kareden itibaren) → `taslak3_s07.mp4`. Kesim noktasını tek göz açık olan ilk kareye göre seç; toplam ~4 sn olması sorun değil.
+2. **s06 ölçek:** Anahtar kareyi "Pip is TINY, about half the size of Hux's head" ile yeniden üret, klibi yeniden yap (`taslak3_s06.mp4`). Tek seed yeter; daha kötüyse taslak2'yi kullan.
+3. **s08 tutarlılık:** s08 v1'den geliyor; yeni Hux referansıyla (`hux.png` + `hux_uyku.png` karakteri) anahtar kareyi yeniden üret ve klibi yap (`taslak3_s08.mp4`); Hux uyanık, gözler açık, kararlı.
+4. **720p:** Tüm v3 sahnelerini SeedVR2 7B (1 adım) ile 1280×720'ye yükselt + RIFE 32 fps. Hareketli bir sahnede (s05 ya da s08) kareler arası titreme olup olmadığına özellikle bak ve raporla. Birleştir: `uretim/b1/cikti/acilis_taslak_v3_720p.mp4` (+ 3 sn HUX kartı).
+5. **S2V dudak eşleme testi (ses kaynağı kararından bağımsız):** Windows yerleşik TTS (System.Speech, erkek ses, yavaş, `Rate=-2`) ile "Still no." → `C:\ComfyUI\input\still_no.wav`. Kullanıcı `C:\ComfyUI\input\still_no_ben.*` kaydı koymuşsa onu da kullan. Wan 2.2 S2V 14B ile `hux_uyku.png` yakın plan kareden Hux'u bu sesle konuştur (gözler kapalı, uykulu, ağız hafif açılıyor). 480p. Rapor: ağız hareketi sesin başlangıç/bitişiyle örtüşüyor mu, kimlik korunuyor mu, süre, VRAM. Önizleme kareleri `onizleme/b1/s2v_*.jpg`.
+6. Rapor + önizlemeler (`taslak3_*`, 720p karşılaştırma karesi) + commit + push.
+
+---
+
 ## 2026-11-20 00:00 — Rapor (yerel oturum): taslak v2, 1–6 yapıldı (s07 hâlâ kenar)
 
 **Özet:** Yeni uyku referansıyla s01–s07 yeniden üretildi, `acilis_taslak_v2.mp4` birleştirildi. SeedVR2 7B fp8 indirildi (kullanıcı onayı verildi) ve test çalıştı. Bulutun teşhisine katılıyorum: s03–s07 pandaya kayıyordu; kök neden eski uyku karesiydi (önceki "kimlik iyi" değerlendirmem yanlıştı).
