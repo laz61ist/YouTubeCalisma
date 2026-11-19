@@ -1,0 +1,154 @@
+{
+  "1": {
+    "inputs": {
+      "unet_name": "qwen_image_edit_2511_fp8mixed.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader"
+  },
+  "2": {
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "strength_model": 1.0,
+      "lora_name": "Qwen-Image-Edit-2511-Lightning-8steps-V1.0-bf16.safetensors"
+    },
+    "class_type": "LoraLoaderModelOnly"
+  },
+  "3": {
+    "inputs": {
+      "shift": 3.0,
+      "model": [
+        "2",
+        0
+      ]
+    },
+    "class_type": "ModelSamplingAuraFlow"
+  },
+  "4": {
+    "inputs": {
+      "strength": 1.0,
+      "model": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "CFGNorm"
+  },
+  "5": {
+    "inputs": {
+      "clip_name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "device": "default",
+      "type": "qwen_image"
+    },
+    "class_type": "CLIPLoader"
+  },
+  "6": {
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    },
+    "class_type": "VAELoader"
+  },
+  "7": {
+    "inputs": {
+      "image": "hux.png"
+    },
+    "class_type": "LoadImage"
+  },
+  "8": {
+    "inputs": {
+      "clip": [
+        "5",
+        0
+      ],
+      "prompt": "Keep the exact same character from the reference image, same stylized 3D animated honey badger Hux. IMPORTANT identity details: the entire face, muzzle, cheeks and chin are solid BLACK fur (not white, not a panda face); the silver-white stripe is only on the top of the head and runs down the back; the legs, belly and tail are black; small round ears with a small notch in the left ear; lopsided gentle smile. Change only the pose and scene: Hux is fast asleep, curled up on a bed of dry grass inside a cosy underground burrow, eyes gently closed, head resting on his front paws. Roots hang from the earthen ceiling. Warm soft golden morning light falls through the round burrow entrance in the background. Cinematic 16:9, shallow depth of field, no text, no sharp teeth.",
+      "image1": [
+        "7",
+        0
+      ],
+      "vae": [
+        "6",
+        0
+      ]
+    },
+    "class_type": "TextEncodeQwenImageEditPlus"
+  },
+  "9": {
+    "inputs": {
+      "clip": [
+        "5",
+        0
+      ],
+      "prompt": "",
+      "image1": [
+        "7",
+        0
+      ],
+      "vae": [
+        "6",
+        0
+      ]
+    },
+    "class_type": "TextEncodeQwenImageEditPlus"
+  },
+  "10": {
+    "inputs": {
+      "height": 768,
+      "width": 1344,
+      "batch_size": 1
+    },
+    "class_type": "EmptySD3LatentImage"
+  },
+  "11": {
+    "inputs": {
+      "sampler_name": "euler",
+      "model": [
+        "4",
+        0
+      ],
+      "negative": [
+        "9",
+        0
+      ],
+      "scheduler": "simple",
+      "cfg": 1.0,
+      "latent_image": [
+        "10",
+        0
+      ],
+      "positive": [
+        "8",
+        0
+      ],
+      "seed": 1,
+      "denoise": 1.0,
+      "steps": 8
+    },
+    "class_type": "KSampler"
+  },
+  "12": {
+    "inputs": {
+      "vae": [
+        "6",
+        0
+      ],
+      "samples": [
+        "11",
+        0
+      ]
+    },
+    "class_type": "VAEDecode"
+  },
+  "13": {
+    "inputs": {
+      "images": [
+        "12",
+        0
+      ],
+      "filename_prefix": "hux_s03_key"
+    },
+    "class_type": "SaveImage"
+  }
+}

@@ -1,0 +1,1 @@
+ComfyUI API betikleri (C:\ComfyUI\.venv\Scripts\python.exe ile calisir). hux_lib.py: workflow uretici + calistirici (qwen_t2i, qwen_edit, wan_i2v). step1.py/env2.py: Pip ve mekan gorselleri; keys.py: anahtar kareler; clips.py: 8 taslak klip. Yollar bu PC'ye gore; baska makinede duzenle.

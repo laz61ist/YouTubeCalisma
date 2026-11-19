@@ -4,7 +4,52 @@ En yeni kayıt en üstte. Yerel oturum her üretim turundan sonra rapor ekler; b
 
 ---
 
-## 2026-11-19 — YAPILACAK (bulut oturumundan)
+## 2026-11-19 23:20 — Rapor (yerel oturum): YAPILACAK maddeleri 1, 2, 3, 5 tamam; 4 ONAY BEKLİYOR
+
+**Özet:** Pip referansı, 8 sahnenin anahtar kareleri ve 8 taslak klip (480p, 129 kare = 8 sn, sessiz) üretildi; birleştirilmiş taslak ve önizlemeler hazır. SeedVR2 yükseltme testi kurulu modelle **çalışmadı** (aşağıda).
+
+### 1. Pip
+Qwen-Image 2512 + Lightning 8 adım, 3 seed (11/22/33), üçü de iyi. **Seed 11** seçildi → `docs/eglence/hux-modeller/pip.png` (tepe tüyü, kuyruk ve pembe gaga net). İlk üretilen mekân görsellerinde (VALLEY/BURROW) istenmeden hayvanlar çıktı; "uninhabited, no animals" vurgusuyla yeniden üretildi (seed 6). Not: Qwen cfg=1'de olumsuz prompt kullanmıyor, yasağı olumlu cümleyle yazmak gerekiyor.
+
+### 2. Anahtar kareler + klipler (Qwen-Image-Edit 2511 → Wan 2.2 I2V)
+- Anahtar kareler: s01 = VALLEY görseli aynen; s03 = daha önceki Hux uyku karesi (seed 333); s02/s04/s05/s06/s07/s08 Qwen-Image-Edit ile (Hux/Pip/mekân referansları, kimlik cümlesi: "yüz, bacak, kuyruk SİYAH; gümüş şerit sadece tepe ve sırt"). Tek seed/kare, hepsi kullanılabilir çıktı.
+- Klipler: 832×480, 16 fps, 129 kare (8,06 sn), Wan 2.2 14B high/low fp8 + lightx2v 4 adım, seed 20261119+sahne no. **Her klip ~160–175 sn** (toplam ~22 dk). Boyutlar 0,8–2,2 MB.
+
+| Sahne | Kalite kontrol (kare 3 nokta: baş/orta/son) |
+|---|---|
+| s01 vadi | **GEÇTİ.** Sis ve çiçekler hareket ediyor, giriş parlıyor. Ortada yuvanın girişinde çok küçük koyu bir figür beliriyor (ufak artefakt). |
+| s02 Pip iniş | **KENAR.** Pip iniyor, kanat açıyor, ama orta karede ters/yuvarlanmış poz var; sonda ayakta. Sevimli ama prompt'taki "zıplayıp içeri bakma" zayıf. |
+| s03 Hux uyur | **GEÇTİ.** Nefes ve horlama net, kimlik iyi. |
+| s04 kulak çekme | **GEÇTİ.** Pip Hux'un başında, gagayla kulağa uzanıyor; Hux uyumaya devam ediyor. |
+| s05 mide zıplama | **GEÇTİ (kenar).** Pip karında zıplıyor, Hux dönüyor, Pip yana kayıyor; zarar görme hissi yok. |
+| s06 fısıltı | **GEÇTİ.** Pip kulağın yanında kanadıyla "sır" tutuyor; Hux hareketsiz. |
+| s07 göz açılışı | **KALDI.** Orta karede **iki** göz birden fal taşı gibi açılıyor (istenen: tek göz, "ping" anı); sonda gözler yine kapalı. Öneri: prompt'ta "only his LEFT eye opens, stays open", açık gözlü bir bitiş karesi anahtar kare olarak ver (ya da ilk/son kare ile I2V). |
+| s08 Hux çıkıyor | **GEÇTİ (kenar).** Hux yuvadan yürüyor, Pip havada; ilk karede Hux gözleri kapalı/kısık. Keskin diş yok. |
+
+Genel: ekranda yazı yok, ton uygun, tüm klipler 16:9. Ses/dudak değerlendirilemez (klipler sessiz).
+
+### 3. Birleştirme (kurgucu)
+`uretim/b1/cikti/acilis_taslak_v1.mp4`: 8 klip sırayla + 3 sn siyah zeminde beyaz "HUX" (arialbd), 832×480, 16 fps, H.264/AAC (sessiz kanal), **67,5 sn**, 8,9 MB. Henüz s07'yi düzeltmeden birleştirildi (v2 için s07 yeniden üretilmeli; s02 de aday).
+
+### 4. SeedVR2 yükseltme testi — YAPILAMADI
+- `seedvr2_ema_7b_fp8_e4m3fn.safetensors` (kurulu) ComfyUI 0.43.0'da **model tipi olarak algılanmıyor** ("Could not detect model type"). İki neden: (a) tensör adları `model.diffusion_model.` öneksiz, ComfyUI öneki yanlış tahmin ediyor; (b) önek eklenince de eşleşmiyor, çünkü ComfyUI'nin SeedVR2 sınıfı `positive_conditioning` / `negative_conditioning` tensörlerini zorunlu istiyor, bu ham dosyada yok. Yani bu dosya bu ComfyUI ile kullanılamaz.
+- Önek denemesi için ürettiğim 8 GB'lık kopya silindi; orijinal dosya duruyor.
+- **Çözüm (onay bekliyor):** resmî ComfyUI biçimi `Comfy-Org/SeedVR2` (Hugging Face) → `diffusion_models/seedvr2_7b_fp8_e4m3fn.safetensors`, **7,68 GB**. VAE olarak kurulu `ema_vae_fp16` yeterli (aynı dosya, 0,47 GB). Alternatif: `seedvr2_3b_fp8_e4m3fn` 3,16 GB (daha hafif, daha düşük kalite).
+- Doğal 720p referansı hazır: `s03_v3_720p_129f_32fps.mp4` (306 sn / 81 kare; 129 karede ~10 dk).
+
+### 5. Önizleme ve dosyalar
+- `onizleme/b1/taslak_s01_a.jpg` … `taslak_s08_c.jpg` (24 kare, baş/orta/son, 960 px, hepsi <100 KB).
+- Workflow'lar: `comfyui/workflows/hux_s03_keyframe_qwen_edit.json`, `..._wan22_i2v_480p_v2.json`, `..._wan22_i2v_720p_rife32.json`. API betikleri (8 sahne dahil): `comfyui/scripts/`.
+- Videolar ve anahtar kareler commit edilmedi (`uretim/` içinde).
+
+### Sıradaki adım
+1. SeedVR2 7B fp8 (7,68 GB) indirme onayı → test.
+2. s07 (tek göz) ve s02'yi yeniden üret, `acilis_taslak_v2.mp4`.
+3. Ses: Ming3 TTS hâlâ çalışmıyor (önceki rapor); karar bekliyor.
+
+---
+
+## 2026-11-19 — YAPILACAK (bulut oturumundan) — durum: 1, 2, 3, 5 yapıldı; 4 onay bekliyor
 
 1. Pip'i Qwen-Image ile üret (3 seed), en iyisini `docs/eglence/hux-modeller/pip.png` olarak kaydet.
 2. `hux-b1-acilis-testi.md`'deki 8 sahne için Qwen-Image-Edit ile anahtar kare + Wan 2.2 I2V, 480p, 129 kare (8 sn), sessiz, hareketler belirgin → `uretim/b1/klipler/taslak_s01.mp4` … `taslak_s08.mp4`.
