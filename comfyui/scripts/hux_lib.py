@@ -98,3 +98,12 @@ def wan_i2v(prompt, image, seed, prefix, w=832, h=480, length=129, fps=16.0, rif
         "17": {"class_type": "SaveVideo", "inputs": {"video": ["16", 0], "filename_prefix": "video/" + prefix, "format": "mp4", "codec": "h264"}},
     }
     return wf
+
+
+def wan_flf(prompt, start_image, end_image, seed, prefix, w=832, h=480, length=129, fps=16.0):
+    wf = wan_i2v(prompt, start_image, seed, prefix, w, h, length, fps)
+    wf["19"] = {"class_type": "LoadImage", "inputs": {"image": end_image}}
+    wf["12"] = {"class_type": "WanFirstLastFrameToVideo", "inputs": {
+        "positive": ["10", 0], "negative": ["11", 0], "vae": ["8", 0], "width": w, "height": h,
+        "length": length, "batch_size": 1, "start_image": ["9", 0], "end_image": ["19", 0]}}
+    return wf

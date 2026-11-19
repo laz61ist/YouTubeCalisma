@@ -4,7 +4,43 @@ En yeni kayıt en üstte. Yerel oturum her üretim turundan sonra rapor ekler; b
 
 ---
 
-## 2026-11-20 — YAPILACAK (bulut oturumundan): taslak v2
+## 2026-11-20 00:00 — Rapor (yerel oturum): taslak v2, 1–6 yapıldı (s07 hâlâ kenar)
+
+**Özet:** Yeni uyku referansıyla s01–s07 yeniden üretildi, `acilis_taslak_v2.mp4` birleştirildi. SeedVR2 7B fp8 indirildi (kullanıcı onayı verildi) ve test çalıştı. Bulutun teşhisine katılıyorum: s03–s07 pandaya kayıyordu; kök neden eski uyku karesiydi (önceki "kimlik iyi" değerlendirmem yanlıştı).
+
+### 1. Yeni uyku referansı
+`hux.png` + `env_burrow.png` → Qwen-Image-Edit 2511, 4 seed (501–504), "honey badger, NOT a panda: long narrow snout, small flat ears close to the head, silver-white cap…" kimlik cümlesiyle. Dördü de eskisinden belirgin iyi (siyah yüz, kaşlar, küçük kulaklar). **Seed 502** seçildi → `docs/eglence/hux-modeller/hux_uyku.png`; 4'lü montaj `onizleme/b1/hux_uyku_adaylar.jpg`. Dersler: Qwen kimliği "NOT a panda" + tek tek yüz özellikleri yazılınca tutuyor; iki karakterli karelerde "exactly ONE bird" yazmazsan Pip çiftleniyor (s04'te iki Pip, s05'te Hux'un gövdesi kahverengi topa dönmüştü, ikisi de "Hux'u aynen koru + yalnızca bir kuş ekle" cümlesiyle düzeldi).
+
+### 2–4. Klipler (480p, 129 kare, 16 fps, 8,06 sn, sessiz; ~162–171 sn/klip)
+Yeni dosyalar `uretim/b1/klipler/taslak2_s01…s07.mp4` (v1 dosyalarının üzerine yazılmadı; s08 v1'den kullanıldı). Önizleme: `onizleme/b1/taslak2_sNN_a/b/c.jpg`.
+
+| Sahne | Değerlendirme |
+|---|---|
+| s01 | **GEÇTİ.** Yeni seed. Girişteki küçük figür orta karede yine belli belirsiz görünüyor (ufak artefakt, kabul edilebilir). |
+| s02 | **GEÇTİ (kenar).** Sakin prompt'la Pip iniyor, iki kez zıplıyor, orta karede yuvaya doğru eğilip bakıyor (sırtı kameraya, doğru hareket); bozuk/ters poz yok. |
+| s03 | **GEÇTİ.** Hux artık honey badger: dar burun, küçük kulak, siyah yüz, gümüş başlık; nefes ve kulak kıpırtısı var. |
+| s04 | **GEÇTİ.** Tek Pip, Hux'un başında, kulağı çekiyor; Hux uyumaya devam ediyor. |
+| s05 | **GEÇTİ.** Tek Pip, sırtında zıplıyor, yana kayıyor; gövde siyah ve tüylü. |
+| s06 | **GEÇTİ.** Pip kulağa eğilmiş, kanatla "sır". Hux sakin. |
+| s07 | **KENAR / tam çözülmedi.** İlk/son kare yöntemi çalıştı (Wan 2.2 `WanFirstLastFrameToVideo` destekli): başlangıç = gözler kapalı yakın plan, bitiş = yalnızca bir göz açık. Klip kapalı gözle başlayıp **tek gözün yarı açık** bitiyor; ama orta karede (~4 sn) **iki göz birden** kocaman açılıyor. 2. seed (`taslak2_s07_r2.mp4`) daha kötü (iki göz açılıp kapanıyor). v2'de 1. deneme kullanıldı. Model "tek göz" talimatını güvenilir uygulamıyor; çözüm olarak ya orta kareye bağlı ek bir ara anahtar kare (ilk, orta=tek göz açık, son) ya da kurguda kısa kesim öneriyorum. |
+Hux gözleri ve ses/dudak: klipler sessiz, değerlendirilemez. Ekranda yazı ve keskin diş yok.
+
+### 5. SeedVR2 7B fp8 yükseltme testi — ÇALIŞTI
+- İndirilen: `Comfy-Org/SeedVR2` → `seedvr2_7b_fp8_e4m3fn.safetensors` (7,68 GB, `C:\ComfyUI\models\diffusion_models\`); VAE olarak kurulu `ema_vae_fp16`. Eski `seedvr2_ema_7b_fp8…` dosyası kullanılamaz, yerinde duruyor.
+- Akış: `s03_v2.mp4` (832×480, 81 kare) → 1280×720 → SeedVR2 (1 adım, VAE tile 512) → renk düzeltme `lab` → RIFE 32 fps. İş akışı: `comfyui/workflows/hux_upscale_seedvr2_7b_rife32.json`. Çıktı: `s03_v2_seedvr2_720p_32fps.mp4` (1280×720, 161 kare, 5,03 sn, 32 fps).
+- **Süre: 108 sn** (yükseltme + RIFE, 81 kare). Karşılaştırma: doğal 720p üretimi 306 sn (81 kare, RIFE dahil). 480p üretim 85 sn + 108 sn = ~193 sn, yani doğal 720p'den ~%37 daha hızlı. 129 kare için tahmin (ölçülmedi): 163 + ~170 = ~5,5 dk, doğal 720p ~10 dk.
+- **Kalite (2,5. saniye, yüz yakını, `onizleme/b1/yukseltme_karsilastirma.jpg`: soldan düz lanczos / SeedVR2 / doğal 720p):** SeedVR2'de tüy telleri ve kulak kenarı belirgin daha keskin ve temiz; lanczos bulanık/bloklu; doğal 720p lanczos'a göre biraz iyi ama yumuşak. **Öneri: 480p üret + SeedVR2 ile yükselt** (hem hızlı hem daha keskin). Bunu tek sahnede (eski uyku karesi, s03_v2) denedim; hareketli sahnede titreme/zamansal tutarlılık ayrıca bakılmalı.
+
+### 6. Birleştirme
+`uretim/b1/cikti/acilis_taslak_v2.mp4`: taslak2_s01–s07 + taslak_s08 + 3 sn HUX kartı, 832×480, 16 fps, H.264/AAC (sessiz), **67,5 sn**, 9,0 MB. v1 yerinde.
+
+### Dosyalar / sıradaki adım
+- Yeni: `hux_uyku.png`, `onizleme/b1/taslak2_*`, `hux_uyku_adaylar.jpg`, `yukseltme_karsilastirma.jpg`, SeedVR2 workflow'u, `comfyui/scripts/` (keys2/keys3/clips2/s07b/uyku/seedvr). Videolar commit edilmedi.
+- Sıradaki: (a) s07 için 3 kare (kapalı → tek göz açık → kapalı/sürekli) yöntemi ya da kurgu çözümü; (b) tüm sahneleri 480p→SeedVR2 720p/32 fps ile yükseltip `acilis_taslak_v2_720p.mp4`; (c) s08'de Hux'un yüzü de uyku sahnesi kadar dar/kaşlı mı kontrolü; (d) ses kararı (Ming3 TTS hâlâ çalışmıyor).
+
+---
+
+## 2026-11-20 — YAPILACAK (bulut oturumundan): taslak v2 — durum: 1–6 yapıldı, s07 kenar
 
 **Bulut oturumunun önizleme incelemesi (24 kare + referanslar):** Genel görünüm, ışık ve Pip çok iyi; Pip referansa sadık. Ana sorun **Hux'un yuva sahnelerinde (s03–s07) pandaya benzemesi**: kafa çok yuvarlak, kulaklar büyük ve yuvarlak, yüz geniş, kafanın tamamı beyaz. Referanstaki Hux'un dar ve uzun burnu, küçük ve kafaya yapışık kulakları, belirgin kaşları ve alaycı yarım kapalı gözleri kaybolmuş. s07 yakın çekimde bu çok belirgin; s08'de (yuva dışı) Hux daha doğru. Yerel kalite kontrolündeki "kimlik iyi" değerlendirmesine bu yüzden katılmıyorum; kök neden ortak uyku anahtar karesi (seed 333).
 
